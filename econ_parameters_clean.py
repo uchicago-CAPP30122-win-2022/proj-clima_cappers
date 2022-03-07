@@ -2,7 +2,7 @@ import pandas as pd
 
 filename = "weo2021.csv"
 
-df = pd.read_csv(filename)
+df = pd.read_csv(filename, encoding='windows-1252')
 
 
 subject_descriptor_list= ["Gross domestic product, constant prices",
@@ -56,3 +56,6 @@ for count, value in enumerate(subject_descriptor_list_new):
                          value_name= value)
     df_long=df_long[[value]]
     df_one_long= pd.concat([df_one_long, df_long], axis=1, sort= False)
+
+
+df_one_long.to_csv('econ_parameters_out.csv')  
