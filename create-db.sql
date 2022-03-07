@@ -1,22 +1,22 @@
 CREATE TABLE econ_indicators
-  (Country varchar(15),
-   ISO varchar(5),
-   Year integer,
-   GDP float,
-   GDP/capita varchar(20),
-   vol_imports varchar,
-   vol_exports varchar,
-   Population varchar);
+  (country varchar(15),
+   iso_code varchar(5),
+   year integer,
+   gdp float,
+   gdp_capita float,
+   vol_imports float,
+   vol_exports float,
+   population float);
 
 .separator ","
 .import econ_parameters_out.csv econ_indicators
 
 CREATE TABLE climate_indicators
-  (Country varchar(15),
-   ISO varchar(5),
-   Year integer,
+  (country varchar(15),
+   iso_code varchar(5),
+   year integer,
    co2_emissions float,
    forest_area float,
-   pm_2.5 float,
+   pm_25 float,
    sf6_emissions float,
    greenhouse_total float);
