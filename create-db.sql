@@ -6,7 +6,8 @@ CREATE TABLE econ_indicators
    gdp_capita float,
    vol_imports float,
    vol_exports float,
-   population float);
+   population float,
+   PRIMARY KEY (iso_code, year));
 
 .separator ","
 .import econ_parameters_out.csv econ_indicators
@@ -19,4 +20,5 @@ CREATE TABLE climate_indicators
    forest_area float,
    pm_25 float,
    sf6_emissions float,
-   greenhouse_total float);
+   greenhouse_total float,
+   PRIMARY KEY (iso_code, year));
