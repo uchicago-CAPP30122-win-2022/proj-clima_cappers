@@ -32,7 +32,8 @@ app.title = 'Climate vs Economy'
 app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                 style={'textAlign': "center", "padding-bottom": "30"}
                                ),
-                       html.Div([html.Span("Metric to display : ", className="six columns",
+                        html.Div([
+                            html.Div([html.Span("Metric to display : ", className="six columns",
                                            style={"text-align": "right", "width": "40%", "padding-top": 10}),
                                  dcc.Dropdown(id="econ-param", value='gdp',
                                               options=[{'label': "GDP", 'value': 'gdp'},
@@ -42,12 +43,19 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                               style={"display": "block", "margin-left": "auto", "margin-right": "auto",
                                                      "width": "70%"},
                                               className="six columns")], className="row"),
-                       dcc.Graph(id="econ-map"),
-                       dcc.Slider(1995, 2021,
-                                    step=None,
-                                    marks=date_dict,
-                                    value=2002,
-                                    id='year-slider')
+                            html.Div([dcc.Graph(id="econ-map")], className="row"),
+                            html.Div([dcc.Slider(1995, 2021,
+                                        step=None,
+                                        marks=date_dict,
+                                        value=2002,
+                                        id='year-slider')], className="row")
+                                ], className="container"),
+                        html.Div([
+                            # Dhruv's container
+                        ], className="container"),
+                        html.Div([
+                            # Kaveri's container
+                        ], className="container")
                        ], className="container")
 
 @app.callback(
@@ -72,6 +80,8 @@ def update_figure(indicator, year):
     return {"data": [trace],
             "layout": go.Layout(height=800,geo={'showframe': False,'showcoastlines': False,
                                                                       'projection': {'type': "miller"}})}
+
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
