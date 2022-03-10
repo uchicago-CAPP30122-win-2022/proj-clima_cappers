@@ -2,25 +2,16 @@ CREATE TABLE econ_indicators
   (country varchar(15),
    iso_code varchar(5),
    year integer,
-   gdp float,
+   gdp_constant_change float,
    gdp_capita float,
-   vol_imports float,
-   vol_exports float,
+   vol_imports_change float,
+   vol_exports_change float,
    population float,
+   gdp_current float,
    PRIMARY KEY (iso_code, year));
 
 .separator ","
 .import econ_parameters_out.csv econ_indicators
-
-CREATE TABLE mean_temp_indicator
-(country varchar(15),
-  iso_code varchar(5),
-  year integer,
-  mean_temp float,
-  PRIMARY KEY (iso_code, year));
-
-.separator ","
-.import mean_st_output.csv mean_temp_indicator
 
 CREATE TABLE climate_indicators
   (country varchar(15),
@@ -46,4 +37,5 @@ CREATE TABLE climate_indicators
    ghg_capita float,
    exports_gns float,
    imports_gns floats,
+   mean_surface_temp float,
    PRIMARY KEY (iso_code, year));
