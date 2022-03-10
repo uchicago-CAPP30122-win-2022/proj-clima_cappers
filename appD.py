@@ -17,15 +17,27 @@ date_dict = {}
 for date in range(1995, 2021):
     date_dict[date] = str(date)
 
-def extract_map_data(indicator, table, year):
-    # params = [indicator, table, year]
-    query = ''' SELECT country, iso_code, {} FROM {} WHERE year = {} '''. \
-                format(indicator, table, year)
+def extract_map_data(indicator, table, year_input):
+    params = [indicator, table, year]
+    query = ''' SELECT country, iso_code, {} FROM {} WHERE year BETWEEN {} AND {}'''. \
+                format(indicator, table, year_input[0], year_input[1])
     print("running the query", query)
     df = pd.read_sql_query(query, connection)
+    indicator_agg_simpavg= ["mean_surface_temp",
+                            "co2_emissions_kt",
+                            "pm_25",
+                            "exports_gns",
+                            "imports_gns",
+                            "gdp_current",
+                            ]
+    
+    if indicator in indicator_agg_simpavg:
+        aggregate_simple_average(df)
     print("dataframe is", df)
     return df
 
+def aggregate_simple_average(df):
+    pass
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'Climate vs Economy'
