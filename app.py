@@ -32,24 +32,66 @@ app.title = 'Climate vs Economy'
 app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                 style={'textAlign': "center", "padding-bottom": "30"}
                                ),
-                        html.Div([
+                        # html.Div(className="row",
+                        # children = [
+                        #     html.Div(children=[
+                        #         dcc.Dropdown(id="econ-param", value='gdp',
+                        #                     options=[{'label': "GDP", 'value': 'gdp'},
+                        #                             {'label': "GDP per capita", 'value': 'gdp_capita'},
+                        #                             {'label': "Volume of imports", 'value': 'vol_imports'},
+                        #                             {'label': "Volume of exports", 'value': 'vol_exports'}],
+                        #                     style={'display': 'inline-block'}),
+                        #         dcc.Dropdown(id="climate-param", value='co2_emissions_kt',
+                        #                     options=[{'label': "C02 emissions(kt)", 'value': 'co2_emissions_kt'},
+                        #                             {'label': "C02 emissions per capita", 'value': 'co2_emissions_capita'},
+                        #                             {'label': "Forest area", 'value': 'forest_area'},
+                        #                             {'label': "Electricity prod(Hydro)", 'value': 'electricity_pro_hydro'}],
+                        #                     style={'display': 'inline-block'})
+                        #     ])
+                        # ]),
+                        # html.Div(className="row",
+                        # children = [
+                        #     html.Div(children=[
+                        #         dcc.Graph(id="econ-map", style={'width': '90vh', 'height': '90vh', 'display': 'inline-block'}),
+                        #         dcc.Graph(id="climate-map", style={'width': '90vh', 'height': '90vh', 'display': 'inline-block'})
+                        #     ])
+                        # ]),
+                        html.Div(className="row",
+                        children = [
+                            html.Div(className="six columns", 
+                            children = [
                             html.Div([html.Span("Metric to display : ", className="six columns",
-                                           style={"text-align": "right", "width": "40%", "padding-top": 10}),
-                                 dcc.Dropdown(id="econ-param", value='gdp',
-                                              options=[{'label': "GDP", 'value': 'gdp'},
-                                                       {'label': "GDP per capita", 'value': 'gdp_capita'},
-                                                       {'label': "Volume of imports", 'value': 'vol_imports'},
-                                                       {'label': "Volume of exports", 'value': 'vol_exports'}],
-                                              style={"display": "block", "margin-left": "auto", "margin-right": "auto",
-                                                     "width": "70%"},
-                                              className="six columns")], className="row"),
-                            html.Div([dcc.Graph(id="econ-map")], className="row"),
-                            html.Div([dcc.Slider(1995, 2021,
-                                        step=None,
-                                        marks=date_dict,
-                                        value=2002,
-                                        id='year-slider')], className="row")
-                                ], className="container"),
+                                        style={"text-align": "right", "width": "40%", "padding-top": 10}),
+                                dcc.Dropdown(id="econ-param", value='gdp',
+                                            options=[{'label': "GDP", 'value': 'gdp'},
+                                                    {'label': "GDP per capita", 'value': 'gdp_capita'},
+                                                    {'label': "Volume of imports", 'value': 'vol_imports'},
+                                                    {'label': "Volume of exports", 'value': 'vol_exports'}],
+                                            style={"display": "block", "margin-left": "auto", "margin-right": "auto",
+                                                    "width": "70%"},
+                                            className="six columns")], className="row"),
+                            dcc.Graph(id="econ-map", style={'width': '90vh', 'height': '90vh'})
+                            ]),
+                            html.Div(className="six columns", 
+                            children = [
+                            html.Div([html.Span("Metric to display : ", className="six columns",
+                                        style={"text-align": "right", "width": "40%", "padding-top": 10}),
+                                dcc.Dropdown(id="climate-param", value='co2_emissions_kt',
+                                            options=[{'label': "C02 emissions(kt)", 'value': 'co2_emissions_kt'},
+                                                    {'label': "C02 emissions per capita", 'value': 'co2_emissions_capita'},
+                                                    {'label': "Forest area", 'value': 'forest_area'},
+                                                    {'label': "Electricity prod(Hydro)", 'value': 'electricity_pro_hydro'}],
+                                            style={"display": "block", "margin-left": "auto", "margin-right": "auto",
+                                                    "width": "70%"},
+                                            className="six columns")], className="row"),
+                            dcc.Graph(id="climate-map", style={'width': '90vh', 'height': '90vh'})
+                            ])
+                        ]),
+                        html.Div([dcc.Slider(1995, 2021,
+                                    step=None,
+                                    marks=date_dict,
+                                    value=2002,
+                                    id='year-slider')], className="row"),
                         html.Div([
                             # Dhruv's container
                         ], className="container"),
@@ -78,10 +120,33 @@ def update_figure(indicator, year):
                                     'tickvals': [ 2, 10],
                                     'ticktext': ['100', '100,000']})   
     return {"data": [trace],
+            "layout": go.Layout(height=800, geo={'showframe': True,'showcoastlines': False,
+                                                                      'projection': {'type': "mercator"}},
+                                                                      )}
+
+@app.callback(
+    dash.dependencies.Output("climate-map", "figure"),
+    [dash.dependencies.Input("climate-param", "value"),
+     dash.dependencies.Input("year-slider", "value")]
+)
+def update_figure(indicator, year):
+    df = extract_map_data(indicator, "climate_indicators", str(year))
+
+    trace = go.Choropleth(locations=df['iso_code'],z=df[indicator],
+                          text=df['country'],
+                          hoverinfo="text",
+                          marker_line_color='white',
+                          autocolorscale=False,
+                          reversescale=True,
+                          colorscale="RdBu",marker={'line': {'color': 'rgb(180,180,180)','width': 0.5}},
+                          colorbar={"thickness": 10,"len": 0.3,"x": 0.9,"y": 0.7,
+                                    'title': {"text": 'persons', "side": "bottom"},
+                                    'tickvals': [ 2, 10],
+                                    'ticktext': ['100', '100,000']})   
+    return {"data": [trace],
             "layout": go.Layout(height=800,geo={'showframe': False,'showcoastlines': False,
                                                                       'projection': {'type': "miller"}})}
 
 
-
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8051)
