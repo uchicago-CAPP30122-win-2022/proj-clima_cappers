@@ -18,8 +18,8 @@ sql_insert = '''INSERT INTO climate_indicators VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?
 
 
 # to be removed in final draft
-sql_distinct = "SELECT DISTINCT(iso_code) FROM climate_indicators"
-distinct_codes = c.execute(sql_distinct).fetchall()
+# sql_distinct = "SELECT DISTINCT(iso_code) FROM climate_indicators"
+# distinct_codes = c.execute(sql_distinct).fetchall()
 
 ALL_PARAMETERS = ["NY.GDP.PCAP.CD", "SI.POV.GINI", "EN.ATM.CO2E.KT", "EN.ATM.CO2E.PC", 
                   "AG.LND.FRST.ZS","SP.POP.TOTL", "EG.ELC.HYRO.ZS", "EG.ELC.NGAS.ZS", 
@@ -50,34 +50,45 @@ class DataCollector:
 
     def get_data(self):
         all_countries = self.find_countries()
+        print("len of all_countries", len(all_countries))
+        check = set()
         for name, code in all_countries:
-            if (code,) in distinct_codes and code != "SVK": # and code != "SSF": # "TCA" "ROU": #"MEX" "EST" "FSM" "ITA": #and code != "BRA" and code != "CAN" and code != "ERI": # switzerland
-                continue
-            print("currently in country", name, code)
+            # if (code,) in distinct_codes: 
+            #     continue
+            print("currently in country", name)
             country_table = {"Country": [name] * 26, "Country_code": [code]*26, 
                     "Year": [i for i in (range(1995, 2021))]}
             data = pd.DataFrame(country_table)
-            for parameter in ALL_PARAMETERS:
+            i = 0
+            for i in range(len(ALL_PARAMETERS)):
+                parameter = ALL_PARAMETERS[i]
                 print("currently in indicator", parameter, "for", name)
                 results = requests.get(self.main_client.format(country = code, 
                                                             parameter = parameter))
                 data[parameter] = None
-                indicator_data_dicts = results.json()[1]
+                try:
+                    indicator_data_dicts = results.json()[1]
+                    i += 1
+                except:
+                    print("JSONDecodeError. Begin again with the same country and parameter.")
+                    continue
                 if indicator_data_dicts:
                     for x in indicator_data_dicts:
-                        data.loc[data.Year == int(x["date"]), parameter] = x["value"]
+                        data.loc[data.Year == int(x["date"]), parameter] = x["value"]  
+            check.add(code)
             data= data.merge(mst, on=["Country_code", "Year"])
-            print("data", data)
-            print("data columns", data.columns)
             data_tuples = data.apply(tuple, axis=1).tolist()
-            print("writing data for", name, "into the db")
-            try:
-                c.executemany(sql_insert, data_tuples)
-            except:
-                print("Data already exists. Moving on to the next iteration.")
-                continue
+            print("writing data for", name, code,  "into the db")
+            # try:
+            #     c.executemany(sql_insert, data_tuples)
+            # except:
+            #     print("Data already exists. Moving on to the next iteration.")
+            #     continue
+            c.executemany(sql_insert, data_tuples)
             connection.commit()
+            
         connection.close()
+        print(len(check))
 
 
 if __name__ == "__main__":

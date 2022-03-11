@@ -22,7 +22,7 @@ CREATE TABLE climate_indicators
    co2_emissions_kt float,
    co2_emissions_capita float,
    forest_area float,
-   population_total float,
+   population float,
    electricity_pro_hydro float,
    electricity_pro_natural_gas float,
    electricity_pro_nuclear float,
@@ -36,6 +36,6 @@ CREATE TABLE climate_indicators
    ghg_growth float,
    ghg_capita float,
    exports_gns float,
-   imports_gns floats,
+   imports_gns float,
    mean_surface_temp float,
    PRIMARY KEY (iso_code, year));
