@@ -38,3 +38,14 @@ CREATE TABLE climate_indicators
    ghg_capita float,
    mean_surface_temp float,
    PRIMARY KEY (iso_code, year));
+
+CREATE TABLE region_mapping
+  (country varchar(15),
+   iso_code varchar(5),
+   region varchar(50),
+   sub_region varchar(50),
+   intermediate_region varchar(50),
+   PRIMARY KEY (iso_code));
+
+.separator ","
+.import region_mapping.csv region_mapping  
