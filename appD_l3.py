@@ -40,6 +40,12 @@ def extract_map_data(year_input):
     merge_econ_climate= merge_econ_climate.append(nan_values)
     merge_econ_climate= merge_econ_climate.drop(['gdp_current', 'co2_emissions_kt'], axis=1)
 
+    merge_econ_climate["sign"]= np.sign(merge_econ_climate["difference"])
+    merge_econ_climate['net_growth_rate'] = merge_econ_climate["sign"]
+    merge_econ_climate.loc[merge_econ_climate['sign'] == 1, 'net_growth_rate'] = 'Positive Growth-Emission Difference'
+    merge_econ_climate.loc[merge_econ_climate['sign'] == 0, 'net_growth_rate'] = 'Negative Growth-Emission Difference'
+    
+    merge_econ_climate= merge_econ_climate.drop('sign', axis=1)
     return merge_econ_climate
 
 
