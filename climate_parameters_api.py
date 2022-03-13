@@ -7,26 +7,25 @@ import sqlite3
 connection = sqlite3.connect("indicators.sqlite3")
 c = connection.cursor()
 
-#mean srface temperature datta
+#mean srface temperature data
 mst = pd.read_csv("mean_st_output.csv")
 mst.drop(["Country"], axis = 1, inplace = True)
 mst.rename(columns={"ISO3": "Country_code"}, inplace = True)
 
 # parameterized sql query for db insert
 sql_insert = '''INSERT INTO climate_indicators VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
-                ? ,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''' 
+                ? ,?, ?, ?, ?, ?, ?, ?, ?,?)''' 
 
 
 # to be removed in final draft
 # sql_distinct = "SELECT DISTINCT(iso_code) FROM climate_indicators"
 # distinct_codes = c.execute(sql_distinct).fetchall()
 
-ALL_PARAMETERS = ["NY.GDP.PCAP.CD", "SI.POV.GINI", "EN.ATM.CO2E.KT", "EN.ATM.CO2E.PC", 
-                  "AG.LND.FRST.ZS","SP.POP.TOTL", "EG.ELC.HYRO.ZS", "EG.ELC.NGAS.ZS", 
-                  "EG.ELC.NUCL.ZS","EG.ELC.PETR.ZS", "EG.ELC.COAL.ZS", "EG.ELC.FOSL.ZS", 
+ALL_PARAMETERS = ["EN.ATM.CO2E.KT", "EN.ATM.CO2E.PC", "AG.LND.FRST.ZS",
+                  "SP.POP.TOTL", "EG.ELC.HYRO.ZS", "EG.ELC.NGAS.ZS", "EG.ELC.NUCL.ZS",
+                  "EG.ELC.PETR.ZS", "EG.ELC.COAL.ZS", "EG.ELC.FOSL.ZS", 
                   "EG.ELC.RNWX.ZS","EN.ATM.PM25.MC.M3", "EN.ATM.SF6G.KT.CE", 
-                  "EN.ATM.GHGT.KT.CE", "CC.GHG.GRPE", "SI.POV.GINI", "CC.GHG.PECA", 
-                  "NE.EXP.GNFS.KD", "NE.IMP.GNFS.KD"]
+                  "EN.ATM.GHGT.KT.CE", "CC.GHG.GRPE", "CC.GHG.PECA"]
 
 class DataCollector: 
 

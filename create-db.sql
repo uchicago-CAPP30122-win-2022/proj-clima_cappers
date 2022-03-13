@@ -8,6 +8,9 @@ CREATE TABLE econ_indicators
    vol_exports_change float,
    population float,
    gdp_current float,
+   energy_usage float,
+   imports_gns float,
+   exports_gns float,
    PRIMARY KEY (iso_code, year));
 
 .separator ","
@@ -17,8 +20,6 @@ CREATE TABLE climate_indicators
   (country varchar(15),
    iso_code varchar(5),
    year integer,
-   gdp_capita float,
-   gini_index float,
    co2_emissions_kt float,
    co2_emissions_capita float,
    forest_area float,
@@ -35,7 +36,5 @@ CREATE TABLE climate_indicators
    ghg_total float,
    ghg_growth float,
    ghg_capita float,
-   exports_gns float,
-   imports_gns float,
    mean_surface_temp float,
    PRIMARY KEY (iso_code, year));
