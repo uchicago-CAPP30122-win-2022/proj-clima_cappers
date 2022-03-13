@@ -87,7 +87,6 @@ class DataCollector:
             connection.commit()
             
         connection.close()
-        print(len(check))
 
 
 if __name__ == "__main__":
