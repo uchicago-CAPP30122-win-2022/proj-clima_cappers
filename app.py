@@ -94,6 +94,63 @@ def trend_df(indicator_lst, country):
                   var_name='indicators', value_name='value')
     return df
 
+
+### Layer 2 start ###
+
+def extract_agg_data(indicator, table, year_input):
+    print("year input type is", type(year_input))
+    indicator_agg_simpavg= ["mean_surface_temp",
+                            "co2_emissions_kt",
+                            "pm_25",
+                            "exports_gns",
+                            "imports_gns",
+                            "gdp_current",
+                            ]
+    
+    indicator_agg_weigh= ['co2_emissions_capita',
+                        'ghg_capita',
+                        'gdp_capita']
+    if indicator in indicator_agg_simpavg:
+        query = ''' SELECT country, iso_code, {} FROM {} WHERE year BETWEEN {} AND {}'''. \
+                    format(indicator, table, year_input[0], year_input[1])
+        print("running the query", query)
+        df_get = pd.read_sql_query(query, connection)
+        df_get[indicator] = pd.to_numeric(df_get[indicator], downcast="float")
+        df_agg= aggregate_simple_average(df_get, indicator)
+        print("df_agg")
+        print(df_agg)
+    
+    if indicator in indicator_agg_weigh:
+        query = ''' SELECT population, country, iso_code, {} FROM {} WHERE year BETWEEN {} AND {}'''. \
+                    format(indicator, table, year_input[0], year_input[1])
+        print("running the query", query)
+        df_get = pd.read_sql_query(query, connection)
+        df_get[indicator] = pd.to_numeric(df_get[indicator], downcast="float")
+        df_get['population'] = pd.to_numeric(df_get['population'], downcast="float")
+        df_agg= aggregate_weight_1(df_get, indicator)
+        print("dataframe is", df_agg)
+    return df_agg
+
+def aggregate_simple_average(df, indicator):
+    print("Hello simple average")
+    df_new= df.groupby(['country','iso_code'], as_index=False).mean()
+    df_new.rename(columns = {None: indicator}, inplace = True)
+    return df_new
+
+def w_avg_1(df_weigh, values, weights):
+    d = df_weigh[values]
+    w = df_weigh[weights]
+    return (d * w).sum() / w.sum()
+
+def aggregate_weight_1(df_get, indicator):
+    df_new= df_get.groupby(['iso_code', 'country'], as_index=False).apply(w_avg_1, indicator, 'population')
+    df_new.rename(columns = {None: indicator}, inplace = True)
+    return df_new
+
+### Layer 2 end ###
+
+### Layer 3 start ###
+
 def extract_bubble_data(year_input):
     
     query1 = ''' SELECT country, iso_code, gdp_current FROM econ_indicators WHERE year BETWEEN {} AND {}'''. \
@@ -101,6 +158,8 @@ def extract_bubble_data(year_input):
     
     query2 = ''' SELECT country, iso_code, co2_emissions_kt FROM climate_indicators WHERE year BETWEEN {} AND {}'''. \
                 format(year_input[0], year_input[1])
+    print("query1 is", query1)
+    print("query2 is", query2)
     
     df_econ = pd.read_sql_query(query1, connection)
     df_climate = pd.read_sql_query(query2, connection)
@@ -108,20 +167,27 @@ def extract_bubble_data(year_input):
     df_econ['gdp_current'] = pd.to_numeric(df_econ['gdp_current'], downcast="float")
     df_climate['co2_emissions_kt'] = pd.to_numeric(df_climate['co2_emissions_kt'], downcast="float")
 
-    df_econ_agg= aggregate_weight(df_econ, 'gdp_current')
-    df_climate_agg= aggregate_weight(df_climate, 'co2_emissions_kt')
+    df_econ_agg= aggregate_weight_2(df_econ, 'gdp_current')
+    df_climate_agg= aggregate_weight_2(df_climate, 'co2_emissions_kt')
     df_climate_agg= df_climate_agg.drop('country', axis=1)
     merge_econ_climate = pd.merge(df_econ_agg, df_climate_agg, how= "left", on=["iso_code"])
     nan_values = merge_econ_climate[merge_econ_climate.isna().any(axis=1)]
     merge_econ_climate.dropna(axis=0, how='any', thresh=None, subset=None, inplace=True)
-    merge_econ_climate['difference'] = abs(merge_econ_climate['gdp_current'] - merge_econ_climate['co2_emissions_kt'])*1000
+    merge_econ_climate['difference'] = merge_econ_climate['gdp_current'] - merge_econ_climate['co2_emissions_kt']
+
+    merge_econ_climate["sign"]= np.sign(merge_econ_climate["difference"])
+    merge_econ_climate['net_growth_rate'] = merge_econ_climate["sign"]
+    merge_econ_climate.loc[merge_econ_climate['sign'] == 1, 'net_growth_rate'] = 'Positive Growth-Emission Difference'
+    merge_econ_climate.loc[merge_econ_climate['sign'] == -1, 'net_growth_rate'] = 'Negative Growth-Emission Difference'
+
     merge_econ_climate= merge_econ_climate.append(nan_values)
     merge_econ_climate= merge_econ_climate.drop(['gdp_current', 'co2_emissions_kt'], axis=1)
     merge_econ_climate.dropna(axis=0, how='any', inplace=True)
+    merge_econ_climate['difference'] = abs(merge_econ_climate['difference'])*1000
 
     return merge_econ_climate
 
-def w_avg(df_weigh, values):
+def w_avg_2(df_weigh, values):
     d = df_weigh[values]
     last= d.iloc[-1]
     first= d.iloc[0]
@@ -132,12 +198,13 @@ def w_avg(df_weigh, values):
         ratio= (last/first)**(1/len(d))-1
         return ratio
 
-def aggregate_weight(df_get, indicator):
-    df_new= df_get.groupby(['iso_code', 'country'], as_index=False).apply(w_avg, indicator)
+def aggregate_weight_2(df_get, indicator):
+    df_new= df_get.groupby(['iso_code', 'country'], as_index=False).apply(w_avg_2, indicator)
     df_new.rename(columns = {None: indicator}, inplace = True)
     print("df_new is", df_new)
     return df_new
 
+### Layer 3 end ###
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'Climate vs Economy'
@@ -151,7 +218,7 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                 style={"padding-bottom": "120"}
                                ),
                         html.Hr(className='gap'),
-                        html.Div([html.H3("Comparing indicators")],
+                        html.Div([html.H3("Comparing indicators - Single year")],
                                 style={'textAlign': "center", "padding-bottom": "50"}
                                ),
                         html.Div([html.Span('''The maps below juxtapose countries' performance
@@ -196,6 +263,45 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                             children = [
                             dcc.Graph(id="climate-bar", style={'max-height': '100%', 'max-width': '100%',
                                                  'width': 'auto', 'height': 'auto'})
+                            ])
+                        ]),
+                        html.Hr(className='gap'),
+                        html.Div([html.H3("Comparing indicators - Aggregated by years")],
+                                style={'textAlign': "center", "padding-bottom": "50"}
+                               ),
+                        html.Div([html.Span('''The maps below juxtapose countries' performance
+                            on climate vs economic indicators for a range of years chosen on
+                            the slider.''')],
+                                style={"text-align": "center", "padding-top": 10}
+                               ),
+                        html.Hr(className='gap'),
+                        html.Div([dcc.RangeSlider(1995, 2020,
+                                    step=None,
+                                    marks=date_dict,
+                                    value=[2002, 2007],
+                                    id='agg-slider')], className="row"),
+                        html.Hr(className='gap'),
+                        html.Div(className="row",
+                        children = [
+                            html.Div(className="six columns", 
+                            children = [
+                            dcc.Dropdown(id="econ-param-agg", value='gdp_current',
+                                            options=[{'label': "GDP, current price, PPP (in billions)", 'value': 'gdp_current'},
+                                                    {'label': "GDP per capita", 'value': 'gdp_capita'},
+                                                    {'label': "Volume of Exports", 'value': 'exports_gns'},
+                                                    {'label': "Volume of Imports", 'value': 'imports_gns'}]),
+                            dcc.Graph(id="econ-map-agg", style={'width': '80vh', 'height': '80vh'})
+                            ]),
+                            html.Div(className="six columns", 
+                            children = [
+                            dcc.Dropdown(id="climate-param-agg", value='co2_emissions_kt',
+                                            options=[{'label': "C02 emissions(kt)", 'value': 'co2_emissions_kt'},
+                                                    {'label': "C02 emissions per capita", 'value': 'co2_emissions_capita'},
+                                                    {'label': "PM 2.5", 'value': 'pm_25'},
+                                                    {'label': "Greenhouse emission per capita", 'value': 'ghg_capita'},
+                                                    {'label': "Mean Surface Temperature", 'value': 'mean_surface_temp'}]),
+                            dcc.Graph(id="climate-map-agg", style={'width': '60vh', 'height': '60vh',
+                                    "margin-left": "auto", "margin-right": "auto"})
                             ])
                         ]),
                         html.Hr(className='gap'),
@@ -291,6 +397,52 @@ def update_climate_map(indicator, year):
 
 
 @app.callback(
+    dash.dependencies.Output("econ-map-agg", "figure"),
+    [dash.dependencies.Input("econ-param-agg", "value"),
+     dash.dependencies.Input("agg-slider", "value")]
+)
+def update_econ_agg_map(indicator, year):
+    df = extract_agg_data(indicator, "econ_indicators", year)
+    df["hover_text"] = df["country"] + ": " + df[indicator].apply(str)
+ 
+    trace = go.Choropleth(locations=df['iso_code'],z=df[indicator],
+                          text=df['hover_text'],
+                          hoverinfo="text",
+                          marker_line_color='white',
+                          autocolorscale=False,
+                          reversescale=True,
+                          colorscale="RdBu",marker={'line': {'color': 'rgb(180,180,180)','width': 0.5}},
+                          colorbar={"thickness": 10,"len": 0.68,"x": 0.98,"y": 0.50})   
+    return {"data": [trace],
+            "layout": go.Layout(height=700, geo={'showframe': True,'showcoastlines': False,
+                                                                      'projection': {'type': "mercator"}},
+                                                                      margin=dict(l=00, r=200, b=0, t=0))}
+
+
+@app.callback(
+    dash.dependencies.Output("climate-map-agg", "figure"),
+    [dash.dependencies.Input("climate-param-agg", "value"),
+     dash.dependencies.Input("agg-slider", "value")]
+)
+def update_climate_agg_map(indicator, year):
+    df = extract_agg_data(indicator, "climate_indicators", year)
+    df["hover_text"] = df["country"] + ": " + df[indicator].apply(str)
+ 
+    trace = go.Choropleth(locations=df['iso_code'],z=df[indicator],
+                          text=df['hover_text'],
+                          hoverinfo="text",
+                          marker_line_color='white',
+                          autocolorscale=False,
+                          reversescale=True,
+                          colorscale="RdBu",marker={'line': {'color': 'rgb(180,180,180)','width': 0.5}},
+                          colorbar={"thickness": 10,"len": 0.68,"x": 0.98,"y": 0.50})   
+    return {"data": [trace],
+            "layout": go.Layout(height=700, geo={'showframe': True,'showcoastlines': False,
+                                                                      'projection': {'type': "mercator"}},
+                                                                      margin=dict(l=00, r=200, b=0, t=0))}
+
+
+@app.callback(
     dash.dependencies.Output("econ-bar", "figure"),
     [dash.dependencies.Input("econ-param", "value"),
      dash.dependencies.Input("year-slider", "value")]
@@ -350,9 +502,8 @@ def plot_trend_chart(indicator_lst, country):
 )
 def plot_bubble_chart(year):
     df = extract_bubble_data(year)
-    print("bubble df is", df)
 
-    fig = px.scatter_geo(df, locations="iso_code",
+    fig = px.scatter_geo(df, locations="iso_code", color="net_growth_rate",
                      hover_name="country", size="difference",
                      projection="natural earth")
     
@@ -360,6 +511,6 @@ def plot_bubble_chart(year):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8053)
+    app.run_server(debug=True, port=8054)
 
 
