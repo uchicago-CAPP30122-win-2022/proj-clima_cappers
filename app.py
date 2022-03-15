@@ -1,6 +1,7 @@
 import sqlite3
 from turtle import title
 import dash
+import dash_table
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
@@ -8,6 +9,11 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import plotly.express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
+import statsmodels.api as sm
+from linearmodels import PanelOLS
+from sklearn.impute import KNNImputer
 
 
 connection = sqlite3.connect("indicators.sqlite3", check_same_thread=False)
@@ -61,8 +67,18 @@ def country_lst():
         country_lst.append(country_dict)
     return country_lst
 
+def regions_lst():
+    query = ''' SELECT DISTINCT sub_region FROM region_mapping '''
+    df = pd.read_sql_query(query, connection)
+    regions_lst = []
+    for _, row in df.iterrows():
+        regions_dict = {}
+        regions_dict['label'] = row['sub_region']
+        regions_dict['value'] = row['sub_region']
+        regions_lst.append(regions_dict)
+    return regions_lst
+
 def extract_map_data(indicator, table, year):
-    # params = [indicator, table, year]
     query = ''' SELECT country, iso_code, {} FROM {} WHERE year = {} '''. \
                 format(indicator, table, year)
     df = pd.read_sql_query(query, connection)
@@ -78,8 +94,6 @@ def extract_bar_data(indicator, table, year):
 
 def trend_df(indicator_lst, country):
     params = [country]
-    # braces = ','.join(len(indicator_lst) * '{}')
-    # print("indicator list is:", indicator_lst)
     if isinstance(indicator_lst, list):
         format_lst = ','.join(indicator_lst)
     else:
@@ -113,12 +127,9 @@ def extract_agg_data(indicator, table, year_input):
     if indicator in indicator_agg_simpavg:
         query = ''' SELECT country, iso_code, {} FROM {} WHERE year BETWEEN {} AND {}'''. \
                     format(indicator, table, year_input[0], year_input[1])
-        print("running the query", query)
         df_get = pd.read_sql_query(query, connection)
         df_get[indicator] = pd.to_numeric(df_get[indicator], downcast="float")
         df_agg= aggregate_simple_average(df_get, indicator)
-        print("df_agg")
-        print(df_agg)
     
     if indicator in indicator_agg_weigh:
         query = ''' SELECT population, country, iso_code, {} FROM {} WHERE year BETWEEN {} AND {}'''. \
@@ -128,11 +139,9 @@ def extract_agg_data(indicator, table, year_input):
         df_get[indicator] = pd.to_numeric(df_get[indicator], downcast="float")
         df_get['population'] = pd.to_numeric(df_get['population'], downcast="float")
         df_agg= aggregate_weight_1(df_get, indicator)
-        print("dataframe is", df_agg)
     return df_agg
 
 def aggregate_simple_average(df, indicator):
-    print("Hello simple average")
     df_new= df.groupby(['country','iso_code'], as_index=False).mean()
     df_new.rename(columns = {None: indicator}, inplace = True)
     return df_new
@@ -158,12 +167,9 @@ def extract_bubble_data(year_input):
     
     query2 = ''' SELECT country, iso_code, co2_emissions_kt FROM climate_indicators WHERE year BETWEEN {} AND {}'''. \
                 format(year_input[0], year_input[1])
-    print("query1 is", query1)
-    print("query2 is", query2)
     
     df_econ = pd.read_sql_query(query1, connection)
     df_climate = pd.read_sql_query(query2, connection)
-    print("climate df is", df_climate)
     df_econ['gdp_current'] = pd.to_numeric(df_econ['gdp_current'], downcast="float")
     df_climate['co2_emissions_kt'] = pd.to_numeric(df_climate['co2_emissions_kt'], downcast="float")
 
@@ -178,6 +184,7 @@ def extract_bubble_data(year_input):
     merge_econ_climate["sign"]= np.sign(merge_econ_climate["difference"])
     merge_econ_climate['net_growth_rate'] = merge_econ_climate["sign"]
     merge_econ_climate.loc[merge_econ_climate['sign'] == 1, 'net_growth_rate'] = 'Positive Growth-Emission Difference'
+    merge_econ_climate.loc[merge_econ_climate['sign'] == 0, 'net_growth_rate'] = 'Positive Growth-Emission Difference'
     merge_econ_climate.loc[merge_econ_climate['sign'] == -1, 'net_growth_rate'] = 'Negative Growth-Emission Difference'
 
     merge_econ_climate= merge_econ_climate.append(nan_values)
@@ -201,10 +208,114 @@ def w_avg_2(df_weigh, values):
 def aggregate_weight_2(df_get, indicator):
     df_new= df_get.groupby(['iso_code', 'country'], as_index=False).apply(w_avg_2, indicator)
     df_new.rename(columns = {None: indicator}, inplace = True)
-    print("df_new is", df_new)
     return df_new
 
 ### Layer 3 end ###
+
+### scatter-bubble start ###
+def extract_countries(region):
+    params = [region]
+    query = ''' SELECT e.country, e.iso_code, e.year,
+                 e.gdp_current, e.population, c.ghg_total
+                 FROM econ_indicators e
+                 JOIN climate_indicators c
+                 ON e.iso_code = c.iso_code AND e.year = c.year
+                 JOIN region_mapping r
+                 ON e.iso_code = r.iso_code
+                 WHERE r.sub_region = ? AND TRIM(e.population) <> '' '''
+    df = pd.read_sql_query(query, connection, params=params)
+    df["log_gdp_current"] = np.log(pd.to_numeric(df["gdp_current"]))
+    df["log_ghg_total"] = np.log(pd.to_numeric(df["ghg_total"]))
+    return df
+### scatter-bubble end ###
+
+### regression-df start ###
+def regression_df(controls, region):
+    params = [region]
+    if isinstance(controls, list):
+        format_lst = ',' + ','.join(controls)
+    else:
+        format_lst = controls
+    query = ''' SELECT e.country, e.iso_code, e.year,
+                 e.gdp_capita, c.ghg_capita ''' \
+                 + format_lst + \
+                 '''
+                 FROM econ_indicators e
+                 JOIN climate_indicators c
+                 ON e.iso_code = c.iso_code AND e.year = c.year
+                 JOIN region_mapping r
+                 ON e.iso_code = r.iso_code
+                 WHERE r.sub_region = ? '''
+    
+    merged_dataset = pd.read_sql_query(query, connection, params=params)
+    merged_dataset.replace('', np.nan, inplace=True)
+
+    #drop indicators with more than 35% missing values
+    data_remove_na = missing_data_prop(merged_dataset)
+
+    #drop countries with more than 35% missing values
+    drop_countries = []
+    for country in merged_dataset["iso_code"].unique():
+        df = data_remove_na[data_remove_na["iso_code"] == country]
+        df_clean = missing_data_prop(df)
+        if df.shape[1] != df_clean.shape[1]:
+            drop_countries.append(country)
+
+    combined_data = merged_dataset[merged_dataset.iso_code.isin(drop_countries) == False]
+
+    data2 = combined_data.copy()
+    data2["log_ghg_capita"] = np.log(data2["ghg_capita"])
+    data2["log_gdp_capita"] = np.log(pd.to_numeric(data2["gdp_capita"]))
+    data2["log_gdp_capita_sq"] = (np.log(pd.to_numeric(data2["gdp_capita"])))**2
+
+    res = data2.groupby(["iso_code", "country"], as_index = False).apply(impute_missing_values)
+    res.reset_index(drop=True, inplace=True)
+    data2.reset_index(drop=True, inplace=True)
+    frames = [data2.iloc[:,:3], res]
+    imputed_dataset = pd.concat(frames,  axis=1)
+
+    if not isinstance(controls, list):
+        if controls:
+            exp_vars = [controls]
+        else:
+            exp_vars = [] 
+    else:
+        exp_vars = controls
+
+    regression_result = fixed_effects_model(imputed_dataset, exp_vars)
+
+    return regression_result
+
+#############################AUXILARY FUNCTIONS#################################
+
+def missing_data_prop(df):
+    perc = 35.0
+    min_count =  int(((100-perc)/100)*df.shape[0] + 1)
+    df = df.dropna(axis = 1, thresh = min_count)
+    return df
+
+
+def impute_missing_values(df):
+    imputer = KNNImputer(n_neighbors=2)
+    X = df.iloc[:,3:]
+    out = imputer.fit_transform(X)
+    out1 = pd.DataFrame(out, columns = df.columns[3:])
+    return out1
+
+def fixed_effects_model(dataset, explanatory_variable = None):
+    vars = ["log_gdp_capita", "log_gdp_capita_sq"]
+    vars.extend(explanatory_variable)
+    exog_vars = vars + np.unique(dataset.year)[1::].tolist()
+    dataset['year'] = pd.to_datetime(dataset['year'], format='%Y')
+    dataset = dataset.set_index('year', append=True)
+    exog = sm.tools.tools.add_constant(dataset.filter(exog_vars, axis = 1))
+    endog = dataset["log_ghg_capita"]
+    mod_fe = PanelOLS(endog, exog)
+    fe_res = mod_fe.fit()
+    return fe_res
+
+### regression-df end ###
+
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'Climate vs Economy'
@@ -300,7 +411,7 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                                     {'label': "PM 2.5", 'value': 'pm_25'},
                                                     {'label': "Greenhouse emission per capita", 'value': 'ghg_capita'},
                                                     {'label': "Mean Surface Temperature", 'value': 'mean_surface_temp'}]),
-                            dcc.Graph(id="climate-map-agg", style={'width': '60vh', 'height': '60vh',
+                            dcc.Graph(id="climate-map-agg", style={'width': '80vh', 'height': '80vh',
                                     "margin-left": "auto", "margin-right": "auto"})
                             ])
                         ]),
@@ -323,7 +434,8 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                             style={"width": "100%"})
                                     ]),
                                     html.Div(className='eight columns', children=[
-                                         dcc.Dropdown(id="multi-params", value='gdp_constant_change',
+                                         dcc.Dropdown(id="multi-params", value=['gdp_constant_change',
+                                                                         'vol_imports_change'],
                                             options=indicators_lst(econ_indicators_lst + climate_indicators_lst),
                                             multi=True,
                                             style={"width": "100%"})
@@ -348,7 +460,44 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                     value=[2002, 2007],
                                     id='bubble-slider')], className="row"),
                         html.Hr(className='gap'),
-                        dcc.Graph(id="bubble-chart")
+                        dcc.Graph(id="bubble-chart"),
+                        html.Hr(className='gap'),
+                        html.Div([html.H3("Regressions")],
+                                style={'textAlign': "center", "padding-bottom": "50"}
+                               ),
+                        html.Div([html.Span('''<Fill in summary>''')],
+                                style={"text-align": "center", "padding-top": 10}
+                               ),
+                        html.Hr(className='gap'),
+                        html.Div(className="row",
+                        children = [
+                            html.Div(className='row', children=[
+                                html.Div(children=[
+                                    html.Div(className='four columns', children=[
+                                         dcc.Dropdown(id="regions-list", value='Western Asia',
+                                            options=regions_lst(),
+                                            style={"width": "100%"})
+                                    ]),
+                                    html.Div(className='eight columns', children=[
+                                         dcc.Dropdown(id="control-vars-list", value='',
+                                            options=[{'label': "Imports", 'value': 'imports_gns'},
+                                                    {'label': "Exports", 'value': 'exports_gns'},
+                                                    {'label': "Population", 'value': 'e.population'}],
+                                            multi=True,
+                                            style={"width": "100%"})
+                                    ])
+                                ])
+                            ]),
+                            html.Hr(className='gap'),
+                            dcc.Graph(id="scatter-bubble", style={'width': '120vh', 'height': '70vh'}),
+                            dash_table.DataTable(id='reg-table',
+                                    columns=[
+                                            {'name': 'parameter', 'id': 'parameter'},
+                                            {'name': 'std_error', 'id': 'std_error'},
+                                            {'name': 'p-value', 'id': 'pvalue'}]
+                                )
+                        ]),
+                        html.Hr(className='gap')
                        ], className="container")
 
 @app.callback(
@@ -490,7 +639,7 @@ def climate_bar_chart(indicator, year):
 def plot_trend_chart(indicator_lst, country):
     df = trend_df(indicator_lst, country)
 
-    fig = px.line(df, 
+    fig = px.line(df,
         x="year", y="value", color='indicators')
     
     return fig
@@ -504,13 +653,45 @@ def plot_bubble_chart(year):
     df = extract_bubble_data(year)
 
     fig = px.scatter_geo(df, locations="iso_code", color="net_growth_rate",
+                    color_discrete_map = {'Positive Growth-Emission Difference': 'rgb(0,0,255)',
+                                        'Negative Growth-Emission Difference': 'rgb(255,0,0)'},
                      hover_name="country", size="difference",
                      projection="natural earth")
     
     return fig
 
 
+@app.callback(
+    dash.dependencies.Output("scatter-bubble", "figure"),
+    [dash.dependencies.Input("regions-list", "value")]
+)
+def plot_scatter_bubble_chart(region):
+    df = extract_countries(region)
+
+    fig = px.scatter(df, x="log_ghg_total", y="log_gdp_current",
+            animation_frame="year", animation_group="country",
+	         size="population", hover_name="country", size_max=60,
+            range_y=[1,13])
+    
+    return fig
+
+
+@app.callback(
+    dash.dependencies.Output("reg-table", "data"),
+    [dash.dependencies.Input("control-vars-list", "value"),
+    dash.dependencies.Input("regions-list", "value")]
+)
+def display_reg_table(controls, region):
+    reg_results = regression_df(controls, region)
+    params = pd.DataFrame(reg_results.params)
+    std_errors = pd.DataFrame(reg_results.std_errors)
+    pvalues = pd.DataFrame(reg_results.pvalues)
+    reg_df = pd.concat([params, std_errors, pvalues], axis=1, join="inner")
+    
+    return reg_df.to_dict('records')
+
+
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8054)
+    app.run_server(debug=True, port=8053)
 
 
