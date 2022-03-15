@@ -1,0 +1,5676 @@
+ISO3,Country,Year,mean_st
+AFG,"Afghanistan, Islamic Rep. of",1995,0.401
+ALB,Albania,1995,-0.127
+DZA,Algeria,1995,0.619
+ASM,American Samoa,1995,0.813
+AND,"Andorra, Principality of",1995,1.239
+AGO,Angola,1995,0.827
+AIA,Anguilla,1995,0.476
+ATG,Antigua and Barbuda,1995,0.522
+ARG,Argentina,1995,0.21
+ARM,"Armenia, Rep. of",1995,0.73
+ABW,"Aruba, Kingdom of the Netherlands",1995,0.573
+AUS,Australia,1995,0.377
+AUT,Austria,1995,0.958
+AZE,"Azerbaijan, Rep. of",1995,1.014
+BHS,"Bahamas, The",1995,0.767
+BHR,"Bahrain, Kingdom of",1995,0.238
+BGD,Bangladesh,1995,0.29
+BRB,Barbados,1995,0.355
+BLR,"Belarus, Rep. of",1995,1.501
+BEL,Belgium,1995,
+BLZ,Belize,1995,0.657
+BEN,Benin,1995,0.454
+BTN,Bhutan,1995,0.431
+BOL,Bolivia,1995,0.856
+BIH,Bosnia and Herzegovina,1995,0.304
+BWA,Botswana,1995,1.286
+BRA,Brazil,1995,0.781
+VGB,British Virgin Islands,1995,0.43
+BRN,Brunei Darussalam,1995,0.334
+BGR,Bulgaria,1995,0.26
+BFA,Burkina Faso,1995,0.478
+BDI,Burundi,1995,
+CPV,Cabo Verde,1995,1.561
+KHM,Cambodia,1995,0.58
+CMR,Cameroon,1995,0.526
+CAN,Canada,1995,0.934
+CYM,Cayman Islands,1995,1.044
+CAF,Central African Rep.,1995,0.28
+TCD,Chad,1995,0.283
+CHL,Chile,1995,-0.109
+HKG,"China, P.R.: Hong Kong",1995,-0.041
+MAC,"China, P.R.: Macao",1995,-0.041
+CHN,"China, P.R.: Mainland",1995,0.578
+COL,Colombia,1995,0.431
+COM,"Comoros, Union of the",1995,0.327
+COD,"Congo, Dem. Rep. of the",1995,0.462
+COG,"Congo, Rep. of",1995,0.601
+COK,Cook Islands,1995,0.522
+CRI,Costa Rica,1995,0.271
+HRV,"Croatia, Rep. of",1995,0.447
+CUB,Cuba,1995,1.047
+CYP,Cyprus,1995,0.095
+CZE,Czech Rep.,1995,1.058
+DNK,Denmark,1995,1.305
+DJI,Djibouti,1995,0.763
+DMA,Dominica,1995,0.591
+DOM,Dominican Rep.,1995,0.786
+ECU,Ecuador,1995,0.694
+EGY,"Egypt, Arab Rep. of",1995,0.156
+SLV,El Salvador,1995,0.636
+GNQ,"Equatorial Guinea, Rep. of",1995,0.921
+ERI,"Eritrea, The State of",1995,
+EST,"Estonia, Rep. of",1995,1.735
+SWZ,"Eswatini, Kingdom of",1995,0.546
+ETH,"Ethiopia, The Federal Dem. Rep. of",1995,0.815
+FLK,Falkland Islands (Malvinas),1995,
+FRO,Faroe Islands,1995,-0.219
+FJI,"Fiji, Rep. of",1995,0.285
+FIN,Finland,1995,1.724
+FRA,France,1995,1.299
+PYF,French Polynesia,1995,0.441
+GAB,Gabon,1995,0.599
+GMB,"Gambia, The",1995,1.055
+GEO,Georgia,1995,0.746
+DEU,Germany,1995,1.308
+GHA,Ghana,1995,0.761
+GIB,Gibraltar,1995,1.344
+GRC,Greece,1995,-0.001
+GRL,Greenland,1995,-0.345
+GRD,Grenada,1995,0.595
+GLP,Guadeloupe,1995,0.526
+GTM,Guatemala,1995,0.675
+GUF,"Guiana, French",1995,0.833
+GIN,Guinea,1995,0.682
+GNB,Guinea-Bissau,1995,1.016
+GUY,Guyana,1995,0.932
+HTI,Haiti,1995,0.889
+VAT,Holy See,1995,0.228
+HND,Honduras,1995,0.9
+HUN,Hungary,1995,0.65
+ISL,Iceland,1995,-0.349
+IND,India,1995,0.208
+IDN,Indonesia,1995,0.344
+IRN,"Iran, Islamic Rep. of",1995,0.692
+IRQ,Iraq,1995,0.276
+IRL,Ireland,1995,1.182
+IMN,Isle of Man,1995,1.153
+ISR,Israel,1995,-0.23
+ITA,Italy,1995,0.436
+JAM,Jamaica,1995,0.932
+JPN,Japan,1995,0.323
+JOR,Jordan,1995,-0.154
+KAZ,"Kazakhstan, Rep. of",1995,2.026
+KEN,Kenya,1995,0.376
+KIR,Kiribati,1995,0.355
+PRK,"Korea, Dem. People's Rep. of",1995,0.739
+KOR,"Korea, Rep. of",1995,0.446
+KWT,Kuwait,1995,0.192
+KGZ,Kyrgyz Rep.,1995,0.46
+LAO,Lao People's Dem. Rep.,1995,0.623
+LVA,Latvia,1995,1.61
+LBN,Lebanon,1995,0.011
+LSO,"Lesotho, Kingdom of",1995,0.709
+LBR,Liberia,1995,0.75
+LBY,Libya,1995,0.26
+LIE,Liechtenstein,1995,0.911
+LTU,Lithuania,1995,1.521
+LUX,Luxembourg,1995,
+MDG,"Madagascar, Rep. of",1995,0.347
+MWI,Malawi,1995,0.74
+MYS,Malaysia,1995,0.431
+MDV,Maldives,1995,0.707
+MLI,Mali,1995,0.647
+MLT,Malta,1995,0.42
+MHL,"Marshall Islands, Rep. of the",1995,0.045
+MTQ,Martinique,1995,0.586
+MRT,"Mauritania, Islamic Rep. of",1995,1.171
+MUS,Mauritius,1995,0.577
+MYT,Mayotte,1995,0.314
+MEX,Mexico,1995,0.77
+FSM,"Micronesia, Federated States of",1995,0.042
+MDA,"Moldova, Rep. of",1995,0.603
+MCO,Monaco,1995,0.665
+MNG,Mongolia,1995,1.293
+MNE,Montenegro,1995,
+MSR,Montserrat,1995,0.522
+MAR,Morocco,1995,1.121
+MOZ,"Mozambique, Rep. of",1995,0.564
+MMR,Myanmar,1995,0.661
+NAM,Namibia,1995,0.752
+NRU,"Nauru, Rep. of",1995,
+NPL,Nepal,1995,0.354
+NLD,"Netherlands, The",1995,1.548
+NCL,New Caledonia,1995,0.448
+NZL,New Zealand,1995,0.095
+NIC,Nicaragua,1995,0.756
+NER,Niger,1995,0.585
+NGA,Nigeria,1995,0.448
+NIU,Niue,1995,
+NFK,Norfolk Island,1995,0.463
+MKD,"North Macedonia, Republic of ",1995,-0.018
+NOR,Norway,1995,0.959
+OMN,Oman,1995,0.321
+PAK,Pakistan,1995,-0.051
+PLW,"Palau, Rep. of",1995,0.476
+PAN,Panama,1995,0.19
+PNG,Papua New Guinea,1995,0.802
+PRY,Paraguay,1995,0.548
+PER,Peru,1995,0.881
+PHL,Philippines,1995,0.492
+PCN,Pitcairn Islands,1995,-0.153
+POL,"Poland, Rep. of",1995,1.114
+PRT,Portugal,1995,1.673
+PRI,Puerto Rico,1995,0.565
+QAT,Qatar,1995,0.145
+ROU,Romania,1995,0.416
+RUS,Russian Federation,1995,2.113
+RWA,Rwanda,1995,
+SHN,Saint Helena,1995,0.656
+SPM,Saint Pierre and Miquelon,1995,-0.19
+WSM,Samoa,1995,0.728
+SMR,"San Marino, Rep. of",1995,0.389
+STP,"São Tomé and Príncipe, Dem. Rep. of",1995,0.763
+SAU,Saudi Arabia,1995,0.138
+SEN,Senegal,1995,1.016
+SRB,"Serbia, Rep. of",1995,
+SYC,Seychelles,1995,0.496
+SLE,Sierra Leone,1995,0.738
+SGP,Singapore,1995,0.571
+SVK,Slovak Rep.,1995,0.704
+SVN,"Slovenia, Rep. of",1995,0.846
+SLB,Solomon Islands,1995,0.359
+SOM,Somalia,1995,0.672
+ZAF,South Africa,1995,0.644
+SSD,"South Sudan, Rep. of",1995,
+ESP,Spain,1995,1.474
+LKA,Sri Lanka,1995,0.68
+KNA,St. Kitts and Nevis,1995,0.522
+LCA,St. Lucia,1995,0.558
+VCT,St. Vincent and the Grenadines,1995,0.596
+SDN,Sudan,1995,
+SUR,Suriname,1995,1.017
+SWE,Sweden,1995,1.28
+CHE,Switzerland,1995,0.993
+SYR,Syrian Arab Rep.,1995,0.128
+TWN,Taiwan Province of China,1995,0.126
+TJK,"Tajikistan, Rep. of",1995,0.319
+TZA,"Tanzania, United Rep. of",1995,0.268
+THA,Thailand,1995,0.698
+TLS,"Timor-Leste, Dem. Rep. of",1995,0.309
+TGO,Togo,1995,0.552
+TKL,Tokelau,1995,
+TON,Tonga,1995,0.357
+TTO,Trinidad and Tobago,1995,0.592
+TUN,Tunisia,1995,0.687
+TUR,Turkey,1995,0.147
+TKM,Turkmenistan,1995,1.378
+TCA,Turks and Caicos Islands,1995,
+TUV,Tuvalu,1995,0.383
+UGA,Uganda,1995,0.475
+UKR,Ukraine,1995,0.946
+ARE,United Arab Emirates,1995,0.023
+GBR,United Kingdom,1995,1.111
+USA,United States,1995,0.629
+VIR,United States Virgin Islands,1995,0.451
+URY,Uruguay,1995,0.315
+UZB,"Uzbekistan, Rep. of",1995,1.386
+VUT,Vanuatu,1995,0.268
+VEN,"Venezuela, Rep. Bolivariana de",1995,0.518
+VNM,Vietnam,1995,0.354
+WLF,Wallis and Futuna Islands,1995,0.347
+PSE,West Bank and Gaza,1995,-0.246
+ESH,Western Sahara,1995,1.291
+WLD,World,1995,0.836
+YEM,"Yemen, Rep. of",1995,
+ZMB,Zambia,1995,0.705
+ZWE,Zimbabwe,1995,0.792
+AFG,"Afghanistan, Islamic Rep. of",1996,-0.064
+ALB,Albania,1996,0.014
+DZA,Algeria,1996,0.866
+ASM,American Samoa,1996,0.743
+AND,"Andorra, Principality of",1996,0.523
+AGO,Angola,1996,0.455
+AIA,Anguilla,1996,0.229
+ATG,Antigua and Barbuda,1996,0.274
+ARG,Argentina,1996,0.476
+ARM,"Armenia, Rep. of",1996,0.514
+ABW,"Aruba, Kingdom of the Netherlands",1996,0.727
+AUS,Australia,1996,0.559
+AUT,Austria,1996,-0.183
+AZE,"Azerbaijan, Rep. of",1996,0.246
+BHS,"Bahamas, The",1996,0.115
+BHR,"Bahrain, Kingdom of",1996,0.68
+BGD,Bangladesh,1996,0.242
+BRB,Barbados,1996,0.198
+BLR,"Belarus, Rep. of",1996,-0.275
+BEL,Belgium,1996,
+BLZ,Belize,1996,0.113
+BEN,Benin,1996,0.772
+BTN,Bhutan,1996,0.204
+BOL,Bolivia,1996,0.427
+BIH,Bosnia and Herzegovina,1996,-0.022
+BWA,Botswana,1996,-0.175
+BRA,Brazil,1996,0.506
+VGB,British Virgin Islands,1996,0.185
+BRN,Brunei Darussalam,1996,0.221
+BGR,Bulgaria,1996,-0.329
+BFA,Burkina Faso,1996,0.989
+BDI,Burundi,1996,
+CPV,Cabo Verde,1996,1.684
+KHM,Cambodia,1996,0.239
+CMR,Cameroon,1996,0.525
+CAN,Canada,1996,-0.124
+CYM,Cayman Islands,1996,0.46
+CAF,Central African Rep.,1996,0.267
+TCD,Chad,1996,0.684
+CHL,Chile,1996,0.153
+HKG,"China, P.R.: Hong Kong",1996,0.009
+MAC,"China, P.R.: Macao",1996,0.009
+CHN,"China, P.R.: Mainland",1996,0.212
+COL,Colombia,1996,0.057
+COM,"Comoros, Union of the",1996,-0.135
+COD,"Congo, Dem. Rep. of the",1996,0.036
+COG,"Congo, Rep. of",1996,0.078
+COK,Cook Islands,1996,0.404
+CRI,Costa Rica,1996,-0.194
+HRV,"Croatia, Rep. of",1996,-0.011
+CUB,Cuba,1996,0.205
+CYP,Cyprus,1996,0.288
+CZE,Czech Rep.,1996,-0.588
+DNK,Denmark,1996,-0.747
+DJI,Djibouti,1996,0.869
+DMA,Dominica,1996,0.365
+DOM,Dominican Rep.,1996,0.553
+ECU,Ecuador,1996,0.029
+EGY,"Egypt, Arab Rep. of",1996,0.391
+SLV,El Salvador,1996,0.183
+GNQ,"Equatorial Guinea, Rep. of",1996,0.466
+ERI,"Eritrea, The State of",1996,0.134
+EST,"Estonia, Rep. of",1996,-0.368
+SWZ,"Eswatini, Kingdom of",1996,-0.104
+ETH,"Ethiopia, The Federal Dem. Rep. of",1996,0.775
+FLK,Falkland Islands (Malvinas),1996,
+FRO,Faroe Islands,1996,0.28
+FJI,"Fiji, Rep. of",1996,0.425
+FIN,Finland,1996,0.158
+FRA,France,1996,0.163
+PYF,French Polynesia,1996,0.019
+GAB,Gabon,1996,0.13
+GMB,"Gambia, The",1996,1.281
+GEO,Georgia,1996,0.196
+DEU,Germany,1996,-0.698
+GHA,Ghana,1996,0.726
+GIB,Gibraltar,1996,0.771
+GRC,Greece,1996,-0.127
+GRL,Greenland,1996,0.652
+GRD,Grenada,1996,0.344
+GLP,Guadeloupe,1996,0.287
+GTM,Guatemala,1996,0.17
+GUF,"Guiana, French",1996,0.559
+GIN,Guinea,1996,0.957
+GNB,Guinea-Bissau,1996,1.161
+GUY,Guyana,1996,0.559
+HTI,Haiti,1996,0.363
+VAT,Holy See,1996,0.389
+HND,Honduras,1996,0.12
+HUN,Hungary,1996,-0.316
+ISL,Iceland,1996,0.545
+IND,India,1996,0.319
+IDN,Indonesia,1996,0.387
+IRN,"Iran, Islamic Rep. of",1996,0.238
+IRQ,Iraq,1996,0.718
+IRL,Ireland,1996,-0.02
+IMN,Isle of Man,1996,-0.121
+ISR,Israel,1996,0.258
+ITA,Italy,1996,0.252
+JAM,Jamaica,1996,0.252
+JPN,Japan,1996,-0.154
+JOR,Jordan,1996,0.377
+KAZ,"Kazakhstan, Rep. of",1996,-0.418
+KEN,Kenya,1996,0.424
+KIR,Kiribati,1996,0.258
+PRK,"Korea, Dem. People's Rep. of",1996,0.318
+KOR,"Korea, Rep. of",1996,-0.012
+KWT,Kuwait,1996,0.908
+KGZ,Kyrgyz Rep.,1996,-0.422
+LAO,Lao People's Dem. Rep.,1996,0.143
+LVA,Latvia,1996,-0.428
+LBN,Lebanon,1996,0.363
+LSO,"Lesotho, Kingdom of",1996,-0.233
+LBR,Liberia,1996,0.677
+LBY,Libya,1996,0.448
+LIE,Liechtenstein,1996,-0.022
+LTU,Lithuania,1996,-0.512
+LUX,Luxembourg,1996,
+MDG,"Madagascar, Rep. of",1996,0.128
+MWI,Malawi,1996,0.496
+MYS,Malaysia,1996,0.325
+MDV,Maldives,1996,0.453
+MLI,Mali,1996,1.225
+MLT,Malta,1996,0.6
+MHL,"Marshall Islands, Rep. of the",1996,0.139
+MTQ,Martinique,1996,0.376
+MRT,"Mauritania, Islamic Rep. of",1996,1.515
+MUS,Mauritius,1996,0.304
+MYT,Mayotte,1996,-0.046
+MEX,Mexico,1996,0.527
+FSM,"Micronesia, Federated States of",1996,0.164
+MDA,"Moldova, Rep. of",1996,-0.694
+MCO,Monaco,1996,0.213
+MNG,Mongolia,1996,0.434
+MNE,Montenegro,1996,
+MSR,Montserrat,1996,0.274
+MAR,Morocco,1996,0.895
+MOZ,"Mozambique, Rep. of",1996,0.091
+MMR,Myanmar,1996,0.39
+NAM,Namibia,1996,-0.094
+NRU,"Nauru, Rep. of",1996,
+NPL,Nepal,1996,0.278
+NLD,"Netherlands, The",1996,-0.772
+NCL,New Caledonia,1996,0.636
+NZL,New Zealand,1996,0.234
+NIC,Nicaragua,1996,-0.049
+NER,Niger,1996,1.2
+NGA,Nigeria,1996,0.789
+NIU,Niue,1996,
+NFK,Norfolk Island,1996,0.818
+MKD,"North Macedonia, Republic of ",1996,-0.108
+NOR,Norway,1996,-0.044
+OMN,Oman,1996,0.24
+PAK,Pakistan,1996,-0.08
+PLW,"Palau, Rep. of",1996,0.527
+PAN,Panama,1996,0.026
+PNG,Papua New Guinea,1996,0.572
+PRY,Paraguay,1996,0.082
+PER,Peru,1996,0.221
+PHL,Philippines,1996,0.377
+PCN,Pitcairn Islands,1996,-0.366
+POL,"Poland, Rep. of",1996,-0.781
+PRT,Portugal,1996,0.757
+PRI,Puerto Rico,1996,0.347
+QAT,Qatar,1996,0.564
+ROU,Romania,1996,-0.418
+RUS,Russian Federation,1996,0.818
+RWA,Rwanda,1996,
+SHN,Saint Helena,1996,0.456
+SPM,Saint Pierre and Miquelon,1996,0.207
+WSM,Samoa,1996,0.668
+SMR,"San Marino, Rep. of",1996,0.311
+STP,"São Tomé and Príncipe, Dem. Rep. of",1996,
+SAU,Saudi Arabia,1996,0.525
+SEN,Senegal,1996,1.288
+SRB,"Serbia, Rep. of",1996,
+SYC,Seychelles,1996,0.177
+SLE,Sierra Leone,1996,0.786
+SGP,Singapore,1996,0.21
+SVK,Slovak Rep.,1996,-0.399
+SVN,"Slovenia, Rep. of",1996,-0.069
+SLB,Solomon Islands,1996,0.123
+SOM,Somalia,1996,0.862
+ZAF,South Africa,1996,-0.133
+SSD,"South Sudan, Rep. of",1996,
+ESP,Spain,1996,0.743
+LKA,Sri Lanka,1996,0.505
+KNA,St. Kitts and Nevis,1996,0.274
+LCA,St. Lucia,1996,0.343
+VCT,St. Vincent and the Grenadines,1996,0.341
+SDN,Sudan,1996,
+SUR,Suriname,1996,0.492
+SWE,Sweden,1996,-0.145
+CHE,Switzerland,1996,0.025
+SYR,Syrian Arab Rep.,1996,0.43
+TWN,Taiwan Province of China,1996,-0.056
+TJK,"Tajikistan, Rep. of",1996,-0.415
+TZA,"Tanzania, United Rep. of",1996,0.149
+THA,Thailand,1996,0.26
+TLS,"Timor-Leste, Dem. Rep. of",1996,0.295
+TGO,Togo,1996,0.665
+TKL,Tokelau,1996,
+TON,Tonga,1996,0.281
+TTO,Trinidad and Tobago,1996,0.382
+TUN,Tunisia,1996,0.649
+TUR,Turkey,1996,0.274
+TKM,Turkmenistan,1996,-0.067
+TCA,Turks and Caicos Islands,1996,
+TUV,Tuvalu,1996,0.281
+UGA,Uganda,1996,0.373
+UKR,Ukraine,1996,-0.42
+ARE,United Arab Emirates,1996,0.478
+GBR,United Kingdom,1996,-0.149
+USA,United States,1996,-0.009
+VIR,United States Virgin Islands,1996,0.209
+URY,Uruguay,1996,0.504
+UZB,"Uzbekistan, Rep. of",1996,-0.452
+VUT,Vanuatu,1996,0.376
+VEN,"Venezuela, Rep. Bolivariana de",1996,0.35
+VNM,Vietnam,1996,-0.009
+WLF,Wallis and Futuna Islands,1996,0.396
+PSE,West Bank and Gaza,1996,0.252
+ESH,Western Sahara,1996,1.337
+WLD,World,1996,0.359
+YEM,"Yemen, Rep. of",1996,
+ZMB,Zambia,1996,0.747
+ZWE,Zimbabwe,1996,-0.2
+AFG,"Afghanistan, Islamic Rep. of",1997,0.409
+ALB,Albania,1997,0.117
+DZA,Algeria,1997,1.085
+ASM,American Samoa,1997,
+AND,"Andorra, Principality of",1997,1.725
+AGO,Angola,1997,0.3
+AIA,Anguilla,1997,0.39
+ATG,Antigua and Barbuda,1997,0.431
+ARG,Argentina,1997,0.732
+ARM,"Armenia, Rep. of",1997,0.668
+ABW,"Aruba, Kingdom of the Netherlands",1997,
+AUS,Australia,1997,0.349
+AUT,Austria,1997,0.533
+AZE,"Azerbaijan, Rep. of",1997,0.586
+BHS,"Bahamas, The",1997,0.877
+BHR,"Bahrain, Kingdom of",1997,0.359
+BGD,Bangladesh,1997,-0.015
+BRB,Barbados,1997,0.175
+BLR,"Belarus, Rep. of",1997,0.36
+BEL,Belgium,1997,
+BLZ,Belize,1997,0.781
+BEN,Benin,1997,0.588
+BTN,Bhutan,1997,-0.358
+BOL,Bolivia,1997,1.018
+BIH,Bosnia and Herzegovina,1997,0.129
+BWA,Botswana,1997,0.077
+BRA,Brazil,1997,0.694
+VGB,British Virgin Islands,1997,0.349
+BRN,Brunei Darussalam,1997,0.571
+BGR,Bulgaria,1997,-0.306
+BFA,Burkina Faso,1997,0.696
+BDI,Burundi,1997,
+CPV,Cabo Verde,1997,1.74
+KHM,Cambodia,1997,0.297
+CMR,Cameroon,1997,0.672
+CAN,Canada,1997,0.427
+CYM,Cayman Islands,1997,1.015
+CAF,Central African Rep.,1997,0.264
+TCD,Chad,1997,0.251
+CHL,Chile,1997,0.657
+HKG,"China, P.R.: Hong Kong",1997,0.264
+MAC,"China, P.R.: Macao",1997,0.264
+CHN,"China, P.R.: Mainland",1997,0.741
+COL,Colombia,1997,0.431
+COM,"Comoros, Union of the",1997,0.154
+COD,"Congo, Dem. Rep. of the",1997,0.747
+COG,"Congo, Rep. of",1997,
+COK,Cook Islands,1997,0.266
+CRI,Costa Rica,1997,0.661
+HRV,"Croatia, Rep. of",1997,0.323
+CUB,Cuba,1997,0.794
+CYP,Cyprus,1997,0.037
+CZE,Czech Rep.,1997,0.155
+DNK,Denmark,1997,0.655
+DJI,Djibouti,1997,0.763
+DMA,Dominica,1997,0.558
+DOM,Dominican Rep.,1997,0.819
+ECU,Ecuador,1997,1.002
+EGY,"Egypt, Arab Rep. of",1997,0.022
+SLV,El Salvador,1997,0.859
+GNQ,"Equatorial Guinea, Rep. of",1997,
+ERI,"Eritrea, The State of",1997,0.322
+EST,"Estonia, Rep. of",1997,0.92
+SWZ,"Eswatini, Kingdom of",1997,0.193
+ETH,"Ethiopia, The Federal Dem. Rep. of",1997,0.713
+FLK,Falkland Islands (Malvinas),1997,
+FRO,Faroe Islands,1997,0.823
+FJI,"Fiji, Rep. of",1997,0.169
+FIN,Finland,1997,0.806
+FRA,France,1997,1.213
+PYF,French Polynesia,1997,0.177
+GAB,Gabon,1997,0.318
+GMB,"Gambia, The",1997,1.516
+GEO,Georgia,1997,0.284
+DEU,Germany,1997,0.559
+GHA,Ghana,1997,0.544
+GIB,Gibraltar,1997,1.469
+GRC,Greece,1997,-0.169
+GRL,Greenland,1997,0.371
+GRD,Grenada,1997,0.436
+GLP,Guadeloupe,1997,0.46
+GTM,Guatemala,1997,0.785
+GUF,"Guiana, French",1997,0.685
+GIN,Guinea,1997,0.875
+GNB,Guinea-Bissau,1997,1.355
+GUY,Guyana,1997,0.682
+HTI,Haiti,1997,1.078
+VAT,Holy See,1997,0.885
+HND,Honduras,1997,0.86
+HUN,Hungary,1997,-0.125
+ISL,Iceland,1997,0.417
+IND,India,1997,-0.083
+IDN,Indonesia,1997,0.397
+IRN,"Iran, Islamic Rep. of",1997,0.647
+IRQ,Iraq,1997,0.212
+IRL,Ireland,1997,0.966
+IMN,Isle of Man,1997,0.916
+ISR,Israel,1997,-0.22
+ITA,Italy,1997,0.943
+JAM,Jamaica,1997,0.768
+JPN,Japan,1997,0.425
+JOR,Jordan,1997,-0.286
+KAZ,"Kazakhstan, Rep. of",1997,1.87
+KEN,Kenya,1997,0.495
+KIR,Kiribati,1997,0.052
+PRK,"Korea, Dem. People's Rep. of",1997,1.033
+KOR,"Korea, Rep. of",1997,0.741
+KWT,Kuwait,1997,0.519
+KGZ,Kyrgyz Rep.,1997,1.406
+LAO,Lao People's Dem. Rep.,1997,0.333
+LVA,Latvia,1997,0.75
+LBN,Lebanon,1997,-0.143
+LSO,"Lesotho, Kingdom of",1997,0.214
+LBR,Liberia,1997,0.985
+LBY,Libya,1997,0.401
+LIE,Liechtenstein,1997,0.954
+LTU,Lithuania,1997,0.526
+LUX,Luxembourg,1997,
+MDG,"Madagascar, Rep. of",1997,0.607
+MWI,Malawi,1997,0.656
+MYS,Malaysia,1997,0.588
+MDV,Maldives,1997,0.58
+MLI,Mali,1997,0.915
+MLT,Malta,1997,1.016
+MHL,"Marshall Islands, Rep. of the",1997,0.05
+MTQ,Martinique,1997,0.557
+MRT,"Mauritania, Islamic Rep. of",1997,1.261
+MUS,Mauritius,1997,0.861
+MYT,Mayotte,1997,0.314
+MEX,Mexico,1997,0.447
+FSM,"Micronesia, Federated States of",1997,0.079
+MDA,"Moldova, Rep. of",1997,-0.464
+MCO,Monaco,1997,1.299
+MNG,Mongolia,1997,1.968
+MNE,Montenegro,1997,
+MSR,Montserrat,1997,0.431
+MAR,Morocco,1997,1.207
+MOZ,"Mozambique, Rep. of",1997,0.214
+MMR,Myanmar,1997,0.274
+NAM,Namibia,1997,-0.132
+NRU,"Nauru, Rep. of",1997,
+NPL,Nepal,1997,-0.322
+NLD,"Netherlands, The",1997,0.617
+NCL,New Caledonia,1997,0.175
+NZL,New Zealand,1997,-0.14
+NIC,Nicaragua,1997,0.699
+NER,Niger,1997,0.806
+NGA,Nigeria,1997,0.71
+NIU,Niue,1997,
+NFK,Norfolk Island,1997,
+MKD,"North Macedonia, Republic of ",1997,-0.104
+NOR,Norway,1997,0.779
+OMN,Oman,1997,0.05
+PAK,Pakistan,1997,-0.364
+PLW,"Palau, Rep. of",1997,
+PAN,Panama,1997,0.458
+PNG,Papua New Guinea,1997,0.101
+PRY,Paraguay,1997,0.876
+PER,Peru,1997,0.899
+PHL,Philippines,1997,0.461
+PCN,Pitcairn Islands,1997,-0.385
+POL,"Poland, Rep. of",1997,0.016
+PRT,Portugal,1997,1.596
+PRI,Puerto Rico,1997,0.555
+QAT,Qatar,1997,0.13
+ROU,Romania,1997,-0.416
+RUS,Russian Federation,1997,1.285
+RWA,Rwanda,1997,
+SHN,Saint Helena,1997,0.895
+SPM,Saint Pierre and Miquelon,1997,-0.285
+WSM,Samoa,1997,
+SMR,"San Marino, Rep. of",1997,1.015
+STP,"São Tomé and Príncipe, Dem. Rep. of",1997,
+SAU,Saudi Arabia,1997,-0.047
+SEN,Senegal,1997,1.435
+SRB,"Serbia, Rep. of",1997,
+SYC,Seychelles,1997,0.661
+SLE,Sierra Leone,1997,0.887
+SGP,Singapore,1997,0.776
+SVK,Slovak Rep.,1997,-0.239
+SVN,"Slovenia, Rep. of",1997,0.512
+SLB,Solomon Islands,1997,0.021
+SOM,Somalia,1997,0.687
+ZAF,South Africa,1997,0.249
+SSD,"South Sudan, Rep. of",1997,
+ESP,Spain,1997,1.553
+LKA,Sri Lanka,1997,0.668
+KNA,St. Kitts and Nevis,1997,0.431
+LCA,St. Lucia,1997,0.46
+VCT,St. Vincent and the Grenadines,1997,0.435
+SDN,Sudan,1997,
+SUR,Suriname,1997,0.767
+SWE,Sweden,1997,1.002
+CHE,Switzerland,1997,1.058
+SYR,Syrian Arab Rep.,1997,-0.145
+TWN,Taiwan Province of China,1997,0.065
+TJK,"Tajikistan, Rep. of",1997,1.059
+TZA,"Tanzania, United Rep. of",1997,0.519
+THA,Thailand,1997,0.426
+TLS,"Timor-Leste, Dem. Rep. of",1997,0.022
+TGO,Togo,1997,0.57
+TKL,Tokelau,1997,
+TON,Tonga,1997,0.209
+TTO,Trinidad and Tobago,1997,0.439
+TUN,Tunisia,1997,1.305
+TUR,Turkey,1997,-0.005
+TKM,Turkmenistan,1997,1.357
+TCA,Turks and Caicos Islands,1997,
+TUV,Tuvalu,1997,0.329
+UGA,Uganda,1997,0.64
+UKR,Ukraine,1997,-0.342
+ARE,United Arab Emirates,1997,-0.148
+GBR,United Kingdom,1997,0.875
+USA,United States,1997,0.391
+VIR,United States Virgin Islands,1997,0.38
+URY,Uruguay,1997,1.153
+UZB,"Uzbekistan, Rep. of",1997,1.531
+VUT,Vanuatu,1997,0.167
+VEN,"Venezuela, Rep. Bolivariana de",1997,0.36
+VNM,Vietnam,1997,0.303
+WLF,Wallis and Futuna Islands,1997,0.169
+PSE,West Bank and Gaza,1997,-0.227
+ESH,Western Sahara,1997,1.466
+WLD,World,1997,0.657
+YEM,"Yemen, Rep. of",1997,0.171
+ZMB,Zambia,1997,0.476
+ZWE,Zimbabwe,1997,0.117
+AFG,"Afghanistan, Islamic Rep. of",1998,0.585
+ALB,Albania,1998,0.838
+DZA,Algeria,1998,1.142
+ASM,American Samoa,1998,
+AND,"Andorra, Principality of",1998,0.942
+AGO,Angola,1998,1.206
+AIA,Anguilla,1998,0.975
+ATG,Antigua and Barbuda,1998,0.992
+ARG,Argentina,1998,0.32
+ARM,"Armenia, Rep. of",1998,1.368
+ABW,"Aruba, Kingdom of the Netherlands",1998,
+AUS,Australia,1998,1.048
+AUT,Austria,1998,1.363
+AZE,"Azerbaijan, Rep. of",1998,1.188
+BHS,"Bahamas, The",1998,1.029
+BHR,"Bahrain, Kingdom of",1998,1.417
+BGD,Bangladesh,1998,0.598
+BRB,Barbados,1998,0.967
+BLR,"Belarus, Rep. of",1998,0.707
+BEL,Belgium,1998,
+BLZ,Belize,1998,0.826
+BEN,Benin,1998,1.067
+BTN,Bhutan,1998,0.758
+BOL,Bolivia,1998,1.014
+BIH,Bosnia and Herzegovina,1998,1.078
+BWA,Botswana,1998,1.036
+BRA,Brazil,1998,1.282
+VGB,British Virgin Islands,1998,0.957
+BRN,Brunei Darussalam,1998,1.163
+BGR,Bulgaria,1998,0.807
+BFA,Burkina Faso,1998,1.069
+BDI,Burundi,1998,0.881
+CPV,Cabo Verde,1998,1.866
+KHM,Cambodia,1998,1.268
+CMR,Cameroon,1998,1.265
+CAN,Canada,1998,2.47
+CYM,Cayman Islands,1998,0.943
+CAF,Central African Rep.,1998,1.253
+TCD,Chad,1998,0.866
+CHL,Chile,1998,0.621
+HKG,"China, P.R.: Hong Kong",1998,0.929
+MAC,"China, P.R.: Macao",1998,0.929
+CHN,"China, P.R.: Mainland",1998,1.273
+COL,Colombia,1998,0.848
+COM,"Comoros, Union of the",1998,0.619
+COD,"Congo, Dem. Rep. of the",1998,0.95
+COG,"Congo, Rep. of",1998,1.087
+COK,Cook Islands,1998,
+CRI,Costa Rica,1998,0.939
+HRV,"Croatia, Rep. of",1998,1.166
+CUB,Cuba,1998,1.022
+CYP,Cyprus,1998,0.984
+CZE,Czech Rep.,1998,1.272
+DNK,Denmark,1998,0.865
+DJI,Djibouti,1998,1.067
+DMA,Dominica,1998,0.98
+DOM,Dominican Rep.,1998,1.216
+ECU,Ecuador,1998,1.185
+EGY,"Egypt, Arab Rep. of",1998,0.748
+SLV,El Salvador,1998,0.939
+GNQ,"Equatorial Guinea, Rep. of",1998,1.029
+ERI,"Eritrea, The State of",1998,0.46
+EST,"Estonia, Rep. of",1998,0.526
+SWZ,"Eswatini, Kingdom of",1998,0.892
+ETH,"Ethiopia, The Federal Dem. Rep. of",1998,0.806
+FLK,Falkland Islands (Malvinas),1998,
+FRO,Faroe Islands,1998,0.607
+FJI,"Fiji, Rep. of",1998,0.755
+FIN,Finland,1998,0.092
+FRA,France,1998,0.913
+PYF,French Polynesia,1998,0.487
+GAB,Gabon,1998,1.111
+GMB,"Gambia, The",1998,1.764
+GEO,Georgia,1998,1.259
+DEU,Germany,1998,1.152
+GHA,Ghana,1998,1.193
+GIB,Gibraltar,1998,1.117
+GRC,Greece,1998,0.654
+GRL,Greenland,1998,1.253
+GRD,Grenada,1998,0.988
+GLP,Guadeloupe,1998,0.979
+GTM,Guatemala,1998,0.962
+GUF,"Guiana, French",1998,1.414
+GIN,Guinea,1998,1.213
+GNB,Guinea-Bissau,1998,1.772
+GUY,Guyana,1998,1.284
+HTI,Haiti,1998,1.127
+VAT,Holy See,1998,0.967
+HND,Honduras,1998,1.091
+HUN,Hungary,1998,1.102
+ISL,Iceland,1998,0.223
+IND,India,1998,0.569
+IDN,Indonesia,1998,0.997
+IRN,"Iran, Islamic Rep. of",1998,1.157
+IRQ,Iraq,1998,1.187
+IRL,Ireland,1998,0.927
+IMN,Isle of Man,1998,0.921
+ISR,Israel,1998,0.779
+ITA,Italy,1998,0.966
+JAM,Jamaica,1998,1.246
+JPN,Japan,1998,1.173
+JOR,Jordan,1998,0.893
+KAZ,"Kazakhstan, Rep. of",1998,0.482
+KEN,Kenya,1998,0.228
+KIR,Kiribati,1998,0.46
+PRK,"Korea, Dem. People's Rep. of",1998,1.839
+KOR,"Korea, Rep. of",1998,1.497
+KWT,Kuwait,1998,1.345
+KGZ,Kyrgyz Rep.,1998,0.778
+LAO,Lao People's Dem. Rep.,1998,1.432
+LVA,Latvia,1998,0.643
+LBN,Lebanon,1998,0.95
+LSO,"Lesotho, Kingdom of",1998,0.887
+LBR,Liberia,1998,1.26
+LBY,Libya,1998,0.693
+LIE,Liechtenstein,1998,1.212
+LTU,Lithuania,1998,0.747
+LUX,Luxembourg,1998,
+MDG,"Madagascar, Rep. of",1998,0.778
+MWI,Malawi,1998,0.937
+MYS,Malaysia,1998,1.138
+MDV,Maldives,1998,0.919
+MLI,Mali,1998,1.238
+MLT,Malta,1998,0.84
+MHL,"Marshall Islands, Rep. of the",1998,0.031
+MTQ,Martinique,1998,0.981
+MRT,"Mauritania, Islamic Rep. of",1998,1.767
+MUS,Mauritius,1998,1.105
+MYT,Mayotte,1998,0.716
+MEX,Mexico,1998,0.677
+FSM,"Micronesia, Federated States of",1998,0.339
+MDA,"Moldova, Rep. of",1998,0.795
+MCO,Monaco,1998,0.913
+MNG,Mongolia,1998,2.153
+MNE,Montenegro,1998,
+MSR,Montserrat,1998,0.992
+MAR,Morocco,1998,1.484
+MOZ,"Mozambique, Rep. of",1998,0.887
+MMR,Myanmar,1998,1.208
+NAM,Namibia,1998,1.093
+NRU,"Nauru, Rep. of",1998,
+NPL,Nepal,1998,0.405
+NLD,"Netherlands, The",1998,1.073
+NCL,New Caledonia,1998,1.606
+NZL,New Zealand,1998,0.967
+NIC,Nicaragua,1998,0.975
+NER,Niger,1998,0.818
+NGA,Nigeria,1998,1.078
+NIU,Niue,1998,
+NFK,Norfolk Island,1998,
+MKD,"North Macedonia, Republic of ",1998,0.785
+NOR,Norway,1998,0.401
+OMN,Oman,1998,0.996
+PAK,Pakistan,1998,0.454
+PLW,"Palau, Rep. of",1998,
+PAN,Panama,1998,0.786
+PNG,Papua New Guinea,1998,1.243
+PRY,Paraguay,1998,0.155
+PER,Peru,1998,1.288
+PHL,Philippines,1998,1.265
+PCN,Pitcairn Islands,1998,-0.578
+POL,"Poland, Rep. of",1998,0.952
+PRT,Portugal,1998,1.212
+PRI,Puerto Rico,1998,1.099
+QAT,Qatar,1998,1.238
+ROU,Romania,1998,0.794
+RUS,Russian Federation,1998,-0.028
+RWA,Rwanda,1998,0.881
+SHN,Saint Helena,1998,1.237
+SPM,Saint Pierre and Miquelon,1998,0.824
+WSM,Samoa,1998,
+SMR,"San Marino, Rep. of",1998,1.173
+STP,"São Tomé and Príncipe, Dem. Rep. of",1998,1.165
+SAU,Saudi Arabia,1998,0.97
+SEN,Senegal,1998,1.652
+SRB,"Serbia, Rep. of",1998,
+SYC,Seychelles,1998,1.02
+SLE,Sierra Leone,1998,1.082
+SGP,Singapore,1998,1.169
+SVK,Slovak Rep.,1998,1.039
+SVN,"Slovenia, Rep. of",1998,1.408
+SLB,Solomon Islands,1998,0.408
+SOM,Somalia,1998,0.854
+ZAF,South Africa,1998,0.846
+SSD,"South Sudan, Rep. of",1998,
+ESP,Spain,1998,1.208
+LKA,Sri Lanka,1998,1.296
+KNA,St. Kitts and Nevis,1998,0.992
+LCA,St. Lucia,1998,0.982
+VCT,St. Vincent and the Grenadines,1998,0.987
+SDN,Sudan,1998,
+SUR,Suriname,1998,1.382
+SWE,Sweden,1998,0.581
+CHE,Switzerland,1998,1.103
+SYR,Syrian Arab Rep.,1998,1.12
+TWN,Taiwan Province of China,1998,1.121
+TJK,"Tajikistan, Rep. of",1998,0.494
+TZA,"Tanzania, United Rep. of",1998,0.445
+THA,Thailand,1998,1.463
+TLS,"Timor-Leste, Dem. Rep. of",1998,0.909
+TGO,Togo,1998,1.095
+TKL,Tokelau,1998,
+TON,Tonga,1998,0.323
+TTO,Trinidad and Tobago,1998,0.986
+TUN,Tunisia,1998,1.042
+TUR,Turkey,1998,1.003
+TKM,Turkmenistan,1998,0.949
+TCA,Turks and Caicos Islands,1998,
+TUV,Tuvalu,1998,0.112
+UGA,Uganda,1998,0.473
+UKR,Ukraine,1998,0.731
+ARE,United Arab Emirates,1998,1.16
+GBR,United Kingdom,1998,0.855
+USA,United States,1998,1.268
+VIR,United States Virgin Islands,1998,0.981
+URY,Uruguay,1998,0.168
+UZB,"Uzbekistan, Rep. of",1998,0.491
+VUT,Vanuatu,1998,0.817
+VEN,"Venezuela, Rep. Bolivariana de",1998,0.853
+VNM,Vietnam,1998,1.304
+WLF,Wallis and Futuna Islands,1998,0.493
+PSE,West Bank and Gaza,1998,0.775
+ESH,Western Sahara,1998,1.431
+WLD,World,1998,0.992
+YEM,"Yemen, Rep. of",1998,
+ZMB,Zambia,1998,1.017
+ZWE,Zimbabwe,1998,0.932
+AFG,"Afghanistan, Islamic Rep. of",1999,1.192
+ALB,Albania,1999,0.718
+DZA,Algeria,1999,1.527
+ASM,American Samoa,1999,0.219
+AND,"Andorra, Principality of",1999,0.964
+AGO,Angola,1999,0.499
+AIA,Anguilla,1999,0.456
+ATG,Antigua and Barbuda,1999,0.439
+ARG,Argentina,1999,0.138
+ARM,"Armenia, Rep. of",1999,1.583
+ABW,"Aruba, Kingdom of the Netherlands",1999,
+AUS,Australia,1999,0.56
+AUT,Austria,1999,1.001
+AZE,"Azerbaijan, Rep. of",1999,1.239
+BHS,"Bahamas, The",1999,0.724
+BHR,"Bahrain, Kingdom of",1999,2.06
+BGD,Bangladesh,1999,0.877
+BRB,Barbados,1999,0.351
+BLR,"Belarus, Rep. of",1999,1.506
+BEL,Belgium,1999,
+BLZ,Belize,1999,0.34
+BEN,Benin,1999,0.641
+BTN,Bhutan,1999,0.954
+BOL,Bolivia,1999,0.461
+BIH,Bosnia and Herzegovina,1999,0.627
+BWA,Botswana,1999,0.736
+BRA,Brazil,1999,0.602
+VGB,British Virgin Islands,1999,0.473
+BRN,Brunei Darussalam,1999,0.419
+BGR,Bulgaria,1999,0.717
+BFA,Burkina Faso,1999,0.629
+BDI,Burundi,1999,
+CPV,Cabo Verde,1999,0.881
+KHM,Cambodia,1999,0.362
+CMR,Cameroon,1999,0.787
+CAN,Canada,1999,1.699
+CYM,Cayman Islands,1999,0.472
+CAF,Central African Rep.,1999,0.575
+TCD,Chad,1999,0.596
+CHL,Chile,1999,0.19
+HKG,"China, P.R.: Hong Kong",1999,0.942
+MAC,"China, P.R.: Macao",1999,0.942
+CHN,"China, P.R.: Mainland",1999,1.237
+COL,Colombia,1999,-0.105
+COM,"Comoros, Union of the",1999,0.068
+COD,"Congo, Dem. Rep. of the",1999,0.368
+COG,"Congo, Rep. of",1999,0.659
+COK,Cook Islands,1999,0.874
+CRI,Costa Rica,1999,-0.37
+HRV,"Croatia, Rep. of",1999,0.713
+CUB,Cuba,1999,0.718
+CYP,Cyprus,1999,1.118
+CZE,Czech Rep.,1999,1.13
+DNK,Denmark,1999,1.335
+DJI,Djibouti,1999,0.528
+DMA,Dominica,1999,0.408
+DOM,Dominican Rep.,1999,0.743
+ECU,Ecuador,1999,0.189
+EGY,"Egypt, Arab Rep. of",1999,0.851
+SLV,El Salvador,1999,0.339
+GNQ,"Equatorial Guinea, Rep. of",1999,0.547
+ERI,"Eritrea, The State of",1999,0.815
+EST,"Estonia, Rep. of",1999,1.509
+SWZ,"Eswatini, Kingdom of",1999,0.352
+ETH,"Ethiopia, The Federal Dem. Rep. of",1999,0.314
+FLK,Falkland Islands (Malvinas),1999,
+FRO,Faroe Islands,1999,0.509
+FJI,"Fiji, Rep. of",1999,0.535
+FIN,Finland,1999,1.179
+FRA,France,1999,1.167
+PYF,French Polynesia,1999,0.311
+GAB,Gabon,1999,0.566
+GMB,"Gambia, The",1999,0.957
+GEO,Georgia,1999,1.241
+DEU,Germany,1999,1.366
+GHA,Ghana,1999,0.625
+GIB,Gibraltar,1999,0.73
+GRC,Greece,1999,0.824
+GRL,Greenland,1999,0.503
+GRD,Grenada,1999,0.445
+GLP,Guadeloupe,1999,0.435
+GTM,Guatemala,1999,0.661
+GUF,"Guiana, French",1999,0.67
+GIN,Guinea,1999,0.567
+GNB,Guinea-Bissau,1999,0.978
+GUY,Guyana,1999,0.462
+HTI,Haiti,1999,1.177
+VAT,Holy See,1999,0.822
+HND,Honduras,1999,0.451
+HUN,Hungary,1999,0.626
+ISL,Iceland,1999,0.489
+IND,India,1999,0.448
+IDN,Indonesia,1999,0.265
+IRN,"Iran, Islamic Rep. of",1999,1.634
+IRQ,Iraq,1999,1.805
+IRL,Ireland,1999,1.062
+IMN,Isle of Man,1999,1.103
+ISR,Israel,1999,0.773
+ITA,Italy,1999,0.92
+JAM,Jamaica,1999,0.603
+JPN,Japan,1999,0.919
+JOR,Jordan,1999,0.925
+KAZ,"Kazakhstan, Rep. of",1999,1.361
+KEN,Kenya,1999,0.218
+KIR,Kiribati,1999,-0.196
+PRK,"Korea, Dem. People's Rep. of",1999,1.44
+KOR,"Korea, Rep. of",1999,1.069
+KWT,Kuwait,1999,2.075
+KGZ,Kyrgyz Rep.,1999,1.073
+LAO,Lao People's Dem. Rep.,1999,0.663
+LVA,Latvia,1999,1.545
+LBN,Lebanon,1999,1.043
+LSO,"Lesotho, Kingdom of",1999,1.208
+LBR,Liberia,1999,0.747
+LBY,Libya,1999,1.184
+LIE,Liechtenstein,1999,0.977
+LTU,Lithuania,1999,1.494
+LUX,Luxembourg,1999,
+MDG,"Madagascar, Rep. of",1999,0.425
+MWI,Malawi,1999,0.163
+MYS,Malaysia,1999,0.385
+MDV,Maldives,1999,0.311
+MLI,Mali,1999,0.414
+MLT,Malta,1999,1.25
+MHL,"Marshall Islands, Rep. of the",1999,-0.246
+MTQ,Martinique,1999,0.409
+MRT,"Mauritania, Islamic Rep. of",1999,0.536
+MUS,Mauritius,1999,0.399
+MYT,Mayotte,1999,0.161
+MEX,Mexico,1999,0.585
+FSM,"Micronesia, Federated States of",1999,-0.152
+MDA,"Moldova, Rep. of",1999,0.912
+MCO,Monaco,1999,0.913
+MNG,Mongolia,1999,1.793
+MNE,Montenegro,1999,
+MSR,Montserrat,1999,0.439
+MAR,Morocco,1999,1.028
+MOZ,"Mozambique, Rep. of",1999,0.234
+MMR,Myanmar,1999,0.927
+NAM,Namibia,1999,0.646
+NRU,"Nauru, Rep. of",1999,
+NPL,Nepal,1999,0.715
+NLD,"Netherlands, The",1999,1.579
+NCL,New Caledonia,1999,0.827
+NZL,New Zealand,1999,1.006
+NIC,Nicaragua,1999,0.026
+NER,Niger,1999,0.709
+NGA,Nigeria,1999,0.812
+NIU,Niue,1999,
+NFK,Norfolk Island,1999,
+MKD,"North Macedonia, Republic of ",1999,0.626
+NOR,Norway,1999,1.276
+OMN,Oman,1999,0.823
+PAK,Pakistan,1999,0.847
+PLW,"Palau, Rep. of",1999,0.565
+PAN,Panama,1999,-0.282
+PNG,Papua New Guinea,1999,0.306
+PRY,Paraguay,1999,0.008
+PER,Peru,1999,0.31
+PHL,Philippines,1999,0.508
+PCN,Pitcairn Islands,1999,
+POL,"Poland, Rep. of",1999,1.206
+PRT,Portugal,1999,0.625
+PRI,Puerto Rico,1999,0.557
+QAT,Qatar,1999,1.802
+ROU,Romania,1999,0.627
+RUS,Russian Federation,1999,0.42
+RWA,Rwanda,1999,
+SHN,Saint Helena,1999,1.395
+SPM,Saint Pierre and Miquelon,1999,1.738
+WSM,Samoa,1999,0.145
+SMR,"San Marino, Rep. of",1999,0.912
+STP,"São Tomé and Príncipe, Dem. Rep. of",1999,0.879
+SAU,Saudi Arabia,1999,1.442
+SEN,Senegal,1999,0.666
+SRB,"Serbia, Rep. of",1999,
+SYC,Seychelles,1999,0.31
+SLE,Sierra Leone,1999,0.846
+SGP,Singapore,1999,0.521
+SVK,Slovak Rep.,1999,0.789
+SVN,"Slovenia, Rep. of",1999,0.912
+SLB,Solomon Islands,1999,-0.006
+SOM,Somalia,1999,0.574
+ZAF,South Africa,1999,1.09
+SSD,"South Sudan, Rep. of",1999,
+ESP,Spain,1999,0.837
+LKA,Sri Lanka,1999,0.451
+KNA,St. Kitts and Nevis,1999,0.439
+LCA,St. Lucia,1999,0.415
+VCT,St. Vincent and the Grenadines,1999,0.442
+SDN,Sudan,1999,
+SUR,Suriname,1999,0.554
+SWE,Sweden,1999,1.38
+CHE,Switzerland,1999,0.97
+SYR,Syrian Arab Rep.,1999,1.239
+TWN,Taiwan Province of China,1999,0.662
+TJK,"Tajikistan, Rep. of",1999,1.023
+TZA,"Tanzania, United Rep. of",1999,-0.31
+THA,Thailand,1999,0.429
+TLS,"Timor-Leste, Dem. Rep. of",1999,0.044
+TGO,Togo,1999,0.587
+TKL,Tokelau,1999,
+TON,Tonga,1999,0.24
+TTO,Trinidad and Tobago,1999,0.513
+TUN,Tunisia,1999,1.799
+TUR,Turkey,1999,1.232
+TKM,Turkmenistan,1999,1.287
+TCA,Turks and Caicos Islands,1999,
+TUV,Tuvalu,1999,0.31
+UGA,Uganda,1999,-0.062
+UKR,Ukraine,1999,1.16
+ARE,United Arab Emirates,1999,1.461
+GBR,United Kingdom,1999,1.127
+USA,United States,1999,0.755
+VIR,United States Virgin Islands,1999,0.486
+URY,Uruguay,1999,0.129
+UZB,"Uzbekistan, Rep. of",1999,1.304
+VUT,Vanuatu,1999,1.005
+VEN,"Venezuela, Rep. Bolivariana de",1999,0.191
+VNM,Vietnam,1999,0.788
+WLF,Wallis and Futuna Islands,1999,0.372
+PSE,West Bank and Gaza,1999,0.773
+ESH,Western Sahara,1999,0.999
+WLD,World,1999,0.787
+YEM,"Yemen, Rep. of",1999,
+ZMB,Zambia,1999,0.219
+ZWE,Zimbabwe,1999,0.167
+AFG,"Afghanistan, Islamic Rep. of",2000,1.039
+ALB,Albania,2000,1.12
+DZA,Algeria,2000,0.865
+ASM,American Samoa,2000,0.685
+AND,"Andorra, Principality of",2000,0.952
+AGO,Angola,2000,0.248
+AIA,Anguilla,2000,0.114
+ATG,Antigua and Barbuda,2000,0.186
+ARG,Argentina,2000,-0.22
+ARM,"Armenia, Rep. of",2000,1.124
+ABW,"Aruba, Kingdom of the Netherlands",2000,
+AUS,Australia,2000,0.121
+AUT,Austria,2000,1.788
+AZE,"Azerbaijan, Rep. of",2000,1.11
+BHS,"Bahamas, The",2000,0.313
+BHR,"Bahrain, Kingdom of",2000,1.15
+BGD,Bangladesh,2000,0.337
+BRB,Barbados,2000,0.192
+BLR,"Belarus, Rep. of",2000,1.942
+BEL,Belgium,2000,1.487
+BLZ,Belize,2000,0.064
+BEN,Benin,2000,0.472
+BTN,Bhutan,2000,0.126
+BOL,Bolivia,2000,0.504
+BIH,Bosnia and Herzegovina,2000,1.537
+BWA,Botswana,2000,-0.562
+BRA,Brazil,2000,0.552
+VGB,British Virgin Islands,2000,0.043
+BRN,Brunei Darussalam,2000,0.3
+BGR,Bulgaria,2000,1.202
+BFA,Burkina Faso,2000,0.624
+BDI,Burundi,2000,0.525
+CPV,Cabo Verde,2000,1.125
+KHM,Cambodia,2000,0.231
+CMR,Cameroon,2000,0.49
+CAN,Canada,2000,1.292
+CYM,Cayman Islands,2000,
+CAF,Central African Rep.,2000,0.807
+TCD,Chad,2000,0.377
+CHL,Chile,2000,-0.277
+HKG,"China, P.R.: Hong Kong",2000,0.275
+MAC,"China, P.R.: Macao",2000,0.275
+CHN,"China, P.R.: Mainland",2000,0.579
+COL,Colombia,2000,-0.144
+COM,"Comoros, Union of the",2000,0.071
+COD,"Congo, Dem. Rep. of the",2000,0.532
+COG,"Congo, Rep. of",2000,0.442
+COK,Cook Islands,2000,0.539
+CRI,Costa Rica,2000,-0.185
+HRV,"Croatia, Rep. of",2000,1.63
+CUB,Cuba,2000,0.538
+CYP,Cyprus,2000,0.671
+CZE,Czech Rep.,2000,1.929
+DNK,Denmark,2000,1.716
+DJI,Djibouti,2000,0.943
+DMA,Dominica,2000,0.149
+DOM,Dominican Rep.,2000,0.498
+ECU,Ecuador,2000,0.215
+EGY,"Egypt, Arab Rep. of",2000,0.082
+SLV,El Salvador,2000,0.033
+GNQ,"Equatorial Guinea, Rep. of",2000,0.353
+ERI,"Eritrea, The State of",2000,0.549
+EST,"Estonia, Rep. of",2000,2.049
+SWZ,"Eswatini, Kingdom of",2000,-0.235
+ETH,"Ethiopia, The Federal Dem. Rep. of",2000,0.572
+FLK,Falkland Islands (Malvinas),2000,
+FRO,Faroe Islands,2000,0.214
+FJI,"Fiji, Rep. of",2000,0.618
+FIN,Finland,2000,2.046
+FRA,France,2000,1.143
+PYF,French Polynesia,2000,0.188
+GAB,Gabon,2000,0.293
+GMB,"Gambia, The",2000,1.126
+GEO,Georgia,2000,0.973
+DEU,Germany,2000,1.762
+GHA,Ghana,2000,0.479
+GIB,Gibraltar,2000,0.843
+GRC,Greece,2000,0.697
+GRL,Greenland,2000,0.824
+GRD,Grenada,2000,0.24
+GLP,Guadeloupe,2000,0.136
+GTM,Guatemala,2000,0.383
+GUF,"Guiana, French",2000,0.578
+GIN,Guinea,2000,0.686
+GNB,Guinea-Bissau,2000,1.179
+GUY,Guyana,2000,0.55
+HTI,Haiti,2000,0.825
+VAT,Holy See,2000,1.217
+HND,Honduras,2000,0.13
+HUN,Hungary,2000,1.764
+ISL,Iceland,2000,0.316
+IND,India,2000,0.339
+IDN,Indonesia,2000,0.271
+IRN,"Iran, Islamic Rep. of",2000,1.188
+IRQ,Iraq,2000,0.87
+IRL,Ireland,2000,0.555
+IMN,Isle of Man,2000,0.619
+ISR,Israel,2000,0.157
+ITA,Italy,2000,1.254
+JAM,Jamaica,2000,0.292
+JPN,Japan,2000,0.6
+JOR,Jordan,2000,0.255
+KAZ,"Kazakhstan, Rep. of",2000,1.491
+KEN,Kenya,2000,0.504
+KIR,Kiribati,2000,0.071
+PRK,"Korea, Dem. People's Rep. of",2000,0.655
+KOR,"Korea, Rep. of",2000,0.43
+KWT,Kuwait,2000,1.177
+KGZ,Kyrgyz Rep.,2000,1.09
+LAO,Lao People's Dem. Rep.,2000,0.039
+LVA,Latvia,2000,2.004
+LBN,Lebanon,2000,0.502
+LSO,"Lesotho, Kingdom of",2000,0.305
+LBR,Liberia,2000,0.505
+LBY,Libya,2000,0.237
+LIE,Liechtenstein,2000,1.462
+LTU,Lithuania,2000,2.03
+LUX,Luxembourg,2000,1.648
+MDG,"Madagascar, Rep. of",2000,0.429
+MWI,Malawi,2000,0.697
+MYS,Malaysia,2000,0.361
+MDV,Maldives,2000,0.277
+MLI,Mali,2000,0.721
+MLT,Malta,2000,1.067
+MHL,"Marshall Islands, Rep. of the",2000,-0.132
+MTQ,Martinique,2000,0.14
+MRT,"Mauritania, Islamic Rep. of",2000,1.185
+MUS,Mauritius,2000,0.386
+MYT,Mayotte,2000,0.156
+MEX,Mexico,2000,0.575
+FSM,"Micronesia, Federated States of",2000,-0.097
+MDA,"Moldova, Rep. of",2000,1.46
+MCO,Monaco,2000,1.097
+MNG,Mongolia,2000,1.011
+MNE,Montenegro,2000,
+MSR,Montserrat,2000,0.186
+MAR,Morocco,2000,0.909
+MOZ,"Mozambique, Rep. of",2000,0.23
+MMR,Myanmar,2000,0.236
+NAM,Namibia,2000,-0.227
+NRU,"Nauru, Rep. of",2000,
+NPL,Nepal,2000,0.168
+NLD,"Netherlands, The",2000,1.6
+NCL,New Caledonia,2000,0.345
+NZL,New Zealand,2000,0.261
+NIC,Nicaragua,2000,0.085
+NER,Niger,2000,0.879
+NGA,Nigeria,2000,0.565
+NIU,Niue,2000,
+NFK,Norfolk Island,2000,0.283
+MKD,"North Macedonia, Republic of ",2000,1.112
+NOR,Norway,2000,1.446
+OMN,Oman,2000,0.781
+PAK,Pakistan,2000,0.714
+PLW,"Palau, Rep. of",2000,0.546
+PAN,Panama,2000,-0.046
+PNG,Papua New Guinea,2000,0.286
+PRY,Paraguay,2000,0.046
+PER,Peru,2000,0.378
+PHL,Philippines,2000,0.642
+PCN,Pitcairn Islands,2000,0.361
+POL,"Poland, Rep. of",2000,1.889
+PRT,Portugal,2000,0.658
+PRI,Puerto Rico,2000,0.169
+QAT,Qatar,2000,1.015
+ROU,Romania,2000,1.343
+RUS,Russian Federation,2000,1.327
+RWA,Rwanda,2000,0.349
+SHN,Saint Helena,2000,1.483
+SPM,Saint Pierre and Miquelon,2000,1.148
+WSM,Samoa,2000,0.6
+SMR,"San Marino, Rep. of",2000,1.426
+STP,"São Tomé and Príncipe, Dem. Rep. of",2000,0.4
+SAU,Saudi Arabia,2000,0.712
+SEN,Senegal,2000,0.961
+SRB,"Serbia, Rep. of",2000,
+SYC,Seychelles,2000,0.419
+SLE,Sierra Leone,2000,
+SGP,Singapore,2000,0.59
+SVK,Slovak Rep.,2000,1.65
+SVN,"Slovenia, Rep. of",2000,1.832
+SLB,Solomon Islands,2000,0.343
+SOM,Somalia,2000,0.617
+ZAF,South Africa,2000,0.27
+SSD,"South Sudan, Rep. of",2000,
+ESP,Spain,2000,0.837
+LKA,Sri Lanka,2000,0.582
+KNA,St. Kitts and Nevis,2000,0.186
+LCA,St. Lucia,2000,0.181
+VCT,St. Vincent and the Grenadines,2000,0.236
+SDN,Sudan,2000,
+SUR,Suriname,2000,0.613
+SWE,Sweden,2000,1.739
+CHE,Switzerland,2000,1.411
+SYR,Syrian Arab Rep.,2000,0.633
+TWN,Taiwan Province of China,2000,0.335
+TJK,"Tajikistan, Rep. of",2000,0.945
+TZA,"Tanzania, United Rep. of",2000,0.454
+THA,Thailand,2000,0.076
+TLS,"Timor-Leste, Dem. Rep. of",2000,
+TGO,Togo,2000,0.54
+TKL,Tokelau,2000,
+TON,Tonga,2000,0.393
+TTO,Trinidad and Tobago,2000,0.353
+TUN,Tunisia,2000,1.068
+TUR,Turkey,2000,0.516
+TKM,Turkmenistan,2000,1.289
+TCA,Turks and Caicos Islands,2000,
+TUV,Tuvalu,2000,0.418
+UGA,Uganda,2000,0.41
+UKR,Ukraine,2000,1.424
+ARE,United Arab Emirates,2000,0.835
+GBR,United Kingdom,2000,0.716
+USA,United States,2000,1.0
+VIR,United States Virgin Islands,2000,0.058
+URY,Uruguay,2000,0.402
+UZB,"Uzbekistan, Rep. of",2000,1.386
+VUT,Vanuatu,2000,0.842
+VEN,"Venezuela, Rep. Bolivariana de",2000,0.082
+VNM,Vietnam,2000,0.178
+WLF,Wallis and Futuna Islands,2000,0.464
+PSE,West Bank and Gaza,2000,0.15
+ESH,Western Sahara,2000,0.926
+WLD,World,2000,0.732
+YEM,"Yemen, Rep. of",2000,
+ZMB,Zambia,2000,0.113
+ZWE,Zimbabwe,2000,-0.287
+AFG,"Afghanistan, Islamic Rep. of",2001,1.355
+ALB,Albania,2001,1.573
+DZA,Algeria,2001,1.897
+ASM,American Samoa,2001,0.962
+AND,"Andorra, Principality of",2001,1.409
+AGO,Angola,2001,0.326
+AIA,Anguilla,2001,0.471
+ATG,Antigua and Barbuda,2001,
+ARG,Argentina,2001,0.392
+ARM,"Armenia, Rep. of",2001,1.461
+ABW,"Aruba, Kingdom of the Netherlands",2001,
+AUS,Australia,2001,0.304
+AUT,Austria,2001,1.523
+AZE,"Azerbaijan, Rep. of",2001,1.393
+BHS,"Bahamas, The",2001,0.248
+BHR,"Bahrain, Kingdom of",2001,1.24
+BGD,Bangladesh,2001,0.461
+BRB,Barbados,2001,0.395
+BLR,"Belarus, Rep. of",2001,1.979
+BEL,Belgium,2001,1.341
+BLZ,Belize,2001,0.339
+BEN,Benin,2001,0.55
+BTN,Bhutan,2001,0.655
+BOL,Bolivia,2001,0.822
+BIH,Bosnia and Herzegovina,2001,1.549
+BWA,Botswana,2001,-0.055
+BRA,Brazil,2001,0.759
+VGB,British Virgin Islands,2001,0.48
+BRN,Brunei Darussalam,2001,0.432
+BGR,Bulgaria,2001,1.646
+BFA,Burkina Faso,2001,0.578
+BDI,Burundi,2001,0.436
+CPV,Cabo Verde,2001,1.415
+KHM,Cambodia,2001,0.611
+CMR,Cameroon,2001,0.284
+CAN,Canada,2001,1.424
+CYM,Cayman Islands,2001,
+CAF,Central African Rep.,2001,0.518
+TCD,Chad,2001,0.294
+CHL,Chile,2001,-0.019
+HKG,"China, P.R.: Hong Kong",2001,0.813
+MAC,"China, P.R.: Macao",2001,0.813
+CHN,"China, P.R.: Mainland",2001,1.046
+COL,Colombia,2001,0.344
+COM,"Comoros, Union of the",2001,0.22
+COD,"Congo, Dem. Rep. of the",2001,0.39
+COG,"Congo, Rep. of",2001,0.373
+COK,Cook Islands,2001,0.624
+CRI,Costa Rica,2001,0.454
+HRV,"Croatia, Rep. of",2001,1.612
+CUB,Cuba,2001,0.521
+CYP,Cyprus,2001,1.218
+CZE,Czech Rep.,2001,1.246
+DNK,Denmark,2001,1.04
+DJI,Djibouti,2001,0.893
+DMA,Dominica,2001,0.395
+DOM,Dominican Rep.,2001,0.795
+ECU,Ecuador,2001,0.428
+EGY,"Egypt, Arab Rep. of",2001,0.722
+SLV,El Salvador,2001,0.482
+GNQ,"Equatorial Guinea, Rep. of",2001,0.354
+ERI,"Eritrea, The State of",2001,0.484
+EST,"Estonia, Rep. of",2001,1.824
+SWZ,"Eswatini, Kingdom of",2001,0.383
+ETH,"Ethiopia, The Federal Dem. Rep. of",2001,0.732
+FLK,Falkland Islands (Malvinas),2001,
+FRO,Faroe Islands,2001,0.474
+FJI,"Fiji, Rep. of",2001,0.656
+FIN,Finland,2001,1.386
+FRA,France,2001,1.362
+PYF,French Polynesia,2001,0.362
+GAB,Gabon,2001,0.257
+GMB,"Gambia, The",2001,1.411
+GEO,Georgia,2001,1.288
+DEU,Germany,2001,1.29
+GHA,Ghana,2001,0.612
+GIB,Gibraltar,2001,1.299
+GRC,Greece,2001,1.334
+GRL,Greenland,2001,0.818
+GRD,Grenada,2001,0.466
+GLP,Guadeloupe,2001,0.434
+GTM,Guatemala,2001,0.455
+GUF,"Guiana, French",2001,0.652
+GIN,Guinea,2001,0.962
+GNB,Guinea-Bissau,2001,1.415
+GUY,Guyana,2001,0.691
+HTI,Haiti,2001,0.627
+VAT,Holy See,2001,1.583
+HND,Honduras,2001,0.39
+HUN,Hungary,2001,1.42
+ISL,Iceland,2001,0.623
+IND,India,2001,0.472
+IDN,Indonesia,2001,0.515
+IRN,"Iran, Islamic Rep. of",2001,1.491
+IRQ,Iraq,2001,1.171
+IRL,Ireland,2001,0.538
+IMN,Isle of Man,2001,0.51
+ISR,Israel,2001,0.769
+ITA,Italy,2001,1.553
+JAM,Jamaica,2001,0.549
+JPN,Japan,2001,0.383
+JOR,Jordan,2001,0.864
+KAZ,"Kazakhstan, Rep. of",2001,1.632
+KEN,Kenya,2001,0.59
+KIR,Kiribati,2001,0.353
+PRK,"Korea, Dem. People's Rep. of",2001,0.909
+KOR,"Korea, Rep. of",2001,0.898
+KWT,Kuwait,2001,1.301
+KGZ,Kyrgyz Rep.,2001,1.436
+LAO,Lao People's Dem. Rep.,2001,0.721
+LVA,Latvia,2001,1.814
+LBN,Lebanon,2001,1.105
+LSO,"Lesotho, Kingdom of",2001,0.558
+LBR,Liberia,2001,0.691
+LBY,Libya,2001,1.218
+LIE,Liechtenstein,2001,1.445
+LTU,Lithuania,2001,1.809
+LUX,Luxembourg,2001,1.43
+MDG,"Madagascar, Rep. of",2001,0.593
+MWI,Malawi,2001,0.587
+MYS,Malaysia,2001,0.575
+MDV,Maldives,2001,0.475
+MLI,Mali,2001,0.641
+MLT,Malta,2001,1.677
+MHL,"Marshall Islands, Rep. of the",2001,0.192
+MTQ,Martinique,2001,0.39
+MRT,"Mauritania, Islamic Rep. of",2001,1.342
+MUS,Mauritius,2001,0.77
+MYT,Mayotte,2001,0.318
+MEX,Mexico,2001,0.495
+FSM,"Micronesia, Federated States of",2001,0.178
+MDA,"Moldova, Rep. of",2001,1.68
+MCO,Monaco,2001,1.378
+MNG,Mongolia,2001,1.718
+MNE,Montenegro,2001,
+MSR,Montserrat,2001,
+MAR,Morocco,2001,1.812
+MOZ,"Mozambique, Rep. of",2001,0.422
+MMR,Myanmar,2001,0.691
+NAM,Namibia,2001,0.182
+NRU,"Nauru, Rep. of",2001,
+NPL,Nepal,2001,0.534
+NLD,"Netherlands, The",2001,1.274
+NCL,New Caledonia,2001,0.586
+NZL,New Zealand,2001,0.565
+NIC,Nicaragua,2001,0.47
+NER,Niger,2001,0.373
+NGA,Nigeria,2001,0.249
+NIU,Niue,2001,
+NFK,Norfolk Island,2001,0.76
+MKD,"North Macedonia, Republic of ",2001,1.621
+NOR,Norway,2001,0.632
+OMN,Oman,2001,0.835
+PAK,Pakistan,2001,0.803
+PLW,"Palau, Rep. of",2001,
+PAN,Panama,2001,0.343
+PNG,Papua New Guinea,2001,0.449
+PRY,Paraguay,2001,0.579
+PER,Peru,2001,0.444
+PHL,Philippines,2001,0.738
+PCN,Pitcairn Islands,2001,0.118
+POL,"Poland, Rep. of",2001,1.287
+PRT,Portugal,2001,1.166
+PRI,Puerto Rico,2001,0.651
+QAT,Qatar,2001,1.038
+ROU,Romania,2001,1.536
+RUS,Russian Federation,2001,0.823
+RWA,Rwanda,2001,0.336
+SHN,Saint Helena,2001,1.099
+SPM,Saint Pierre and Miquelon,2001,0.573
+WSM,Samoa,2001,0.877
+SMR,"San Marino, Rep. of",2001,1.704
+STP,"São Tomé and Príncipe, Dem. Rep. of",2001,0.246
+SAU,Saudi Arabia,2001,0.833
+SEN,Senegal,2001,1.176
+SRB,"Serbia, Rep. of",2001,
+SYC,Seychelles,2001,0.762
+SLE,Sierra Leone,2001,1.258
+SGP,Singapore,2001,0.601
+SVK,Slovak Rep.,2001,1.267
+SVN,"Slovenia, Rep. of",2001,1.761
+SLB,Solomon Islands,2001,
+SOM,Somalia,2001,1.041
+ZAF,South Africa,2001,0.515
+SSD,"South Sudan, Rep. of",2001,
+ESP,Spain,2001,1.44
+LKA,Sri Lanka,2001,0.823
+KNA,St. Kitts and Nevis,2001,
+LCA,St. Lucia,2001,0.418
+VCT,St. Vincent and the Grenadines,2001,0.465
+SDN,Sudan,2001,
+SUR,Suriname,2001,0.598
+SWE,Sweden,2001,1.087
+CHE,Switzerland,2001,1.44
+SYR,Syrian Arab Rep.,2001,1.128
+TWN,Taiwan Province of China,2001,0.739
+TJK,"Tajikistan, Rep. of",2001,1.458
+TZA,"Tanzania, United Rep. of",2001,0.355
+THA,Thailand,2001,0.68
+TLS,"Timor-Leste, Dem. Rep. of",2001,
+TGO,Togo,2001,0.675
+TKL,Tokelau,2001,
+TON,Tonga,2001,0.658
+TTO,Trinidad and Tobago,2001,0.504
+TUN,Tunisia,2001,2.039
+TUR,Turkey,2001,1.512
+TKM,Turkmenistan,2001,1.515
+TCA,Turks and Caicos Islands,2001,
+TUV,Tuvalu,2001,0.684
+UGA,Uganda,2001,0.341
+UKR,Ukraine,2001,1.795
+ARE,United Arab Emirates,2001,0.702
+GBR,United Kingdom,2001,0.626
+USA,United States,2001,0.784
+VIR,United States Virgin Islands,2001,0.508
+URY,Uruguay,2001,1.312
+UZB,"Uzbekistan, Rep. of",2001,1.552
+VUT,Vanuatu,2001,0.575
+VEN,"Venezuela, Rep. Bolivariana de",2001,0.428
+VNM,Vietnam,2001,0.716
+WLF,Wallis and Futuna Islands,2001,0.677
+PSE,West Bank and Gaza,2001,0.764
+ESH,Western Sahara,2001,1.345
+WLD,World,2001,0.835
+YEM,"Yemen, Rep. of",2001,
+ZMB,Zambia,2001,0.332
+ZWE,Zimbabwe,2001,0.157
+AFG,"Afghanistan, Islamic Rep. of",2002,1.361
+ALB,Albania,2002,0.533
+DZA,Algeria,2002,1.291
+ASM,American Samoa,2002,1.211
+AND,"Andorra, Principality of",2002,0.766
+AGO,Angola,2002,0.759
+AIA,Anguilla,2002,0.573
+ATG,Antigua and Barbuda,2002,0.499
+ARG,Argentina,2002,0.259
+ARM,"Armenia, Rep. of",2002,1.262
+ABW,"Aruba, Kingdom of the Netherlands",2002,
+AUS,Australia,2002,0.687
+AUT,Austria,2002,1.556
+AZE,"Azerbaijan, Rep. of",2002,1.421
+BHS,"Bahamas, The",2002,0.969
+BHR,"Bahrain, Kingdom of",2002,1.584
+BGD,Bangladesh,2002,0.52
+BRB,Barbados,2002,0.372
+BLR,"Belarus, Rep. of",2002,1.89
+BEL,Belgium,2002,1.402
+BLZ,Belize,2002,0.643
+BEN,Benin,2002,0.74
+BTN,Bhutan,2002,0.458
+BOL,Bolivia,2002,1.125
+BIH,Bosnia and Herzegovina,2002,1.163
+BWA,Botswana,2002,0.532
+BRA,Brazil,2002,1.059
+VGB,British Virgin Islands,2002,0.647
+BRN,Brunei Darussalam,2002,0.552
+BGR,Bulgaria,2002,0.848
+BFA,Burkina Faso,2002,1.075
+BDI,Burundi,2002,0.878
+CPV,Cabo Verde,2002,1.445
+KHM,Cambodia,2002,0.669
+CMR,Cameroon,2002,0.851
+CAN,Canada,2002,0.554
+CYM,Cayman Islands,2002,
+CAF,Central African Rep.,2002,0.896
+TCD,Chad,2002,0.781
+CHL,Chile,2002,0.046
+HKG,"China, P.R.: Hong Kong",2002,0.903
+MAC,"China, P.R.: Macao",2002,0.903
+CHN,"China, P.R.: Mainland",2002,1.141
+COL,Colombia,2002,0.567
+COM,"Comoros, Union of the",2002,0.675
+COD,"Congo, Dem. Rep. of the",2002,0.842
+COG,"Congo, Rep. of",2002,0.767
+COK,Cook Islands,2002,0.512
+CRI,Costa Rica,2002,0.507
+HRV,"Croatia, Rep. of",2002,1.276
+CUB,Cuba,2002,0.848
+CYP,Cyprus,2002,0.888
+CZE,Czech Rep.,2002,1.549
+DNK,Denmark,2002,1.647
+DJI,Djibouti,2002,1.472
+DMA,Dominica,2002,0.522
+DOM,Dominican Rep.,2002,0.871
+ECU,Ecuador,2002,0.727
+EGY,"Egypt, Arab Rep. of",2002,0.838
+SLV,El Salvador,2002,0.68
+GNQ,"Equatorial Guinea, Rep. of",2002,0.623
+ERI,"Eritrea, The State of",2002,1.07
+EST,"Estonia, Rep. of",2002,1.472
+SWZ,"Eswatini, Kingdom of",2002,0.344
+ETH,"Ethiopia, The Federal Dem. Rep. of",2002,1.094
+FLK,Falkland Islands (Malvinas),2002,
+FRO,Faroe Islands,2002,1.045
+FJI,"Fiji, Rep. of",2002,0.639
+FIN,Finland,2002,1.19
+FRA,France,2002,1.023
+PYF,French Polynesia,2002,0.661
+GAB,Gabon,2002,0.647
+GMB,"Gambia, The",2002,1.531
+GEO,Georgia,2002,1.038
+DEU,Germany,2002,1.488
+GHA,Ghana,2002,0.871
+GIB,Gibraltar,2002,0.883
+GRC,Greece,2002,0.465
+GRL,Greenland,2002,1.173
+GRD,Grenada,2002,0.421
+GLP,Guadeloupe,2002,0.544
+GTM,Guatemala,2002,0.702
+GUF,"Guiana, French",2002,0.819
+GIN,Guinea,2002,1.308
+GNB,Guinea-Bissau,2002,1.51
+GUY,Guyana,2002,0.79
+HTI,Haiti,2002,0.854
+VAT,Holy See,2002,0.854
+HND,Honduras,2002,0.804
+HUN,Hungary,2002,1.453
+ISL,Iceland,2002,0.834
+IND,India,2002,0.832
+IDN,Indonesia,2002,0.608
+IRN,"Iran, Islamic Rep. of",2002,1.666
+IRQ,Iraq,2002,1.048
+IRL,Ireland,2002,0.821
+IMN,Isle of Man,2002,0.889
+ISR,Israel,2002,0.647
+ITA,Italy,2002,0.938
+JAM,Jamaica,2002,0.794
+JPN,Japan,2002,0.599
+JOR,Jordan,2002,0.547
+KAZ,"Kazakhstan, Rep. of",2002,2.246
+KEN,Kenya,2002,0.72
+KIR,Kiribati,2002,0.454
+PRK,"Korea, Dem. People's Rep. of",2002,0.913
+KOR,"Korea, Rep. of",2002,0.655
+KWT,Kuwait,2002,1.631
+KGZ,Kyrgyz Rep.,2002,1.425
+LAO,Lao People's Dem. Rep.,2002,0.601
+LVA,Latvia,2002,1.716
+LBN,Lebanon,2002,0.792
+LSO,"Lesotho, Kingdom of",2002,0.485
+LBR,Liberia,2002,1.033
+LBY,Libya,2002,0.825
+LIE,Liechtenstein,2002,1.395
+LTU,Lithuania,2002,1.92
+LUX,Luxembourg,2002,1.391
+MDG,"Madagascar, Rep. of",2002,0.569
+MWI,Malawi,2002,0.684
+MYS,Malaysia,2002,0.674
+MDV,Maldives,2002,0.634
+MLI,Mali,2002,1.286
+MLT,Malta,2002,0.934
+MHL,"Marshall Islands, Rep. of the",2002,0.352
+MTQ,Martinique,2002,0.535
+MRT,"Mauritania, Islamic Rep. of",2002,1.28
+MUS,Mauritius,2002,0.674
+MYT,Mayotte,2002,0.764
+MEX,Mexico,2002,0.656
+FSM,"Micronesia, Federated States of",2002,0.067
+MDA,"Moldova, Rep. of",2002,1.419
+MCO,Monaco,2002,0.91
+MNG,Mongolia,2002,1.815
+MNE,Montenegro,2002,
+MSR,Montserrat,2002,0.499
+MAR,Morocco,2002,1.199
+MOZ,"Mozambique, Rep. of",2002,0.503
+MMR,Myanmar,2002,0.734
+NAM,Namibia,2002,0.583
+NRU,"Nauru, Rep. of",2002,
+NPL,Nepal,2002,0.633
+NLD,"Netherlands, The",2002,1.531
+NCL,New Caledonia,2002,0.584
+NZL,New Zealand,2002,0.412
+NIC,Nicaragua,2002,0.613
+NER,Niger,2002,0.727
+NGA,Nigeria,2002,0.779
+NIU,Niue,2002,
+NFK,Norfolk Island,2002,0.594
+MKD,"North Macedonia, Republic of ",2002,0.395
+NOR,Norway,2002,1.404
+OMN,Oman,2002,0.956
+PAK,Pakistan,2002,1.019
+PLW,"Palau, Rep. of",2002,
+PAN,Panama,2002,0.509
+PNG,Papua New Guinea,2002,0.737
+PRY,Paraguay,2002,1.073
+PER,Peru,2002,0.756
+PHL,Philippines,2002,0.64
+PCN,Pitcairn Islands,2002,0.458
+POL,"Poland, Rep. of",2002,1.701
+PRT,Portugal,2002,0.671
+PRI,Puerto Rico,2002,0.785
+QAT,Qatar,2002,1.506
+ROU,Romania,2002,1.216
+RUS,Russian Federation,2002,1.597
+RWA,Rwanda,2002,0.653
+SHN,Saint Helena,2002,1.2
+SPM,Saint Pierre and Miquelon,2002,0.003
+WSM,Samoa,2002,1.125
+SMR,"San Marino, Rep. of",2002,1.146
+STP,"São Tomé and Príncipe, Dem. Rep. of",2002,0.617
+SAU,Saudi Arabia,2002,1.035
+SEN,Senegal,2002,1.44
+SRB,"Serbia, Rep. of",2002,
+SYC,Seychelles,2002,0.534
+SLE,Sierra Leone,2002,1.419
+SGP,Singapore,2002,0.796
+SVK,Slovak Rep.,2002,1.407
+SVN,"Slovenia, Rep. of",2002,1.556
+SLB,Solomon Islands,2002,
+SOM,Somalia,2002,1.038
+ZAF,South Africa,2002,0.453
+SSD,"South Sudan, Rep. of",2002,
+ESP,Spain,2002,0.842
+LKA,Sri Lanka,2002,0.972
+KNA,St. Kitts and Nevis,2002,0.499
+LCA,St. Lucia,2002,0.477
+VCT,St. Vincent and the Grenadines,2002,0.424
+SDN,Sudan,2002,
+SUR,Suriname,2002,0.935
+SWE,Sweden,2002,1.583
+CHE,Switzerland,2002,1.252
+SYR,Syrian Arab Rep.,2002,0.833
+TWN,Taiwan Province of China,2002,0.896
+TJK,"Tajikistan, Rep. of",2002,1.227
+TZA,"Tanzania, United Rep. of",2002,0.584
+THA,Thailand,2002,0.673
+TLS,"Timor-Leste, Dem. Rep. of",2002,
+TGO,Togo,2002,0.738
+TKL,Tokelau,2002,
+TON,Tonga,2002,0.816
+TTO,Trinidad and Tobago,2002,0.364
+TUN,Tunisia,2002,1.303
+TUR,Turkey,2002,0.784
+TKM,Turkmenistan,2002,1.759
+TCA,Turks and Caicos Islands,2002,
+TUV,Tuvalu,2002,0.708
+UGA,Uganda,2002,0.736
+UKR,Ukraine,2002,1.54
+ARE,United Arab Emirates,2002,1.231
+GBR,United Kingdom,2002,1.007
+USA,United States,2002,0.953
+VIR,United States Virgin Islands,2002,0.669
+URY,Uruguay,2002,0.673
+UZB,"Uzbekistan, Rep. of",2002,1.82
+VUT,Vanuatu,2002,0.554
+VEN,"Venezuela, Rep. Bolivariana de",2002,0.432
+VNM,Vietnam,2002,0.72
+WLF,Wallis and Futuna Islands,2002,0.784
+PSE,West Bank and Gaza,2002,0.642
+ESH,Western Sahara,2002,1.298
+WLD,World,2002,1.015
+YEM,"Yemen, Rep. of",2002,
+ZMB,Zambia,2002,0.74
+ZWE,Zimbabwe,2002,0.524
+AFG,"Afghanistan, Islamic Rep. of",2003,0.632
+ALB,Albania,2003,1.016
+DZA,Algeria,2003,1.635
+ASM,American Samoa,2003,0.702
+AND,"Andorra, Principality of",2003,1.909
+AGO,Angola,2003,0.948
+AIA,Anguilla,2003,0.689
+ATG,Antigua and Barbuda,2003,0.65
+ARG,Argentina,2003,0.593
+ARM,"Armenia, Rep. of",2003,0.155
+ABW,"Aruba, Kingdom of the Netherlands",2003,0.824
+AUS,Australia,2003,0.778
+AUT,Austria,2003,1.487
+AZE,"Azerbaijan, Rep. of",2003,-0.162
+BHS,"Bahamas, The",2003,1.117
+BHR,"Bahrain, Kingdom of",2003,1.267
+BGD,Bangladesh,2003,0.373
+BRB,Barbados,2003,0.76
+BLR,"Belarus, Rep. of",2003,0.084
+BEL,Belgium,2003,1.532
+BLZ,Belize,2003,0.881
+BEN,Benin,2003,0.994
+BTN,Bhutan,2003,0.502
+BOL,Bolivia,2003,0.901
+BIH,Bosnia and Herzegovina,2003,1.11
+BWA,Botswana,2003,1.105
+BRA,Brazil,2003,0.975
+VGB,British Virgin Islands,2003,0.727
+BRN,Brunei Darussalam,2003,0.725
+BGR,Bulgaria,2003,0.173
+BFA,Burkina Faso,2003,1.054
+BDI,Burundi,2003,0.947
+CPV,Cabo Verde,2003,0.956
+KHM,Cambodia,2003,0.657
+CMR,Cameroon,2003,0.983
+CAN,Canada,2003,1.257
+CYM,Cayman Islands,2003,
+CAF,Central African Rep.,2003,0.964
+TCD,Chad,2003,0.835
+CHL,Chile,2003,0.246
+HKG,"China, P.R.: Hong Kong",2003,0.902
+MAC,"China, P.R.: Macao",2003,0.902
+CHN,"China, P.R.: Mainland",2003,0.831
+COL,Colombia,2003,0.621
+COM,"Comoros, Union of the",2003,0.352
+COD,"Congo, Dem. Rep. of the",2003,0.882
+COG,"Congo, Rep. of",2003,0.868
+COK,Cook Islands,2003,0.467
+CRI,Costa Rica,2003,0.724
+HRV,"Croatia, Rep. of",2003,1.292
+CUB,Cuba,2003,0.912
+CYP,Cyprus,2003,0.648
+CZE,Czech Rep.,2003,1.101
+DNK,Denmark,2003,0.711
+DJI,Djibouti,2003,1.312
+DMA,Dominica,2003,0.609
+DOM,Dominican Rep.,2003,1.054
+ECU,Ecuador,2003,0.756
+EGY,"Egypt, Arab Rep. of",2003,0.73
+SLV,El Salvador,2003,0.875
+GNQ,"Equatorial Guinea, Rep. of",2003,0.908
+ERI,"Eritrea, The State of",2003,0.647
+EST,"Estonia, Rep. of",2003,0.229
+SWZ,"Eswatini, Kingdom of",2003,0.376
+ETH,"Ethiopia, The Federal Dem. Rep. of",2003,1.109
+FLK,Falkland Islands (Malvinas),2003,
+FRO,Faroe Islands,2003,1.614
+FJI,"Fiji, Rep. of",2003,0.539
+FIN,Finland,2003,0.732
+FRA,France,2003,1.771
+PYF,French Polynesia,2003,0.565
+GAB,Gabon,2003,0.868
+GMB,"Gambia, The",2003,1.202
+GEO,Georgia,2003,-0.251
+DEU,Germany,2003,1.259
+GHA,Ghana,2003,1.038
+GIB,Gibraltar,2003,1.424
+GRC,Greece,2003,0.409
+GRL,Greenland,2003,2.314
+GRD,Grenada,2003,0.746
+GLP,Guadeloupe,2003,0.678
+GTM,Guatemala,2003,0.887
+GUF,"Guiana, French",2003,0.954
+GIN,Guinea,2003,1.235
+GNB,Guinea-Bissau,2003,1.236
+GUY,Guyana,2003,1.202
+HTI,Haiti,2003,1.163
+VAT,Holy See,2003,1.615
+HND,Honduras,2003,0.763
+HUN,Hungary,2003,0.74
+ISL,Iceland,2003,1.855
+IND,India,2003,0.675
+IDN,Indonesia,2003,0.567
+IRN,"Iran, Islamic Rep. of",2003,0.883
+IRQ,Iraq,2003,0.848
+IRL,Ireland,2003,1.015
+IMN,Isle of Man,2003,1.048
+ISR,Israel,2003,0.477
+ITA,Italy,2003,1.54
+JAM,Jamaica,2003,0.961
+JPN,Japan,2003,0.293
+JOR,Jordan,2003,0.38
+KAZ,"Kazakhstan, Rep. of",2003,0.122
+KEN,Kenya,2003,0.868
+KIR,Kiribati,2003,0.537
+PRK,"Korea, Dem. People's Rep. of",2003,1.008
+KOR,"Korea, Rep. of",2003,0.633
+KWT,Kuwait,2003,1.584
+KGZ,Kyrgyz Rep.,2003,0.452
+LAO,Lao People's Dem. Rep.,2003,0.977
+LVA,Latvia,2003,0.242
+LBN,Lebanon,2003,0.604
+LSO,"Lesotho, Kingdom of",2003,0.662
+LBR,Liberia,2003,1.056
+LBY,Libya,2003,0.859
+LIE,Liechtenstein,2003,1.686
+LTU,Lithuania,2003,0.189
+LUX,Luxembourg,2003,1.694
+MDG,"Madagascar, Rep. of",2003,0.628
+MWI,Malawi,2003,0.937
+MYS,Malaysia,2003,0.693
+MDV,Maldives,2003,0.535
+MLI,Mali,2003,1.31
+MLT,Malta,2003,1.353
+MHL,"Marshall Islands, Rep. of the",2003,0.318
+MTQ,Martinique,2003,0.644
+MRT,"Mauritania, Islamic Rep. of",2003,1.192
+MUS,Mauritius,2003,0.961
+MYT,Mayotte,2003,0.437
+MEX,Mexico,2003,0.806
+FSM,"Micronesia, Federated States of",2003,0.085
+MDA,"Moldova, Rep. of",2003,-0.224
+MCO,Monaco,2003,1.643
+MNG,Mongolia,2003,0.525
+MNE,Montenegro,2003,
+MSR,Montserrat,2003,0.65
+MAR,Morocco,2003,1.69
+MOZ,"Mozambique, Rep. of",2003,0.541
+MMR,Myanmar,2003,0.719
+NAM,Namibia,2003,1.003
+NRU,"Nauru, Rep. of",2003,
+NPL,Nepal,2003,0.397
+NLD,"Netherlands, The",2003,1.209
+NCL,New Caledonia,2003,0.399
+NZL,New Zealand,2003,0.23
+NIC,Nicaragua,2003,0.689
+NER,Niger,2003,0.988
+NGA,Nigeria,2003,0.838
+NIU,Niue,2003,
+NFK,Norfolk Island,2003,0.225
+MKD,"North Macedonia, Republic of ",2003,0.656
+NOR,Norway,2003,1.116
+OMN,Oman,2003,0.951
+PAK,Pakistan,2003,0.534
+PLW,"Palau, Rep. of",2003,0.433
+PAN,Panama,2003,0.687
+PNG,Papua New Guinea,2003,0.496
+PRY,Paraguay,2003,0.708
+PER,Peru,2003,0.744
+PHL,Philippines,2003,0.688
+PCN,Pitcairn Islands,2003,-0.196
+POL,"Poland, Rep. of",2003,0.369
+PRT,Portugal,2003,1.446
+PRI,Puerto Rico,2003,0.913
+QAT,Qatar,2003,1.24
+ROU,Romania,2003,0.14
+RUS,Russian Federation,2003,1.002
+RWA,Rwanda,2003,0.89
+SHN,Saint Helena,2003,1.488
+SPM,Saint Pierre and Miquelon,2003,0.208
+WSM,Samoa,2003,0.624
+SMR,"San Marino, Rep. of",2003,1.659
+STP,"São Tomé and Príncipe, Dem. Rep. of",2003,0.866
+SAU,Saudi Arabia,2003,0.927
+SEN,Senegal,2003,1.148
+SRB,"Serbia, Rep. of",2003,
+SYC,Seychelles,2003,0.723
+SLE,Sierra Leone,2003,1.298
+SGP,Singapore,2003,0.834
+SVK,Slovak Rep.,2003,0.682
+SVN,"Slovenia, Rep. of",2003,1.482
+SLB,Solomon Islands,2003,0.354
+SOM,Somalia,2003,1.225
+ZAF,South Africa,2003,0.834
+SSD,"South Sudan, Rep. of",2003,
+ESP,Spain,2003,1.626
+LKA,Sri Lanka,2003,0.891
+KNA,St. Kitts and Nevis,2003,0.65
+LCA,St. Lucia,2003,0.711
+VCT,St. Vincent and the Grenadines,2003,0.751
+SDN,Sudan,2003,
+SUR,Suriname,2003,0.994
+SWE,Sweden,2003,0.932
+CHE,Switzerland,2003,1.845
+SYR,Syrian Arab Rep.,2003,0.51
+TWN,Taiwan Province of China,2003,0.839
+TJK,"Tajikistan, Rep. of",2003,0.619
+TZA,"Tanzania, United Rep. of",2003,0.983
+THA,Thailand,2003,0.803
+TLS,"Timor-Leste, Dem. Rep. of",2003,0.396
+TGO,Togo,2003,1.043
+TKL,Tokelau,2003,
+TON,Tonga,2003,0.551
+TTO,Trinidad and Tobago,2003,0.678
+TUN,Tunisia,2003,1.752
+TUR,Turkey,2003,0.288
+TKM,Turkmenistan,2003,0.042
+TCA,Turks and Caicos Islands,2003,
+TUV,Tuvalu,2003,0.483
+UGA,Uganda,2003,0.793
+UKR,Ukraine,2003,-0.269
+ARE,United Arab Emirates,2003,1.095
+GBR,United Kingdom,2003,1.188
+USA,United States,2003,0.992
+VIR,United States Virgin Islands,2003,0.758
+URY,Uruguay,2003,0.375
+UZB,"Uzbekistan, Rep. of",2003,0.132
+VUT,Vanuatu,2003,0.342
+VEN,"Venezuela, Rep. Bolivariana de",2003,0.853
+VNM,Vietnam,2003,1.054
+WLF,Wallis and Futuna Islands,2003,0.582
+PSE,West Bank and Gaza,2003,0.472
+ESH,Western Sahara,2003,1.435
+WLD,World,2003,0.895
+YEM,"Yemen, Rep. of",2003,
+ZMB,Zambia,2003,0.951
+ZWE,Zimbabwe,2003,0.497
+AFG,"Afghanistan, Islamic Rep. of",2004,1.37
+ALB,Albania,2004,0.453
+DZA,Algeria,2004,1.034
+ASM,American Samoa,2004,0.28
+AND,"Andorra, Principality of",2004,0.887
+AGO,Angola,2004,0.397
+AIA,Anguilla,2004,0.374
+ATG,Antigua and Barbuda,2004,0.331
+ARG,Argentina,2004,0.384
+ARM,"Armenia, Rep. of",2004,1.17
+ABW,"Aruba, Kingdom of the Netherlands",2004,0.425
+AUS,Australia,2004,0.666
+AUT,Austria,2004,0.857
+AZE,"Azerbaijan, Rep. of",2004,1.284
+BHS,"Bahamas, The",2004,0.449
+BHR,"Bahrain, Kingdom of",2004,1.389
+BGD,Bangladesh,2004,0.418
+BRB,Barbados,2004,0.614
+BLR,"Belarus, Rep. of",2004,0.934
+BEL,Belgium,2004,1.094
+BLZ,Belize,2004,0.64
+BEN,Benin,2004,0.764
+BTN,Bhutan,2004,0.478
+BOL,Bolivia,2004,1.091
+BIH,Bosnia and Herzegovina,2004,0.607
+BWA,Botswana,2004,0.277
+BRA,Brazil,2004,0.804
+VGB,British Virgin Islands,2004,0.417
+BRN,Brunei Darussalam,2004,0.562
+BGR,Bulgaria,2004,0.522
+BFA,Burkina Faso,2004,0.929
+BDI,Burundi,2004,1.061
+CPV,Cabo Verde,2004,0.985
+KHM,Cambodia,2004,0.582
+CMR,Cameroon,2004,0.912
+CAN,Canada,2004,0.508
+CYM,Cayman Islands,2004,
+CAF,Central African Rep.,2004,1.255
+TCD,Chad,2004,0.855
+CHL,Chile,2004,0.43
+HKG,"China, P.R.: Hong Kong",2004,0.67
+MAC,"China, P.R.: Macao",2004,0.67
+CHN,"China, P.R.: Mainland",2004,1.126
+COL,Colombia,2004,0.519
+COM,"Comoros, Union of the",2004,0.276
+COD,"Congo, Dem. Rep. of the",2004,0.915
+COG,"Congo, Rep. of",2004,0.859
+COK,Cook Islands,2004,0.493
+CRI,Costa Rica,2004,0.653
+HRV,"Croatia, Rep. of",2004,0.684
+CUB,Cuba,2004,0.653
+CYP,Cyprus,2004,0.684
+CZE,Czech Rep.,2004,0.842
+DNK,Denmark,2004,1.04
+DJI,Djibouti,2004,1.03
+DMA,Dominica,2004,0.314
+DOM,Dominican Rep.,2004,0.641
+ECU,Ecuador,2004,0.718
+EGY,"Egypt, Arab Rep. of",2004,0.643
+SLV,El Salvador,2004,0.747
+GNQ,"Equatorial Guinea, Rep. of",2004,0.756
+ERI,"Eritrea, The State of",2004,1.116
+EST,"Estonia, Rep. of",2004,1.179
+SWZ,"Eswatini, Kingdom of",2004,0.233
+ETH,"Ethiopia, The Federal Dem. Rep. of",2004,0.874
+FLK,Falkland Islands (Malvinas),2004,
+FRO,Faroe Islands,2004,1.029
+FJI,"Fiji, Rep. of",2004,0.43
+FIN,Finland,2004,1.25
+FRA,France,2004,0.945
+PYF,French Polynesia,2004,0.395
+GAB,Gabon,2004,0.764
+GMB,"Gambia, The",2004,1.228
+GEO,Georgia,2004,0.89
+DEU,Germany,2004,1.001
+GHA,Ghana,2004,0.794
+GIB,Gibraltar,2004,1.056
+GRC,Greece,2004,0.349
+GRL,Greenland,2004,1.454
+GRD,Grenada,2004,0.34
+GLP,Guadeloupe,2004,0.346
+GTM,Guatemala,2004,0.62
+GUF,"Guiana, French",2004,0.96
+GIN,Guinea,2004,1.256
+GNB,Guinea-Bissau,2004,1.306
+GUY,Guyana,2004,0.998
+HTI,Haiti,2004,0.83
+VAT,Holy See,2004,0.601
+HND,Honduras,2004,0.65
+HUN,Hungary,2004,0.582
+ISL,Iceland,2004,1.305
+IND,India,2004,0.563
+IDN,Indonesia,2004,0.524
+IRN,"Iran, Islamic Rep. of",2004,1.463
+IRQ,Iraq,2004,0.954
+IRL,Ireland,2004,0.887
+IMN,Isle of Man,2004,0.948
+ISR,Israel,2004,0.477
+ITA,Italy,2004,0.769
+JAM,Jamaica,2004,0.791
+JPN,Japan,2004,1.089
+JOR,Jordan,2004,0.5
+KAZ,"Kazakhstan, Rep. of",2004,2.159
+KEN,Kenya,2004,0.673
+KIR,Kiribati,2004,
+PRK,"Korea, Dem. People's Rep. of",2004,1.656
+KOR,"Korea, Rep. of",2004,1.209
+KWT,Kuwait,2004,1.54
+KGZ,Kyrgyz Rep.,2004,1.499
+LAO,Lao People's Dem. Rep.,2004,0.401
+LVA,Latvia,2004,1.014
+LBN,Lebanon,2004,0.629
+LSO,"Lesotho, Kingdom of",2004,0.707
+LBR,Liberia,2004,0.921
+LBY,Libya,2004,0.654
+LIE,Liechtenstein,2004,0.921
+LTU,Lithuania,2004,0.886
+LUX,Luxembourg,2004,1.016
+MDG,"Madagascar, Rep. of",2004,0.384
+MWI,Malawi,2004,0.871
+MYS,Malaysia,2004,0.658
+MDV,Maldives,2004,0.404
+MLI,Mali,2004,1.247
+MLT,Malta,2004,0.649
+MHL,"Marshall Islands, Rep. of the",2004,0.458
+MTQ,Martinique,2004,0.355
+MRT,"Mauritania, Islamic Rep. of",2004,1.283
+MUS,Mauritius,2004,0.575
+MYT,Mayotte,2004,0.343
+MEX,Mexico,2004,0.289
+FSM,"Micronesia, Federated States of",2004,0.276
+MDA,"Moldova, Rep. of",2004,0.703
+MCO,Monaco,2004,0.854
+MNG,Mongolia,2004,1.764
+MNE,Montenegro,2004,
+MSR,Montserrat,2004,0.331
+MAR,Morocco,2004,1.133
+MOZ,"Mozambique, Rep. of",2004,0.39
+MMR,Myanmar,2004,0.673
+NAM,Namibia,2004,0.705
+NRU,"Nauru, Rep. of",2004,
+NPL,Nepal,2004,0.456
+NLD,"Netherlands, The",2004,1.16
+NCL,New Caledonia,2004,0.518
+NZL,New Zealand,2004,0.025
+NIC,Nicaragua,2004,0.644
+NER,Niger,2004,0.723
+NGA,Nigeria,2004,0.757
+NIU,Niue,2004,
+NFK,Norfolk Island,2004,0.474
+MKD,"North Macedonia, Republic of ",2004,0.383
+NOR,Norway,2004,1.315
+OMN,Oman,2004,0.891
+PAK,Pakistan,2004,0.997
+PLW,"Palau, Rep. of",2004,0.699
+PAN,Panama,2004,0.443
+PNG,Papua New Guinea,2004,0.246
+PRY,Paraguay,2004,0.369
+PER,Peru,2004,0.71
+PHL,Philippines,2004,0.59
+PCN,Pitcairn Islands,2004,-0.592
+POL,"Poland, Rep. of",2004,0.786
+PRT,Portugal,2004,1.002
+PRI,Puerto Rico,2004,0.452
+QAT,Qatar,2004,1.285
+ROU,Romania,2004,0.56
+RUS,Russian Federation,2004,1.409
+RWA,Rwanda,2004,0.839
+SHN,Saint Helena,2004,1.454
+SPM,Saint Pierre and Miquelon,2004,0.634
+WSM,Samoa,2004,0.198
+SMR,"San Marino, Rep. of",2004,0.919
+STP,"São Tomé and Príncipe, Dem. Rep. of",2004,0.694
+SAU,Saudi Arabia,2004,0.922
+SEN,Senegal,2004,1.129
+SRB,"Serbia, Rep. of",2004,
+SYC,Seychelles,2004,0.456
+SLE,Sierra Leone,2004,1.585
+SGP,Singapore,2004,0.823
+SVK,Slovak Rep.,2004,0.58
+SVN,"Slovenia, Rep. of",2004,0.785
+SLB,Solomon Islands,2004,0.415
+SOM,Somalia,2004,0.633
+ZAF,South Africa,2004,0.938
+SSD,"South Sudan, Rep. of",2004,
+ESP,Spain,2004,1.022
+LKA,Sri Lanka,2004,0.804
+KNA,St. Kitts and Nevis,2004,0.331
+LCA,St. Lucia,2004,0.398
+VCT,St. Vincent and the Grenadines,2004,0.344
+SDN,Sudan,2004,
+SUR,Suriname,2004,0.996
+SWE,Sweden,2004,1.217
+CHE,Switzerland,2004,0.973
+SYR,Syrian Arab Rep.,2004,0.614
+TWN,Taiwan Province of China,2004,0.403
+TJK,"Tajikistan, Rep. of",2004,1.262
+TZA,"Tanzania, United Rep. of",2004,0.857
+THA,Thailand,2004,0.549
+TLS,"Timor-Leste, Dem. Rep. of",2004,0.46
+TGO,Togo,2004,0.771
+TKL,Tokelau,2004,
+TON,Tonga,2004,0.644
+TTO,Trinidad and Tobago,2004,0.316
+TUN,Tunisia,2004,0.971
+TUR,Turkey,2004,0.571
+TKM,Turkmenistan,2004,1.643
+TCA,Turks and Caicos Islands,2004,
+TUV,Tuvalu,2004,0.56
+UGA,Uganda,2004,0.71
+UKR,Ukraine,2004,0.924
+ARE,United Arab Emirates,2004,1.037
+GBR,United Kingdom,2004,1.03
+USA,United States,2004,0.866
+VIR,United States Virgin Islands,2004,0.42
+URY,Uruguay,2004,0.53
+UZB,"Uzbekistan, Rep. of",2004,1.912
+VUT,Vanuatu,2004,0.457
+VEN,"Venezuela, Rep. Bolivariana de",2004,0.508
+VNM,Vietnam,2004,0.413
+WLF,Wallis and Futuna Islands,2004,0.547
+PSE,West Bank and Gaza,2004,0.47
+ESH,Western Sahara,2004,1.585
+WLD,World,2004,0.916
+YEM,"Yemen, Rep. of",2004,
+ZMB,Zambia,2004,0.539
+ZWE,Zimbabwe,2004,0.227
+AFG,"Afghanistan, Islamic Rep. of",2005,0.477
+ALB,Albania,2005,0.216
+DZA,Algeria,2005,1.305
+ASM,American Samoa,2005,0.959
+AND,"Andorra, Principality of",2005,0.807
+AGO,Angola,2005,1.084
+AIA,Anguilla,2005,0.656
+ATG,Antigua and Barbuda,2005,0.651
+ARG,Argentina,2005,0.171
+ARM,"Armenia, Rep. of",2005,0.544
+ABW,"Aruba, Kingdom of the Netherlands",2005,0.607
+AUS,Australia,2005,1.137
+AUT,Austria,2005,0.657
+AZE,"Azerbaijan, Rep. of",2005,0.844
+BHS,"Bahamas, The",2005,0.514
+BHR,"Bahrain, Kingdom of",2005,1.066
+BGD,Bangladesh,2005,0.766
+BRB,Barbados,2005,1.056
+BLR,"Belarus, Rep. of",2005,1.28
+BEL,Belgium,2005,1.202
+BLZ,Belize,2005,0.793
+BEN,Benin,2005,1.147
+BTN,Bhutan,2005,0.759
+BOL,Bolivia,2005,1.052
+BIH,Bosnia and Herzegovina,2005,0.152
+BWA,Botswana,2005,1.496
+BRA,Brazil,2005,1.117
+VGB,British Virgin Islands,2005,0.66
+BRN,Brunei Darussalam,2005,0.822
+BGR,Bulgaria,2005,0.213
+BFA,Burkina Faso,2005,1.517
+BDI,Burundi,2005,
+CPV,Cabo Verde,2005,0.498
+KHM,Cambodia,2005,0.72
+CMR,Cameroon,2005,1.144
+CAN,Canada,2005,1.298
+CYM,Cayman Islands,2005,0.668
+CAF,Central African Rep.,2005,1.315
+TCD,Chad,2005,1.214
+CHL,Chile,2005,0.08
+HKG,"China, P.R.: Hong Kong",2005,0.742
+MAC,"China, P.R.: Macao",2005,0.742
+CHN,"China, P.R.: Mainland",2005,1.066
+COL,Colombia,2005,0.605
+COM,"Comoros, Union of the",2005,0.371
+COD,"Congo, Dem. Rep. of the",2005,1.081
+COG,"Congo, Rep. of",2005,0.802
+COK,Cook Islands,2005,0.365
+CRI,Costa Rica,2005,0.582
+HRV,"Croatia, Rep. of",2005,0.31
+CUB,Cuba,2005,0.609
+CYP,Cyprus,2005,0.414
+CZE,Czech Rep.,2005,0.771
+DNK,Denmark,2005,1.29
+DJI,Djibouti,2005,1.291
+DMA,Dominica,2005,0.638
+DOM,Dominican Rep.,2005,0.829
+ECU,Ecuador,2005,0.708
+EGY,"Egypt, Arab Rep. of",2005,0.517
+SLV,El Salvador,2005,0.684
+GNQ,"Equatorial Guinea, Rep. of",2005,0.752
+ERI,"Eritrea, The State of",2005,0.78
+EST,"Estonia, Rep. of",2005,1.587
+SWZ,"Eswatini, Kingdom of",2005,0.849
+ETH,"Ethiopia, The Federal Dem. Rep. of",2005,1.119
+FLK,Falkland Islands (Malvinas),2005,
+FRO,Faroe Islands,2005,0.49
+FJI,"Fiji, Rep. of",2005,0.591
+FIN,Finland,2005,2.22
+FRA,France,2005,0.998
+PYF,French Polynesia,2005,0.538
+GAB,Gabon,2005,0.719
+GMB,"Gambia, The",2005,1.632
+GEO,Georgia,2005,0.536
+DEU,Germany,2005,1.028
+GHA,Ghana,2005,1.019
+GIB,Gibraltar,2005,0.873
+GRC,Greece,2005,0.222
+GRL,Greenland,2005,1.866
+GRD,Grenada,2005,0.866
+GLP,Guadeloupe,2005,0.648
+GTM,Guatemala,2005,0.778
+GUF,"Guiana, French",2005,1.439
+GIN,Guinea,2005,1.37
+GNB,Guinea-Bissau,2005,1.64
+GUY,Guyana,2005,1.099
+HTI,Haiti,2005,1.004
+VAT,Holy See,2005,0.539
+HND,Honduras,2005,1.127
+HUN,Hungary,2005,0.268
+ISL,Iceland,2005,0.518
+IND,India,2005,0.58
+IDN,Indonesia,2005,0.702
+IRN,"Iran, Islamic Rep. of",2005,0.807
+IRQ,Iraq,2005,0.404
+IRL,Ireland,2005,1.164
+IMN,Isle of Man,2005,1.164
+ISR,Israel,2005,0.115
+ITA,Italy,2005,0.587
+JAM,Jamaica,2005,0.881
+JPN,Japan,2005,0.706
+JOR,Jordan,2005,-0.02
+KAZ,"Kazakhstan, Rep. of",2005,1.561
+KEN,Kenya,2005,0.794
+KIR,Kiribati,2005,
+PRK,"Korea, Dem. People's Rep. of",2005,0.947
+KOR,"Korea, Rep. of",2005,0.964
+KWT,Kuwait,2005,0.751
+KGZ,Kyrgyz Rep.,2005,1.16
+LAO,Lao People's Dem. Rep.,2005,0.878
+LVA,Latvia,2005,1.343
+LBN,Lebanon,2005,0.265
+LSO,"Lesotho, Kingdom of",2005,0.75
+LBR,Liberia,2005,1.127
+LBY,Libya,2005,0.63
+LIE,Liechtenstein,2005,0.69
+LTU,Lithuania,2005,1.21
+LUX,Luxembourg,2005,1.131
+MDG,"Madagascar, Rep. of",2005,0.634
+MWI,Malawi,2005,1.34
+MYS,Malaysia,2005,0.867
+MDV,Maldives,2005,0.859
+MLI,Mali,2005,1.426
+MLT,Malta,2005,0.612
+MHL,"Marshall Islands, Rep. of the",2005,0.335
+MTQ,Martinique,2005,0.669
+MRT,"Mauritania, Islamic Rep. of",2005,1.343
+MUS,Mauritius,2005,0.625
+MYT,Mayotte,2005,0.483
+MEX,Mexico,2005,0.727
+FSM,"Micronesia, Federated States of",2005,0.181
+MDA,"Moldova, Rep. of",2005,0.874
+MCO,Monaco,2005,0.786
+MNG,Mongolia,2005,0.966
+MNE,Montenegro,2005,
+MSR,Montserrat,2005,0.651
+MAR,Morocco,2005,1.284
+MOZ,"Mozambique, Rep. of",2005,1.076
+MMR,Myanmar,2005,1.004
+NAM,Namibia,2005,1.083
+NRU,"Nauru, Rep. of",2005,
+NPL,Nepal,2005,0.789
+NLD,"Netherlands, The",2005,1.251
+NCL,New Caledonia,2005,0.377
+NZL,New Zealand,2005,0.433
+NIC,Nicaragua,2005,0.932
+NER,Niger,2005,1.37
+NGA,Nigeria,2005,1.255
+NIU,Niue,2005,
+NFK,Norfolk Island,2005,0.506
+MKD,"North Macedonia, Republic of ",2005,0.174
+NOR,Norway,2005,1.782
+OMN,Oman,2005,0.937
+PAK,Pakistan,2005,0.174
+PLW,"Palau, Rep. of",2005,0.527
+PAN,Panama,2005,0.574
+PNG,Papua New Guinea,2005,0.752
+PRY,Paraguay,2005,0.55
+PER,Peru,2005,0.819
+PHL,Philippines,2005,0.681
+PCN,Pitcairn Islands,2005,-0.363
+POL,"Poland, Rep. of",2005,0.889
+PRT,Portugal,2005,0.966
+PRI,Puerto Rico,2005,0.704
+QAT,Qatar,2005,0.902
+ROU,Romania,2005,0.311
+RUS,Russian Federation,2005,1.718
+RWA,Rwanda,2005,
+SHN,Saint Helena,2005,1.345
+SPM,Saint Pierre and Miquelon,2005,0.971
+WSM,Samoa,2005,0.875
+SMR,"San Marino, Rep. of",2005,0.53
+STP,"São Tomé and Príncipe, Dem. Rep. of",2005,0.577
+SAU,Saudi Arabia,2005,0.483
+SEN,Senegal,2005,1.381
+SRB,"Serbia, Rep. of",2005,
+SYC,Seychelles,2005,0.699
+SLE,Sierra Leone,2005,1.603
+SGP,Singapore,2005,1.037
+SVK,Slovak Rep.,2005,0.428
+SVN,"Slovenia, Rep. of",2005,0.535
+SLB,Solomon Islands,2005,0.516
+SOM,Somalia,2005,1.19
+ZAF,South Africa,2005,1.097
+SSD,"South Sudan, Rep. of",2005,
+ESP,Spain,2005,0.906
+LKA,Sri Lanka,2005,0.869
+KNA,St. Kitts and Nevis,2005,0.651
+LCA,St. Lucia,2005,0.804
+VCT,St. Vincent and the Grenadines,2005,0.86
+SDN,Sudan,2005,
+SUR,Suriname,2005,1.395
+SWE,Sweden,2005,1.843
+CHE,Switzerland,2005,0.809
+SYR,Syrian Arab Rep.,2005,0.21
+TWN,Taiwan Province of China,2005,0.622
+TJK,"Tajikistan, Rep. of",2005,0.778
+TZA,"Tanzania, United Rep. of",2005,1.05
+THA,Thailand,2005,0.887
+TLS,"Timor-Leste, Dem. Rep. of",2005,1.126
+TGO,Togo,2005,0.992
+TKL,Tokelau,2005,
+TON,Tonga,2005,0.754
+TTO,Trinidad and Tobago,2005,0.982
+TUN,Tunisia,2005,1.091
+TUR,Turkey,2005,0.411
+TKM,Turkmenistan,2005,1.288
+TCA,Turks and Caicos Islands,2005,
+TUV,Tuvalu,2005,0.71
+UGA,Uganda,2005,1.354
+UKR,Ukraine,2005,1.031
+ARE,United Arab Emirates,2005,0.733
+GBR,United Kingdom,2005,1.114
+USA,United States,2005,1.157
+VIR,United States Virgin Islands,2005,0.667
+URY,Uruguay,2005,0.854
+UZB,"Uzbekistan, Rep. of",2005,1.356
+VUT,Vanuatu,2005,0.546
+VEN,"Venezuela, Rep. Bolivariana de",2005,0.664
+VNM,Vietnam,2005,0.861
+WLF,Wallis and Futuna Islands,2005,0.675
+PSE,West Bank and Gaza,2005,0.107
+ESH,Western Sahara,2005,1.214
+WLD,World,2005,1.109
+YEM,"Yemen, Rep. of",2005,
+ZMB,Zambia,2005,1.156
+ZWE,Zimbabwe,2005,1.33
+AFG,"Afghanistan, Islamic Rep. of",2006,1.754
+ALB,Albania,2006,0.493
+DZA,Algeria,2006,1.429
+ASM,American Samoa,2006,0.561
+AND,"Andorra, Principality of",2006,1.438
+AGO,Angola,2006,0.455
+AIA,Anguilla,2006,0.441
+ATG,Antigua and Barbuda,2006,0.382
+ARG,Argentina,2006,0.508
+ARM,"Armenia, Rep. of",2006,1.659
+ABW,"Aruba, Kingdom of the Netherlands",2006,0.308
+AUS,Australia,2006,0.653
+AUT,Austria,2006,0.94
+AZE,"Azerbaijan, Rep. of",2006,1.486
+BHS,"Bahamas, The",2006,0.448
+BHR,"Bahrain, Kingdom of",2006,1.839
+BGD,Bangladesh,2006,1.007
+BRB,Barbados,2006,0.765
+BLR,"Belarus, Rep. of",2006,0.65
+BEL,Belgium,2006,1.401
+BLZ,Belize,2006,0.595
+BEN,Benin,2006,1.08
+BTN,Bhutan,2006,0.993
+BOL,Bolivia,2006,1.18
+BIH,Bosnia and Herzegovina,2006,0.633
+BWA,Botswana,2006,-0.239
+BRA,Brazil,2006,0.817
+VGB,British Virgin Islands,2006,0.499
+BRN,Brunei Darussalam,2006,0.472
+BGR,Bulgaria,2006,0.581
+BFA,Burkina Faso,2006,1.234
+BDI,Burundi,2006,
+CPV,Cabo Verde,2006,0.682
+KHM,Cambodia,2006,0.722
+CMR,Cameroon,2006,1.125
+CAN,Canada,2006,2.348
+CYM,Cayman Islands,2006,0.605
+CAF,Central African Rep.,2006,1.186
+TCD,Chad,2006,1.415
+CHL,Chile,2006,0.462
+HKG,"China, P.R.: Hong Kong",2006,0.926
+MAC,"China, P.R.: Macao",2006,0.926
+CHN,"China, P.R.: Mainland",2006,1.247
+COL,Colombia,2006,0.471
+COM,"Comoros, Union of the",2006,0.177
+COD,"Congo, Dem. Rep. of the",2006,0.846
+COG,"Congo, Rep. of",2006,0.708
+COK,Cook Islands,2006,0.564
+CRI,Costa Rica,2006,0.52
+HRV,"Croatia, Rep. of",2006,0.74
+CUB,Cuba,2006,0.742
+CYP,Cyprus,2006,0.697
+CZE,Czech Rep.,2006,0.974
+DNK,Denmark,2006,1.356
+DJI,Djibouti,2006,0.977
+DMA,Dominica,2006,0.531
+DOM,Dominican Rep.,2006,0.839
+ECU,Ecuador,2006,0.68
+EGY,"Egypt, Arab Rep. of",2006,0.745
+SLV,El Salvador,2006,0.652
+GNQ,"Equatorial Guinea, Rep. of",2006,0.576
+ERI,"Eritrea, The State of",2006,0.921
+EST,"Estonia, Rep. of",2006,1.239
+SWZ,"Eswatini, Kingdom of",2006,0.05
+ETH,"Ethiopia, The Federal Dem. Rep. of",2006,0.971
+FLK,Falkland Islands (Malvinas),2006,
+FRO,Faroe Islands,2006,1.137
+FJI,"Fiji, Rep. of",2006,0.59
+FIN,Finland,2006,1.221
+FRA,France,2006,1.28
+PYF,French Polynesia,2006,0.696
+GAB,Gabon,2006,0.682
+GMB,"Gambia, The",2006,1.367
+GEO,Georgia,2006,1.258
+DEU,Germany,2006,1.26
+GHA,Ghana,2006,1.039
+GIB,Gibraltar,2006,1.457
+GRC,Greece,2006,0.272
+GRL,Greenland,2006,1.707
+GRD,Grenada,2006,0.575
+GLP,Guadeloupe,2006,0.468
+GTM,Guatemala,2006,0.567
+GUF,"Guiana, French",2006,0.933
+GIN,Guinea,2006,1.32
+GNB,Guinea-Bissau,2006,1.428
+GUY,Guyana,2006,0.932
+HTI,Haiti,2006,0.825
+VAT,Holy See,2006,0.718
+HND,Honduras,2006,0.765
+HUN,Hungary,2006,0.723
+ISL,Iceland,2006,1.103
+IND,India,2006,0.643
+IDN,Indonesia,2006,0.416
+IRN,"Iran, Islamic Rep. of",2006,1.822
+IRQ,Iraq,2006,1.5
+IRL,Ireland,2006,1.148
+IMN,Isle of Man,2006,1.222
+ISR,Israel,2006,0.501
+ITA,Italy,2006,0.865
+JAM,Jamaica,2006,0.877
+JPN,Japan,2006,0.357
+JOR,Jordan,2006,0.628
+KAZ,"Kazakhstan, Rep. of",2006,1.446
+KEN,Kenya,2006,0.799
+KIR,Kiribati,2006,0.517
+PRK,"Korea, Dem. People's Rep. of",2006,0.786
+KOR,"Korea, Rep. of",2006,0.546
+KWT,Kuwait,2006,1.93
+KGZ,Kyrgyz Rep.,2006,1.598
+LAO,Lao People's Dem. Rep.,2006,0.834
+LVA,Latvia,2006,1.071
+LBN,Lebanon,2006,0.696
+LSO,"Lesotho, Kingdom of",2006,0.023
+LBR,Liberia,2006,1.149
+LBY,Libya,2006,0.72
+LIE,Liechtenstein,2006,0.987
+LTU,Lithuania,2006,0.926
+LUX,Luxembourg,2006,1.358
+MDG,"Madagascar, Rep. of",2006,0.806
+MWI,Malawi,2006,1.05
+MYS,Malaysia,2006,0.605
+MDV,Maldives,2006,0.402
+MLI,Mali,2006,1.145
+MLT,Malta,2006,0.909
+MHL,"Marshall Islands, Rep. of the",2006,0.257
+MTQ,Martinique,2006,0.567
+MRT,"Mauritania, Islamic Rep. of",2006,1.456
+MUS,Mauritius,2006,0.441
+MYT,Mayotte,2006,0.262
+MEX,Mexico,2006,0.861
+FSM,"Micronesia, Federated States of",2006,0.3
+MDA,"Moldova, Rep. of",2006,0.284
+MCO,Monaco,2006,1.145
+MNG,Mongolia,2006,1.258
+MNE,Montenegro,2006,0.508
+MSR,Montserrat,2006,0.382
+MAR,Morocco,2006,1.49
+MOZ,"Mozambique, Rep. of",2006,0.528
+MMR,Myanmar,2006,0.893
+NAM,Namibia,2006,-0.175
+NRU,"Nauru, Rep. of",2006,
+NPL,Nepal,2006,0.919
+NLD,"Netherlands, The",2006,1.505
+NCL,New Caledonia,2006,0.282
+NZL,New Zealand,2006,0.379
+NIC,Nicaragua,2006,0.636
+NER,Niger,2006,1.379
+NGA,Nigeria,2006,1.283
+NIU,Niue,2006,
+NFK,Norfolk Island,2006,0.388
+MKD,"North Macedonia, Republic of ",2006,0.445
+NOR,Norway,2006,1.521
+OMN,Oman,2006,0.99
+PAK,Pakistan,2006,0.955
+PLW,"Palau, Rep. of",2006,0.563
+PAN,Panama,2006,0.543
+PNG,Papua New Guinea,2006,0.323
+PRY,Paraguay,2006,0.928
+PER,Peru,2006,0.786
+PHL,Philippines,2006,0.731
+PCN,Pitcairn Islands,2006,0.397
+POL,"Poland, Rep. of",2006,0.839
+PRT,Portugal,2006,1.536
+PRI,Puerto Rico,2006,0.642
+QAT,Qatar,2006,1.726
+ROU,Romania,2006,0.534
+RUS,Russian Federation,2006,0.57
+RWA,Rwanda,2006,
+SHN,Saint Helena,2006,1.628
+SPM,Saint Pierre and Miquelon,2006,1.867
+WSM,Samoa,2006,0.465
+SMR,"San Marino, Rep. of",2006,0.943
+STP,"São Tomé and Príncipe, Dem. Rep. of",2006,0.627
+SAU,Saudi Arabia,2006,1.136
+SEN,Senegal,2006,1.412
+SRB,"Serbia, Rep. of",2006,0.572
+SYC,Seychelles,2006,0.664
+SLE,Sierra Leone,2006,1.554
+SGP,Singapore,2006,0.73
+SVK,Slovak Rep.,2006,0.65
+SVN,"Slovenia, Rep. of",2006,0.923
+SLB,Solomon Islands,2006,0.34
+SOM,Somalia,2006,0.976
+ZAF,South Africa,2006,0.439
+SSD,"South Sudan, Rep. of",2006,
+ESP,Spain,2006,1.541
+LKA,Sri Lanka,2006,0.655
+KNA,St. Kitts and Nevis,2006,0.382
+LCA,St. Lucia,2006,0.609
+VCT,St. Vincent and the Grenadines,2006,0.578
+SDN,Sudan,2006,
+SUR,Suriname,2006,1.058
+SWE,Sweden,2006,1.504
+CHE,Switzerland,2006,1.094
+SYR,Syrian Arab Rep.,2006,0.996
+TWN,Taiwan Province of China,2006,0.673
+TJK,"Tajikistan, Rep. of",2006,1.448
+TZA,"Tanzania, United Rep. of",2006,0.905
+THA,Thailand,2006,0.685
+TLS,"Timor-Leste, Dem. Rep. of",2006,0.177
+TGO,Togo,2006,1.024
+TKL,Tokelau,2006,
+TON,Tonga,2006,0.539
+TTO,Trinidad and Tobago,2006,0.499
+TUN,Tunisia,2006,1.304
+TUR,Turkey,2006,0.862
+TKM,Turkmenistan,2006,1.683
+TCA,Turks and Caicos Islands,2006,
+TUV,Tuvalu,2006,0.561
+UGA,Uganda,2006,1.028
+UKR,Ukraine,2006,0.28
+ARE,United Arab Emirates,2006,1.27
+GBR,United Kingdom,2006,1.244
+USA,United States,2006,1.028
+VIR,United States Virgin Islands,2006,0.52
+URY,Uruguay,2006,0.639
+UZB,"Uzbekistan, Rep. of",2006,1.549
+VUT,Vanuatu,2006,0.413
+VEN,"Venezuela, Rep. Bolivariana de",2006,0.495
+VNM,Vietnam,2006,0.912
+WLF,Wallis and Futuna Islands,2006,0.555
+PSE,West Bank and Gaza,2006,0.49
+ESH,Western Sahara,2006,1.503
+WLD,World,2006,1.004
+YEM,"Yemen, Rep. of",2006,
+ZMB,Zambia,2006,0.691
+ZWE,Zimbabwe,2006,-0.026
+AFG,"Afghanistan, Islamic Rep. of",2007,0.745
+ALB,Albania,2007,1.487
+DZA,Algeria,2007,1.245
+ASM,American Samoa,2007,1.034
+AND,"Andorra, Principality of",2007,0.954
+AGO,Angola,2007,0.753
+AIA,Anguilla,2007,0.699
+ATG,Antigua and Barbuda,2007,0.637
+ARG,Argentina,2007,-0.248
+ARM,"Armenia, Rep. of",2007,0.703
+ABW,"Aruba, Kingdom of the Netherlands",2007,0.756
+AUS,Australia,2007,0.865
+AUT,Austria,2007,2.166
+AZE,"Azerbaijan, Rep. of",2007,0.938
+BHS,"Bahamas, The",2007,0.998
+BHR,"Bahrain, Kingdom of",2007,1.052
+BGD,Bangladesh,2007,0.472
+BRB,Barbados,2007,0.605
+BLR,"Belarus, Rep. of",2007,2.364
+BEL,Belgium,2007,1.883
+BLZ,Belize,2007,0.797
+BEN,Benin,2007,0.88
+BTN,Bhutan,2007,0.987
+BOL,Bolivia,2007,0.787
+BIH,Bosnia and Herzegovina,2007,1.917
+BWA,Botswana,2007,0.402
+BRA,Brazil,2007,0.98
+VGB,British Virgin Islands,2007,0.762
+BRN,Brunei Darussalam,2007,0.491
+BGR,Bulgaria,2007,1.895
+BFA,Burkina Faso,2007,0.949
+BDI,Burundi,2007,0.97
+CPV,Cabo Verde,2007,0.148
+KHM,Cambodia,2007,0.6
+CMR,Cameroon,2007,0.768
+CAN,Canada,2007,1.332
+CYM,Cayman Islands,2007,0.756
+CAF,Central African Rep.,2007,0.595
+TCD,Chad,2007,0.63
+CHL,Chile,2007,-0.354
+HKG,"China, P.R.: Hong Kong",2007,1.045
+MAC,"China, P.R.: Macao",2007,1.045
+CHN,"China, P.R.: Mainland",2007,1.553
+COL,Colombia,2007,0.567
+COM,"Comoros, Union of the",2007,0.509
+COD,"Congo, Dem. Rep. of the",2007,0.762
+COG,"Congo, Rep. of",2007,0.764
+COK,Cook Islands,2007,0.594
+CRI,Costa Rica,2007,0.704
+HRV,"Croatia, Rep. of",2007,2.006
+CUB,Cuba,2007,0.769
+CYP,Cyprus,2007,0.881
+CZE,Czech Rep.,2007,2.19
+DNK,Denmark,2007,2.143
+DJI,Djibouti,2007,0.953
+DMA,Dominica,2007,0.65
+DOM,Dominican Rep.,2007,1.022
+ECU,Ecuador,2007,0.684
+EGY,"Egypt, Arab Rep. of",2007,0.623
+SLV,El Salvador,2007,0.664
+GNQ,"Equatorial Guinea, Rep. of",2007,0.762
+ERI,"Eritrea, The State of",2007,0.238
+EST,"Estonia, Rep. of",2007,2.245
+SWZ,"Eswatini, Kingdom of",2007,0.764
+ETH,"Ethiopia, The Federal Dem. Rep. of",2007,0.847
+FLK,Falkland Islands (Malvinas),2007,
+FRO,Faroe Islands,2007,0.953
+FJI,"Fiji, Rep. of",2007,0.877
+FIN,Finland,2007,1.965
+FRA,France,2007,1.376
+PYF,French Polynesia,2007,0.71
+GAB,Gabon,2007,0.853
+GMB,"Gambia, The",2007,1.249
+GEO,Georgia,2007,0.858
+DEU,Germany,2007,2.093
+GHA,Ghana,2007,1.015
+GIB,Gibraltar,2007,0.844
+GRC,Greece,2007,1.084
+GRL,Greenland,2007,1.35
+GRD,Grenada,2007,0.515
+GLP,Guadeloupe,2007,0.673
+GTM,Guatemala,2007,0.732
+GUF,"Guiana, French",2007,1.242
+GIN,Guinea,2007,1.184
+GNB,Guinea-Bissau,2007,1.333
+GUY,Guyana,2007,0.914
+HTI,Haiti,2007,1.024
+VAT,Holy See,2007,1.433
+HND,Honduras,2007,0.932
+HUN,Hungary,2007,2.166
+ISL,Iceland,2007,1.169
+IND,India,2007,0.604
+IDN,Indonesia,2007,0.485
+IRN,"Iran, Islamic Rep. of",2007,0.857
+IRQ,Iraq,2007,0.854
+IRL,Ireland,2007,1.346
+IMN,Isle of Man,2007,1.309
+ISR,Israel,2007,0.433
+ITA,Italy,2007,1.576
+JAM,Jamaica,2007,0.825
+JPN,Japan,2007,0.97
+JOR,Jordan,2007,0.394
+KAZ,"Kazakhstan, Rep. of",2007,2.208
+KEN,Kenya,2007,0.505
+KIR,Kiribati,2007,0.563
+PRK,"Korea, Dem. People's Rep. of",2007,1.695
+KOR,"Korea, Rep. of",2007,1.313
+KWT,Kuwait,2007,1.113
+KGZ,Kyrgyz Rep.,2007,1.692
+LAO,Lao People's Dem. Rep.,2007,0.556
+LVA,Latvia,2007,2.189
+LBN,Lebanon,2007,0.693
+LSO,"Lesotho, Kingdom of",2007,0.574
+LBR,Liberia,2007,1.071
+LBY,Libya,2007,0.842
+LIE,Liechtenstein,2007,1.964
+LTU,Lithuania,2007,2.2
+LUX,Luxembourg,2007,1.943
+MDG,"Madagascar, Rep. of",2007,0.707
+MWI,Malawi,2007,1.054
+MYS,Malaysia,2007,0.652
+MDV,Maldives,2007,0.45
+MLI,Mali,2007,0.979
+MLT,Malta,2007,1.314
+MHL,"Marshall Islands, Rep. of the",2007,0.262
+MTQ,Martinique,2007,0.65
+MRT,"Mauritania, Islamic Rep. of",2007,1.05
+MUS,Mauritius,2007,0.77
+MYT,Mayotte,2007,0.717
+MEX,Mexico,2007,0.467
+FSM,"Micronesia, Federated States of",2007,0.163
+MDA,"Moldova, Rep. of",2007,2.389
+MCO,Monaco,2007,1.603
+MNG,Mongolia,2007,2.767
+MNE,Montenegro,2007,1.759
+MSR,Montserrat,2007,0.637
+MAR,Morocco,2007,1.032
+MOZ,"Mozambique, Rep. of",2007,0.66
+MMR,Myanmar,2007,0.583
+NAM,Namibia,2007,0.679
+NRU,"Nauru, Rep. of",2007,
+NPL,Nepal,2007,0.602
+NLD,"Netherlands, The",2007,2.068
+NCL,New Caledonia,2007,0.683
+NZL,New Zealand,2007,0.221
+NIC,Nicaragua,2007,0.91
+NER,Niger,2007,1.087
+NGA,Nigeria,2007,0.875
+NIU,Niue,2007,
+NFK,Norfolk Island,2007,0.474
+MKD,"North Macedonia, Republic of ",2007,1.593
+NOR,Norway,2007,1.711
+OMN,Oman,2007,0.803
+PAK,Pakistan,2007,0.654
+PLW,"Palau, Rep. of",2007,0.655
+PAN,Panama,2007,0.545
+PNG,Papua New Guinea,2007,0.461
+PRY,Paraguay,2007,0.277
+PER,Peru,2007,0.53
+PHL,Philippines,2007,0.825
+PCN,Pitcairn Islands,2007,-0.028
+POL,"Poland, Rep. of",2007,2.15
+PRT,Portugal,2007,0.759
+PRI,Puerto Rico,2007,0.868
+QAT,Qatar,2007,1.057
+ROU,Romania,2007,2.14
+RUS,Russian Federation,2007,2.506
+RWA,Rwanda,2007,0.92
+SHN,Saint Helena,2007,1.045
+SPM,Saint Pierre and Miquelon,2007,0.409
+WSM,Samoa,2007,0.948
+SMR,"San Marino, Rep. of",2007,1.903
+STP,"São Tomé and Príncipe, Dem. Rep. of",2007,0.859
+SAU,Saudi Arabia,2007,0.642
+SEN,Senegal,2007,1.254
+SRB,"Serbia, Rep. of",2007,1.913
+SYC,Seychelles,2007,1.031
+SLE,Sierra Leone,2007,1.262
+SGP,Singapore,2007,0.694
+SVK,Slovak Rep.,2007,2.169
+SVN,"Slovenia, Rep. of",2007,2.223
+SLB,Solomon Islands,2007,0.583
+SOM,Somalia,2007,1.058
+ZAF,South Africa,2007,0.821
+SSD,"South Sudan, Rep. of",2007,
+ESP,Spain,2007,0.847
+LKA,Sri Lanka,2007,0.654
+KNA,St. Kitts and Nevis,2007,0.637
+LCA,St. Lucia,2007,0.594
+VCT,St. Vincent and the Grenadines,2007,0.521
+SDN,Sudan,2007,
+SUR,Suriname,2007,1.153
+SWE,Sweden,2007,1.952
+CHE,Switzerland,2007,1.812
+SYR,Syrian Arab Rep.,2007,0.77
+TWN,Taiwan Province of China,2007,0.739
+TJK,"Tajikistan, Rep. of",2007,1.164
+TZA,"Tanzania, United Rep. of",2007,0.802
+THA,Thailand,2007,0.557
+TLS,"Timor-Leste, Dem. Rep. of",2007,0.472
+TGO,Togo,2007,0.926
+TKL,Tokelau,2007,
+TON,Tonga,2007,0.81
+TTO,Trinidad and Tobago,2007,0.393
+TUN,Tunisia,2007,1.417
+TUR,Turkey,2007,0.953
+TKM,Turkmenistan,2007,1.103
+TCA,Turks and Caicos Islands,2007,
+TUV,Tuvalu,2007,0.656
+UGA,Uganda,2007,0.424
+UKR,Ukraine,2007,2.393
+ARE,United Arab Emirates,2007,0.848
+GBR,United Kingdom,2007,1.327
+USA,United States,2007,1.147
+VIR,United States Virgin Islands,2007,0.778
+URY,Uruguay,2007,0.19
+UZB,"Uzbekistan, Rep. of",2007,1.359
+VUT,Vanuatu,2007,0.827
+VEN,"Venezuela, Rep. Bolivariana de",2007,0.549
+VNM,Vietnam,2007,0.532
+WLF,Wallis and Futuna Islands,2007,0.806
+PSE,West Bank and Gaza,2007,0.426
+ESH,Western Sahara,2007,1.051
+WLD,World,2007,1.199
+YEM,"Yemen, Rep. of",2007,
+ZMB,Zambia,2007,1.041
+ZWE,Zimbabwe,2007,0.366
+AFG,"Afghanistan, Islamic Rep. of",2008,0.798
+ALB,Albania,2008,1.152
+DZA,Algeria,2008,1.215
+ASM,American Samoa,2008,0.643
+AND,"Andorra, Principality of",2008,0.858
+AGO,Angola,2008,0.409
+AIA,Anguilla,2008,0.166
+ATG,Antigua and Barbuda,2008,0.085
+ARG,Argentina,2008,0.522
+ARM,"Armenia, Rep. of",2008,0.818
+ABW,"Aruba, Kingdom of the Netherlands",2008,
+AUS,Australia,2008,0.557
+AUT,Austria,2008,1.611
+AZE,"Azerbaijan, Rep. of",2008,0.89
+BHS,"Bahamas, The",2008,0.932
+BHR,"Bahrain, Kingdom of",2008,1.295
+BGD,Bangladesh,2008,0.26
+BRB,Barbados,2008,0.252
+BLR,"Belarus, Rep. of",2008,2.255
+BEL,Belgium,2008,1.257
+BLZ,Belize,2008,0.523
+BEN,Benin,2008,0.68
+BTN,Bhutan,2008,0.588
+BOL,Bolivia,2008,0.663
+BIH,Bosnia and Herzegovina,2008,1.427
+BWA,Botswana,2008,0.337
+BRA,Brazil,2008,0.72
+VGB,British Virgin Islands,2008,0.245
+BRN,Brunei Darussalam,2008,0.317
+BGR,Bulgaria,2008,1.189
+BFA,Burkina Faso,2008,0.362
+BDI,Burundi,2008,0.454
+CPV,Cabo Verde,2008,0.629
+KHM,Cambodia,2008,0.422
+CMR,Cameroon,2008,0.725
+CAN,Canada,2008,0.856
+CYM,Cayman Islands,2008,0.564
+CAF,Central African Rep.,2008,0.779
+TCD,Chad,2008,0.474
+CHL,Chile,2008,0.359
+HKG,"China, P.R.: Hong Kong",2008,0.452
+MAC,"China, P.R.: Macao",2008,0.452
+CHN,"China, P.R.: Mainland",2008,1.106
+COL,Colombia,2008,0.249
+COM,"Comoros, Union of the",2008,0.369
+COD,"Congo, Dem. Rep. of the",2008,0.625
+COG,"Congo, Rep. of",2008,0.727
+COK,Cook Islands,2008,0.458
+CRI,Costa Rica,2008,0.245
+HRV,"Croatia, Rep. of",2008,1.481
+CUB,Cuba,2008,0.496
+CYP,Cyprus,2008,1.101
+CZE,Czech Rep.,2008,1.669
+DNK,Denmark,2008,1.866
+DJI,Djibouti,2008,0.389
+DMA,Dominica,2008,0.169
+DOM,Dominican Rep.,2008,0.482
+ECU,Ecuador,2008,0.542
+EGY,"Egypt, Arab Rep. of",2008,0.953
+SLV,El Salvador,2008,0.434
+GNQ,"Equatorial Guinea, Rep. of",2008,0.612
+ERI,"Eritrea, The State of",2008,1.075
+EST,"Estonia, Rep. of",2008,2.587
+SWZ,"Eswatini, Kingdom of",2008,0.351
+ETH,"Ethiopia, The Federal Dem. Rep. of",2008,0.756
+FLK,Falkland Islands (Malvinas),2008,
+FRO,Faroe Islands,2008,0.889
+FJI,"Fiji, Rep. of",2008,0.469
+FIN,Finland,2008,2.153
+FRA,France,2008,0.959
+PYF,French Polynesia,2008,0.208
+GAB,Gabon,2008,0.738
+GMB,"Gambia, The",2008,1.506
+GEO,Georgia,2008,0.628
+DEU,Germany,2008,1.545
+GHA,Ghana,2008,0.767
+GIB,Gibraltar,2008,0.978
+GRC,Greece,2008,0.88
+GRL,Greenland,2008,0.941
+GRD,Grenada,2008,0.383
+GLP,Guadeloupe,2008,0.157
+GTM,Guatemala,2008,0.417
+GUF,"Guiana, French",2008,0.991
+GIN,Guinea,2008,1.311
+GNB,Guinea-Bissau,2008,1.626
+GUY,Guyana,2008,0.731
+HTI,Haiti,2008,0.663
+VAT,Holy See,2008,1.077
+HND,Honduras,2008,0.709
+HUN,Hungary,2008,1.518
+ISL,Iceland,2008,0.821
+IND,India,2008,0.248
+IDN,Indonesia,2008,0.278
+IRN,"Iran, Islamic Rep. of",2008,1.135
+IRQ,Iraq,2008,1.033
+IRL,Ireland,2008,0.846
+IMN,Isle of Man,2008,0.812
+ISR,Israel,2008,0.637
+ITA,Italy,2008,1.149
+JAM,Jamaica,2008,0.438
+JPN,Japan,2008,0.642
+JOR,Jordan,2008,0.582
+KAZ,"Kazakhstan, Rep. of",2008,1.569
+KEN,Kenya,2008,0.685
+KIR,Kiribati,2008,0.327
+PRK,"Korea, Dem. People's Rep. of",2008,1.602
+KOR,"Korea, Rep. of",2008,1.005
+KWT,Kuwait,2008,1.431
+KGZ,Kyrgyz Rep.,2008,0.989
+LAO,Lao People's Dem. Rep.,2008,0.244
+LVA,Latvia,2008,2.388
+LBN,Lebanon,2008,0.957
+LSO,"Lesotho, Kingdom of",2008,0.31
+LBR,Liberia,2008,1.226
+LBY,Libya,2008,0.87
+LIE,Liechtenstein,2008,1.421
+LTU,Lithuania,2008,2.225
+LUX,Luxembourg,2008,1.28
+MDG,"Madagascar, Rep. of",2008,0.527
+MWI,Malawi,2008,0.482
+MYS,Malaysia,2008,0.534
+MDV,Maldives,2008,0.225
+MLI,Mali,2008,0.585
+MLT,Malta,2008,1.148
+MHL,"Marshall Islands, Rep. of the",2008,0.014
+MTQ,Martinique,2008,0.201
+MRT,"Mauritania, Islamic Rep. of",2008,1.332
+MUS,Mauritius,2008,0.57
+MYT,Mayotte,2008,0.532
+MEX,Mexico,2008,0.524
+FSM,"Micronesia, Federated States of",2008,-0.076
+MDA,"Moldova, Rep. of",2008,1.546
+MCO,Monaco,2008,1.054
+MNG,Mongolia,2008,1.8
+MNE,Montenegro,2008,1.324
+MSR,Montserrat,2008,0.085
+MAR,Morocco,2008,1.18
+MOZ,"Mozambique, Rep. of",2008,0.263
+MMR,Myanmar,2008,0.586
+NAM,Namibia,2008,0.653
+NRU,"Nauru, Rep. of",2008,
+NPL,Nepal,2008,0.387
+NLD,"Netherlands, The",2008,1.425
+NCL,New Caledonia,2008,0.608
+NZL,New Zealand,2008,0.545
+NIC,Nicaragua,2008,0.596
+NER,Niger,2008,0.529
+NGA,Nigeria,2008,0.631
+NIU,Niue,2008,
+NFK,Norfolk Island,2008,0.363
+MKD,"North Macedonia, Republic of ",2008,1.21
+NOR,Norway,2008,1.637
+OMN,Oman,2008,0.697
+PAK,Pakistan,2008,0.339
+PLW,"Palau, Rep. of",2008,
+PAN,Panama,2008,0.254
+PNG,Papua New Guinea,2008,0.405
+PRY,Paraguay,2008,0.29
+PER,Peru,2008,0.578
+PHL,Philippines,2008,0.509
+PCN,Pitcairn Islands,2008,-0.109
+POL,"Poland, Rep. of",2008,1.756
+PRT,Portugal,2008,0.637
+PRI,Puerto Rico,2008,0.319
+QAT,Qatar,2008,1.229
+ROU,Romania,2008,1.35
+RUS,Russian Federation,2008,2.238
+RWA,Rwanda,2008,0.5
+SHN,Saint Helena,2008,1.123
+SPM,Saint Pierre and Miquelon,2008,0.472
+WSM,Samoa,2008,0.501
+SMR,"San Marino, Rep. of",2008,1.348
+STP,"São Tomé and Príncipe, Dem. Rep. of",2008,0.573
+SAU,Saudi Arabia,2008,0.845
+SEN,Senegal,2008,1.319
+SRB,"Serbia, Rep. of",2008,1.361
+SYC,Seychelles,2008,0.706
+SLE,Sierra Leone,2008,1.741
+SGP,Singapore,2008,0.571
+SVK,Slovak Rep.,2008,1.542
+SVN,"Slovenia, Rep. of",2008,1.63
+SLB,Solomon Islands,2008,
+SOM,Somalia,2008,0.673
+ZAF,South Africa,2008,0.726
+SSD,"South Sudan, Rep. of",2008,
+ESP,Spain,2008,0.873
+LKA,Sri Lanka,2008,0.541
+KNA,St. Kitts and Nevis,2008,0.085
+LCA,St. Lucia,2008,0.29
+VCT,St. Vincent and the Grenadines,2008,0.387
+SDN,Sudan,2008,
+SUR,Suriname,2008,1.224
+SWE,Sweden,2008,1.977
+CHE,Switzerland,2008,1.204
+SYR,Syrian Arab Rep.,2008,1.005
+TWN,Taiwan Province of China,2008,0.528
+TJK,"Tajikistan, Rep. of",2008,0.893
+TZA,"Tanzania, United Rep. of",2008,0.509
+THA,Thailand,2008,0.416
+TLS,"Timor-Leste, Dem. Rep. of",2008,0.21
+TGO,Togo,2008,0.772
+TKL,Tokelau,2008,
+TON,Tonga,2008,0.281
+TTO,Trinidad and Tobago,2008,0.319
+TUN,Tunisia,2008,1.405
+TUR,Turkey,2008,0.813
+TKM,Turkmenistan,2008,0.73
+TCA,Turks and Caicos Islands,2008,
+TUV,Tuvalu,2008,0.278
+UGA,Uganda,2008,0.603
+UKR,Ukraine,2008,1.634
+ARE,United Arab Emirates,2008,0.819
+GBR,United Kingdom,2008,0.832
+USA,United States,2008,0.215
+VIR,United States Virgin Islands,2008,0.256
+URY,Uruguay,2008,0.795
+UZB,"Uzbekistan, Rep. of",2008,0.691
+VUT,Vanuatu,2008,0.739
+VEN,"Venezuela, Rep. Bolivariana de",2008,0.384
+VNM,Vietnam,2008,0.226
+WLF,Wallis and Futuna Islands,2008,0.292
+PSE,West Bank and Gaza,2008,0.629
+ESH,Western Sahara,2008,1.496
+WLD,World,2008,0.937
+YEM,"Yemen, Rep. of",2008,
+ZMB,Zambia,2008,0.486
+ZWE,Zimbabwe,2008,0.322
+AFG,"Afghanistan, Islamic Rep. of",2009,0.982
+ALB,Albania,2009,1.016
+DZA,Algeria,2009,0.978
+ASM,American Samoa,2009,
+AND,"Andorra, Principality of",2009,1.325
+AGO,Angola,2009,0.64
+AIA,Anguilla,2009,0.421
+ATG,Antigua and Barbuda,2009,0.322
+ARG,Argentina,2009,0.735
+ARM,"Armenia, Rep. of",2009,0.62
+ABW,"Aruba, Kingdom of the Netherlands",2009,
+AUS,Australia,2009,0.96
+AUT,Austria,2009,1.572
+AZE,"Azerbaijan, Rep. of",2009,0.755
+BHS,"Bahamas, The",2009,0.519
+BHR,"Bahrain, Kingdom of",2009,1.182
+BGD,Bangladesh,2009,1.037
+BRB,Barbados,2009,0.374
+BLR,"Belarus, Rep. of",2009,1.602
+BEL,Belgium,2009,1.16
+BLZ,Belize,2009,0.863
+BEN,Benin,2009,0.996
+BTN,Bhutan,2009,1.424
+BOL,Bolivia,2009,0.991
+BIH,Bosnia and Herzegovina,2009,1.436
+BWA,Botswana,2009,-0.118
+BRA,Brazil,2009,0.941
+VGB,British Virgin Islands,2009,0.521
+BRN,Brunei Darussalam,2009,0.704
+BGR,Bulgaria,2009,1.302
+BFA,Burkina Faso,2009,0.989
+BDI,Burundi,2009,
+CPV,Cabo Verde,2009,0.463
+KHM,Cambodia,2009,0.4
+CMR,Cameroon,2009,1.203
+CAN,Canada,2009,0.54
+CYM,Cayman Islands,2009,0.466
+CAF,Central African Rep.,2009,1.296
+TCD,Chad,2009,1.294
+CHL,Chile,2009,0.371
+HKG,"China, P.R.: Hong Kong",2009,0.974
+MAC,"China, P.R.: Macao",2009,0.974
+CHN,"China, P.R.: Mainland",2009,1.354
+COL,Colombia,2009,0.723
+COM,"Comoros, Union of the",2009,0.74
+COD,"Congo, Dem. Rep. of the",2009,0.877
+COG,"Congo, Rep. of",2009,0.783
+COK,Cook Islands,2009,0.312
+CRI,Costa Rica,2009,0.905
+HRV,"Croatia, Rep. of",2009,1.524
+CUB,Cuba,2009,0.842
+CYP,Cyprus,2009,1.055
+CZE,Czech Rep.,2009,1.449
+DNK,Denmark,2009,1.333
+DJI,Djibouti,2009,1.58
+DMA,Dominica,2009,0.367
+DOM,Dominican Rep.,2009,0.622
+ECU,Ecuador,2009,0.795
+EGY,"Egypt, Arab Rep. of",2009,0.954
+SLV,El Salvador,2009,0.998
+GNQ,"Equatorial Guinea, Rep. of",2009,0.703
+ERI,"Eritrea, The State of",2009,1.736
+EST,"Estonia, Rep. of",2009,1.595
+SWZ,"Eswatini, Kingdom of",2009,0.161
+ETH,"Ethiopia, The Federal Dem. Rep. of",2009,1.336
+FLK,Falkland Islands (Malvinas),2009,
+FRO,Faroe Islands,2009,1.441
+FJI,"Fiji, Rep. of",2009,0.239
+FIN,Finland,2009,1.709
+FRA,France,2009,1.174
+PYF,French Polynesia,2009,0.653
+GAB,Gabon,2009,0.744
+GMB,"Gambia, The",2009,0.873
+GEO,Georgia,2009,0.616
+DEU,Germany,2009,1.284
+GHA,Ghana,2009,0.941
+GIB,Gibraltar,2009,1.27
+GRC,Greece,2009,0.765
+GRL,Greenland,2009,0.832
+GRD,Grenada,2009,0.403
+GLP,Guadeloupe,2009,0.389
+GTM,Guatemala,2009,1.021
+GUF,"Guiana, French",2009,1.376
+GIN,Guinea,2009,1.139
+GNB,Guinea-Bissau,2009,1.165
+GUY,Guyana,2009,1.249
+HTI,Haiti,2009,0.779
+VAT,Holy See,2009,1.141
+HND,Honduras,2009,0.948
+HUN,Hungary,2009,1.637
+ISL,Iceland,2009,0.98
+IND,India,2009,1.118
+IDN,Indonesia,2009,0.586
+IRN,"Iran, Islamic Rep. of",2009,1.166
+IRQ,Iraq,2009,0.72
+IRL,Ireland,2009,0.814
+IMN,Isle of Man,2009,0.857
+ISR,Israel,2009,0.733
+ITA,Italy,2009,1.24
+JAM,Jamaica,2009,0.703
+JPN,Japan,2009,0.778
+JOR,Jordan,2009,0.427
+KAZ,"Kazakhstan, Rep. of",2009,1.204
+KEN,Kenya,2009,1.289
+KIR,Kiribati,2009,0.669
+PRK,"Korea, Dem. People's Rep. of",2009,1.148
+KOR,"Korea, Rep. of",2009,1.004
+KWT,Kuwait,2009,1.258
+KGZ,Kyrgyz Rep.,2009,0.976
+LAO,Lao People's Dem. Rep.,2009,0.612
+LVA,Latvia,2009,1.502
+LBN,Lebanon,2009,0.829
+LSO,"Lesotho, Kingdom of",2009,0.316
+LBR,Liberia,2009,1.418
+LBY,Libya,2009,0.756
+LIE,Liechtenstein,2009,1.435
+LTU,Lithuania,2009,1.394
+LUX,Luxembourg,2009,1.185
+MDG,"Madagascar, Rep. of",2009,0.919
+MWI,Malawi,2009,0.696
+MYS,Malaysia,2009,0.754
+MDV,Maldives,2009,0.556
+MLI,Mali,2009,1.038
+MLT,Malta,2009,0.884
+MHL,"Marshall Islands, Rep. of the",2009,0.217
+MTQ,Martinique,2009,0.391
+MRT,"Mauritania, Islamic Rep. of",2009,0.971
+MUS,Mauritius,2009,1.193
+MYT,Mayotte,2009,0.891
+MEX,Mexico,2009,1.039
+FSM,"Micronesia, Federated States of",2009,0.234
+MDA,"Moldova, Rep. of",2009,1.78
+MCO,Monaco,2009,1.428
+MNG,Mongolia,2009,1.434
+MNE,Montenegro,2009,1.269
+MSR,Montserrat,2009,0.322
+MAR,Morocco,2009,1.274
+MOZ,"Mozambique, Rep. of",2009,0.487
+MMR,Myanmar,2009,1.028
+NAM,Namibia,2009,0.418
+NRU,"Nauru, Rep. of",2009,
+NPL,Nepal,2009,1.252
+NLD,"Netherlands, The",2009,1.219
+NCL,New Caledonia,2009,0.395
+NZL,New Zealand,2009,0.02
+NIC,Nicaragua,2009,0.874
+NER,Niger,2009,1.618
+NGA,Nigeria,2009,1.369
+NIU,Niue,2009,
+NFK,Norfolk Island,2009,
+MKD,"North Macedonia, Republic of ",2009,1.072
+NOR,Norway,2009,1.41
+OMN,Oman,2009,0.902
+PAK,Pakistan,2009,1.025
+PLW,"Palau, Rep. of",2009,0.629
+PAN,Panama,2009,0.774
+PNG,Papua New Guinea,2009,0.405
+PRY,Paraguay,2009,0.898
+PER,Peru,2009,0.828
+PHL,Philippines,2009,0.665
+PCN,Pitcairn Islands,2009,-0.273
+POL,"Poland, Rep. of",2009,1.274
+PRT,Portugal,2009,1.407
+PRI,Puerto Rico,2009,0.55
+QAT,Qatar,2009,1.175
+ROU,Romania,2009,1.631
+RUS,Russian Federation,2009,1.202
+RWA,Rwanda,2009,
+SHN,Saint Helena,2009,1.692
+SPM,Saint Pierre and Miquelon,2009,0.718
+WSM,Samoa,2009,
+SMR,"San Marino, Rep. of",2009,1.462
+STP,"São Tomé and Príncipe, Dem. Rep. of",2009,0.703
+SAU,Saudi Arabia,2009,0.936
+SEN,Senegal,2009,0.744
+SRB,"Serbia, Rep. of",2009,1.386
+SYC,Seychelles,2009,1.048
+SLE,Sierra Leone,2009,1.393
+SGP,Singapore,2009,1.022
+SVK,Slovak Rep.,2009,1.511
+SVN,"Slovenia, Rep. of",2009,1.687
+SLB,Solomon Islands,2009,0.05
+SOM,Somalia,2009,1.404
+ZAF,South Africa,2009,0.801
+SSD,"South Sudan, Rep. of",2009,
+ESP,Spain,2009,1.36
+LKA,Sri Lanka,2009,0.649
+KNA,St. Kitts and Nevis,2009,0.322
+LCA,St. Lucia,2009,0.4
+VCT,St. Vincent and the Grenadines,2009,0.4
+SDN,Sudan,2009,
+SUR,Suriname,2009,1.562
+SWE,Sweden,2009,1.45
+CHE,Switzerland,2009,1.378
+SYR,Syrian Arab Rep.,2009,0.641
+TWN,Taiwan Province of China,2009,0.713
+TJK,"Tajikistan, Rep. of",2009,0.765
+TZA,"Tanzania, United Rep. of",2009,0.944
+THA,Thailand,2009,0.524
+TLS,"Timor-Leste, Dem. Rep. of",2009,0.608
+TGO,Togo,2009,0.937
+TKL,Tokelau,2009,
+TON,Tonga,2009,0.346
+TTO,Trinidad and Tobago,2009,0.503
+TUN,Tunisia,2009,0.894
+TUR,Turkey,2009,0.649
+TKM,Turkmenistan,2009,1.081
+TCA,Turks and Caicos Islands,2009,
+TUV,Tuvalu,2009,0.569
+UGA,Uganda,2009,1.178
+UKR,Ukraine,2009,1.622
+ARE,United Arab Emirates,2009,0.926
+GBR,United Kingdom,2009,0.945
+USA,United States,2009,0.399
+VIR,United States Virgin Islands,2009,0.527
+URY,Uruguay,2009,0.591
+UZB,"Uzbekistan, Rep. of",2009,1.057
+VUT,Vanuatu,2009,0.453
+VEN,"Venezuela, Rep. Bolivariana de",2009,0.675
+VNM,Vietnam,2009,0.701
+WLF,Wallis and Futuna Islands,2009,0.306
+PSE,West Bank and Gaza,2009,0.733
+ESH,Western Sahara,2009,1.039
+WLD,World,2009,0.961
+YEM,"Yemen, Rep. of",2009,
+ZMB,Zambia,2009,0.524
+ZWE,Zimbabwe,2009,-0.076
+AFG,"Afghanistan, Islamic Rep. of",2010,1.695
+ALB,Albania,2010,1.145
+DZA,Algeria,2010,2.291
+ASM,American Samoa,2010,1.163
+AND,"Andorra, Principality of",2010,0.373
+AGO,Angola,2010,1.16
+AIA,Anguilla,2010,0.931
+ATG,Antigua and Barbuda,2010,0.961
+ARG,Argentina,2010,0.042
+ARM,"Armenia, Rep. of",2010,2.611
+ABW,"Aruba, Kingdom of the Netherlands",2010,1.096
+AUS,Australia,2010,0.619
+AUT,Austria,2010,0.684
+AZE,"Azerbaijan, Rep. of",2010,2.292
+BHS,"Bahamas, The",2010,0.408
+BHR,"Bahrain, Kingdom of",2010,2.141
+BGD,Bangladesh,2010,1.005
+BRB,Barbados,2010,1.101
+BLR,"Belarus, Rep. of",2010,1.456
+BEL,Belgium,2010,0.231
+BLZ,Belize,2010,0.777
+BEN,Benin,2010,1.284
+BTN,Bhutan,2010,1.196
+BOL,Bolivia,2010,0.986
+BIH,Bosnia and Herzegovina,2010,1.011
+BWA,Botswana,2010,1.164
+BRA,Brazil,2010,1.107
+VGB,British Virgin Islands,2010,0.901
+BRN,Brunei Darussalam,2010,0.797
+BGR,Bulgaria,2010,1.378
+BFA,Burkina Faso,2010,1.321
+BDI,Burundi,2010,
+CPV,Cabo Verde,2010,1.948
+KHM,Cambodia,2010,1.172
+CMR,Cameroon,2010,1.278
+CAN,Canada,2010,2.915
+CYM,Cayman Islands,2010,0.669
+CAF,Central African Rep.,2010,1.296
+TCD,Chad,2010,1.285
+CHL,Chile,2010,-0.117
+HKG,"China, P.R.: Hong Kong",2010,0.435
+MAC,"China, P.R.: Macao",2010,0.435
+CHN,"China, P.R.: Mainland",2010,0.984
+COL,Colombia,2010,0.885
+COM,"Comoros, Union of the",2010,0.982
+COD,"Congo, Dem. Rep. of the",2010,1.293
+COG,"Congo, Rep. of",2010,1.219
+COK,Cook Islands,2010,0.732
+CRI,Costa Rica,2010,0.968
+HRV,"Croatia, Rep. of",2010,0.889
+CUB,Cuba,2010,0.53
+CYP,Cyprus,2010,2.069
+CZE,Czech Rep.,2010,0.438
+DNK,Denmark,2010,-0.185
+DJI,Djibouti,2010,1.113
+DMA,Dominica,2010,1.033
+DOM,Dominican Rep.,2010,1.144
+ECU,Ecuador,2010,0.652
+EGY,"Egypt, Arab Rep. of",2010,2.348
+SLV,El Salvador,2010,0.659
+GNQ,"Equatorial Guinea, Rep. of",2010,0.915
+ERI,"Eritrea, The State of",2010,1.615
+EST,"Estonia, Rep. of",2010,0.521
+SWZ,"Eswatini, Kingdom of",2010,0.967
+ETH,"Ethiopia, The Federal Dem. Rep. of",2010,1.259
+FLK,Falkland Islands (Malvinas),2010,
+FRO,Faroe Islands,2010,0.257
+FJI,"Fiji, Rep. of",2010,0.782
+FIN,Finland,2010,0.255
+FRA,France,2010,0.353
+PYF,French Polynesia,2010,0.617
+GAB,Gabon,2010,0.959
+GMB,"Gambia, The",2010,1.48
+GEO,Georgia,2010,2.344
+DEU,Germany,2010,0.196
+GHA,Ghana,2010,1.322
+GIB,Gibraltar,2010,1.341
+GRC,Greece,2010,1.567
+GRL,Greenland,2010,3.039
+GRD,Grenada,2010,1.132
+GLP,Guadeloupe,2010,0.974
+GTM,Guatemala,2010,0.715
+GUF,"Guiana, French",2010,1.583
+GIN,Guinea,2010,1.543
+GNB,Guinea-Bissau,2010,1.643
+GUY,Guyana,2010,1.153
+HTI,Haiti,2010,1.028
+VAT,Holy See,2010,0.861
+HND,Honduras,2010,0.928
+HUN,Hungary,2010,0.831
+ISL,Iceland,2010,1.233
+IND,India,2010,1.101
+IDN,Indonesia,2010,0.797
+IRN,"Iran, Islamic Rep. of",2010,2.2
+IRQ,Iraq,2010,2.536
+IRL,Ireland,2010,-0.092
+IMN,Isle of Man,2010,-0.123
+ISR,Israel,2010,2.226
+ITA,Italy,2010,0.745
+JAM,Jamaica,2010,1.225
+JPN,Japan,2010,0.899
+JOR,Jordan,2010,2.484
+KAZ,"Kazakhstan, Rep. of",2010,1.306
+KEN,Kenya,2010,1.104
+KIR,Kiribati,2010,0.618
+PRK,"Korea, Dem. People's Rep. of",2010,0.456
+KOR,"Korea, Rep. of",2010,0.558
+KWT,Kuwait,2010,2.546
+KGZ,Kyrgyz Rep.,2010,1.321
+LAO,Lao People's Dem. Rep.,2010,1.322
+LVA,Latvia,2010,0.676
+LBN,Lebanon,2010,2.308
+LSO,"Lesotho, Kingdom of",2010,1.06
+LBR,Liberia,2010,1.447
+LBY,Libya,2010,2.068
+LIE,Liechtenstein,2010,0.507
+LTU,Lithuania,2010,0.756
+LUX,Luxembourg,2010,0.321
+MDG,"Madagascar, Rep. of",2010,1.198
+MWI,Malawi,2010,0.966
+MYS,Malaysia,2010,0.977
+MDV,Maldives,2010,0.683
+MLI,Mali,2010,1.723
+MLT,Malta,2010,1.073
+MHL,"Marshall Islands, Rep. of the",2010,0.383
+MTQ,Martinique,2010,1.031
+MRT,"Mauritania, Islamic Rep. of",2010,2.021
+MUS,Mauritius,2010,1.347
+MYT,Mayotte,2010,1.135
+MEX,Mexico,2010,0.237
+FSM,"Micronesia, Federated States of",2010,0.367
+MDA,"Moldova, Rep. of",2010,1.324
+MCO,Monaco,2010,0.408
+MNG,Mongolia,2010,0.344
+MNE,Montenegro,2010,1.206
+MSR,Montserrat,2010,0.961
+MAR,Morocco,2010,2.145
+MOZ,"Mozambique, Rep. of",2010,0.895
+MMR,Myanmar,2010,1.326
+NAM,Namibia,2010,1.171
+NRU,"Nauru, Rep. of",2010,
+NPL,Nepal,2010,1.282
+NLD,"Netherlands, The",2010,0.094
+NCL,New Caledonia,2010,0.788
+NZL,New Zealand,2010,0.56
+NIC,Nicaragua,2010,0.901
+NER,Niger,2010,1.794
+NGA,Nigeria,2010,1.492
+NIU,Niue,2010,
+NFK,Norfolk Island,2010,
+MKD,"North Macedonia, Republic of ",2010,1.374
+NOR,Norway,2010,-0.325
+OMN,Oman,2010,1.282
+PAK,Pakistan,2010,1.28
+PLW,"Palau, Rep. of",2010,0.572
+PAN,Panama,2010,0.859
+PNG,Papua New Guinea,2010,1.054
+PRY,Paraguay,2010,0.358
+PER,Peru,2010,0.996
+PHL,Philippines,2010,0.969
+PCN,Pitcairn Islands,2010,-0.078
+POL,"Poland, Rep. of",2010,0.403
+PRT,Portugal,2010,1.13
+PRI,Puerto Rico,2010,1.036
+QAT,Qatar,2010,2.017
+ROU,Romania,2010,1.181
+RUS,Russian Federation,2010,0.89
+RWA,Rwanda,2010,
+SHN,Saint Helena,2010,1.159
+SPM,Saint Pierre and Miquelon,2010,1.335
+WSM,Samoa,2010,1.018
+SMR,"San Marino, Rep. of",2010,0.788
+STP,"São Tomé and Príncipe, Dem. Rep. of",2010,0.86
+SAU,Saudi Arabia,2010,2.058
+SEN,Senegal,2010,1.469
+SRB,"Serbia, Rep. of",2010,1.188
+SYC,Seychelles,2010,1.263
+SLE,Sierra Leone,2010,1.827
+SGP,Singapore,2010,1.256
+SVK,Slovak Rep.,2010,0.703
+SVN,"Slovenia, Rep. of",2010,0.827
+SLB,Solomon Islands,2010,0.294
+SOM,Somalia,2010,1.154
+ZAF,South Africa,2010,1.226
+SSD,"South Sudan, Rep. of",2010,
+ESP,Spain,2010,0.912
+LKA,Sri Lanka,2010,1.01
+KNA,St. Kitts and Nevis,2010,0.961
+LCA,St. Lucia,2010,1.078
+VCT,St. Vincent and the Grenadines,2010,1.13
+SDN,Sudan,2010,
+SUR,Suriname,2010,1.627
+SWE,Sweden,2010,-0.263
+CHE,Switzerland,2010,0.459
+SYR,Syrian Arab Rep.,2010,2.441
+TWN,Taiwan Province of China,2010,0.455
+TJK,"Tajikistan, Rep. of",2010,1.292
+TZA,"Tanzania, United Rep. of",2010,1.111
+THA,Thailand,2010,1.316
+TLS,"Timor-Leste, Dem. Rep. of",2010,0.845
+TGO,Togo,2010,1.316
+TKL,Tokelau,2010,
+TON,Tonga,2010,0.889
+TTO,Trinidad and Tobago,2010,1.221
+TUN,Tunisia,2010,1.795
+TUR,Turkey,2010,2.342
+TKM,Turkmenistan,2010,1.906
+TCA,Turks and Caicos Islands,2010,
+TUV,Tuvalu,2010,0.83
+UGA,Uganda,2010,1.227
+UKR,Ukraine,2010,1.661
+ARE,United Arab Emirates,2010,1.581
+GBR,United Kingdom,2010,-0.063
+USA,United States,2010,0.694
+VIR,United States Virgin Islands,2010,0.924
+URY,Uruguay,2010,0.344
+UZB,"Uzbekistan, Rep. of",2010,1.776
+VUT,Vanuatu,2010,0.866
+VEN,"Venezuela, Rep. Bolivariana de",2010,1.058
+VNM,Vietnam,2010,1.115
+WLF,Wallis and Futuna Islands,2010,0.859
+PSE,West Bank and Gaza,2010,2.225
+ESH,Western Sahara,2010,1.91
+WLD,World,2010,1.22
+YEM,"Yemen, Rep. of",2010,
+ZMB,Zambia,2010,1.448
+ZWE,Zimbabwe,2010,1.072
+AFG,"Afghanistan, Islamic Rep. of",2011,1.463
+ALB,Albania,2011,1.133
+DZA,Algeria,2011,1.427
+ASM,American Samoa,2011,0.711
+AND,"Andorra, Principality of",2011,1.586
+AGO,Angola,2011,0.828
+AIA,Anguilla,2011,0.327
+ATG,Antigua and Barbuda,2011,0.382
+ARG,Argentina,2011,0.29
+ARM,"Armenia, Rep. of",2011,0.591
+ABW,"Aruba, Kingdom of the Netherlands",2011,0.32
+AUS,Australia,2011,0.148
+AUT,Austria,2011,1.398
+AZE,"Azerbaijan, Rep. of",2011,0.733
+BHS,"Bahamas, The",2011,0.487
+BHR,"Bahrain, Kingdom of",2011,1.355
+BGD,Bangladesh,2011,0.292
+BRB,Barbados,2011,0.648
+BLR,"Belarus, Rep. of",2011,1.008
+BEL,Belgium,2011,1.285
+BLZ,Belize,2011,0.655
+BEN,Benin,2011,0.993
+BTN,Bhutan,2011,0.52
+BOL,Bolivia,2011,1.46
+BIH,Bosnia and Herzegovina,2011,1.169
+BWA,Botswana,2011,0.218
+BRA,Brazil,2011,0.812
+VGB,British Virgin Islands,2011,0.271
+BRN,Brunei Darussalam,2011,0.429
+BGR,Bulgaria,2011,0.436
+BFA,Burkina Faso,2011,1.058
+BDI,Burundi,2011,0.68
+CPV,Cabo Verde,2011,1.053
+KHM,Cambodia,2011,0.375
+CMR,Cameroon,2011,0.719
+CAN,Canada,2011,1.449
+CYM,Cayman Islands,2011,0.355
+CAF,Central African Rep.,2011,0.868
+TCD,Chad,2011,1.03
+CHL,Chile,2011,0.074
+HKG,"China, P.R.: Hong Kong",2011,0.408
+MAC,"China, P.R.: Macao",2011,0.408
+CHN,"China, P.R.: Mainland",2011,0.811
+COL,Colombia,2011,0.31
+COM,"Comoros, Union of the",2011,0.618
+COD,"Congo, Dem. Rep. of the",2011,0.756
+COG,"Congo, Rep. of",2011,0.595
+COK,Cook Islands,2011,0.58
+CRI,Costa Rica,2011,0.471
+HRV,"Croatia, Rep. of",2011,1.283
+CUB,Cuba,2011,0.394
+CYP,Cyprus,2011,0.758
+CZE,Czech Rep.,2011,1.067
+DNK,Denmark,2011,0.693
+DJI,Djibouti,2011,0.984
+DMA,Dominica,2011,0.425
+DOM,Dominican Rep.,2011,0.469
+ECU,Ecuador,2011,0.542
+EGY,"Egypt, Arab Rep. of",2011,0.653
+SLV,El Salvador,2011,0.663
+GNQ,"Equatorial Guinea, Rep. of",2011,0.585
+ERI,"Eritrea, The State of",2011,1.421
+EST,"Estonia, Rep. of",2011,1.276
+SWZ,"Eswatini, Kingdom of",2011,0.839
+ETH,"Ethiopia, The Federal Dem. Rep. of",2011,1.137
+FLK,Falkland Islands (Malvinas),2011,
+FRO,Faroe Islands,2011,1.053
+FJI,"Fiji, Rep. of",2011,0.766
+FIN,Finland,2011,1.369
+FRA,France,2011,1.492
+PYF,French Polynesia,2011,0.072
+GAB,Gabon,2011,0.529
+GMB,"Gambia, The",2011,1.228
+GEO,Georgia,2011,0.349
+DEU,Germany,2011,1.12
+GHA,Ghana,2011,0.929
+GIB,Gibraltar,2011,1.679
+GRC,Greece,2011,0.389
+GRL,Greenland,2011,1.672
+GRD,Grenada,2011,0.645
+GLP,Guadeloupe,2011,0.371
+GTM,Guatemala,2011,0.701
+GUF,"Guiana, French",2011,1.158
+GIN,Guinea,2011,1.265
+GNB,Guinea-Bissau,2011,1.413
+GUY,Guyana,2011,0.809
+HTI,Haiti,2011,0.436
+VAT,Holy See,2011,1.117
+HND,Honduras,2011,0.843
+HUN,Hungary,2011,0.915
+ISL,Iceland,2011,1.041
+IND,India,2011,0.323
+IDN,Indonesia,2011,0.349
+IRN,"Iran, Islamic Rep. of",2011,1.335
+IRQ,Iraq,2011,0.749
+IRL,Ireland,2011,0.574
+IMN,Isle of Man,2011,0.672
+ISR,Israel,2011,0.473
+ITA,Italy,2011,1.242
+JAM,Jamaica,2011,0.476
+JPN,Japan,2011,0.578
+JOR,Jordan,2011,0.362
+KAZ,"Kazakhstan, Rep. of",2011,0.74
+KEN,Kenya,2011,1.05
+KIR,Kiribati,2011,0.634
+PRK,"Korea, Dem. People's Rep. of",2011,0.596
+KOR,"Korea, Rep. of",2011,0.372
+KWT,Kuwait,2011,1.329
+KGZ,Kyrgyz Rep.,2011,1.194
+LAO,Lao People's Dem. Rep.,2011,0.092
+LVA,Latvia,2011,1.123
+LBN,Lebanon,2011,0.609
+LSO,"Lesotho, Kingdom of",2011,0.185
+LBR,Liberia,2011,1.119
+LBY,Libya,2011,0.752
+LIE,Liechtenstein,2011,1.677
+LTU,Lithuania,2011,0.949
+LUX,Luxembourg,2011,1.338
+MDG,"Madagascar, Rep. of",2011,1.166
+MWI,Malawi,2011,0.629
+MYS,Malaysia,2011,0.603
+MDV,Maldives,2011,0.538
+MLI,Mali,2011,1.296
+MLT,Malta,2011,0.831
+MHL,"Marshall Islands, Rep. of the",2011,0.198
+MTQ,Martinique,2011,0.446
+MRT,"Mauritania, Islamic Rep. of",2011,1.661
+MUS,Mauritius,2011,1.178
+MYT,Mayotte,2011,0.877
+MEX,Mexico,2011,0.978
+FSM,"Micronesia, Federated States of",2011,0.153
+MDA,"Moldova, Rep. of",2011,0.441
+MCO,Monaco,2011,1.358
+MNG,Mongolia,2011,0.796
+MNE,Montenegro,2011,1.022
+MSR,Montserrat,2011,0.382
+MAR,Morocco,2011,1.835
+MOZ,"Mozambique, Rep. of",2011,0.728
+MMR,Myanmar,2011,0.651
+NAM,Namibia,2011,-0.499
+NRU,"Nauru, Rep. of",2011,
+NPL,Nepal,2011,0.374
+NLD,"Netherlands, The",2011,1.061
+NCL,New Caledonia,2011,0.634
+NZL,New Zealand,2011,0.635
+NIC,Nicaragua,2011,0.665
+NER,Niger,2011,1.218
+NGA,Nigeria,2011,0.9
+NIU,Niue,2011,
+NFK,Norfolk Island,2011,0.901
+MKD,"North Macedonia, Republic of ",2011,0.789
+NOR,Norway,2011,1.421
+OMN,Oman,2011,1.059
+PAK,Pakistan,2011,0.84
+PLW,"Palau, Rep. of",2011,0.567
+PAN,Panama,2011,0.454
+PNG,Papua New Guinea,2011,0.423
+PRY,Paraguay,2011,0.647
+PER,Peru,2011,0.764
+PHL,Philippines,2011,0.545
+PCN,Pitcairn Islands,2011,
+POL,"Poland, Rep. of",2011,0.764
+PRT,Portugal,2011,1.619
+PRI,Puerto Rico,2011,0.449
+QAT,Qatar,2011,1.505
+ROU,Romania,2011,0.503
+RUS,Russian Federation,2011,1.714
+RWA,Rwanda,2011,0.694
+SHN,Saint Helena,2011,1.471
+SPM,Saint Pierre and Miquelon,2011,1.167
+WSM,Samoa,2011,0.542
+SMR,"San Marino, Rep. of",2011,1.367
+STP,"São Tomé and Príncipe, Dem. Rep. of",2011,0.552
+SAU,Saudi Arabia,2011,0.777
+SEN,Senegal,2011,1.211
+SRB,"Serbia, Rep. of",2011,0.764
+SYC,Seychelles,2011,1.178
+SLE,Sierra Leone,2011,1.471
+SGP,Singapore,2011,0.842
+SVK,Slovak Rep.,2011,0.856
+SVN,"Slovenia, Rep. of",2011,1.409
+SLB,Solomon Islands,2011,0.089
+SOM,Somalia,2011,1.2
+ZAF,South Africa,2011,0.556
+SSD,"South Sudan, Rep. of",2011,1.399
+ESP,Spain,2011,1.623
+LKA,Sri Lanka,2011,0.689
+KNA,St. Kitts and Nevis,2011,0.382
+LCA,St. Lucia,2011,0.558
+VCT,St. Vincent and the Grenadines,2011,0.652
+SDN,Sudan,2011,0.989
+SUR,Suriname,2011,1.172
+SWE,Sweden,2011,1.292
+CHE,Switzerland,2011,1.666
+SYR,Syrian Arab Rep.,2011,0.624
+TWN,Taiwan Province of China,2011,-0.02
+TJK,"Tajikistan, Rep. of",2011,1.417
+TZA,"Tanzania, United Rep. of",2011,0.837
+THA,Thailand,2011,0.281
+TLS,"Timor-Leste, Dem. Rep. of",2011,-0.067
+TGO,Togo,2011,0.923
+TKL,Tokelau,2011,
+TON,Tonga,2011,0.616
+TTO,Trinidad and Tobago,2011,0.55
+TUN,Tunisia,2011,1.068
+TUR,Turkey,2011,0.365
+TKM,Turkmenistan,2011,1.096
+TCA,Turks and Caicos Islands,2011,
+TUV,Tuvalu,2011,0.708
+UGA,Uganda,2011,0.844
+UKR,Ukraine,2011,0.587
+ARE,United Arab Emirates,2011,1.251
+GBR,United Kingdom,2011,0.84
+USA,United States,2011,0.539
+VIR,United States Virgin Islands,2011,0.305
+URY,Uruguay,2011,0.528
+UZB,"Uzbekistan, Rep. of",2011,1.038
+VUT,Vanuatu,2011,0.705
+VEN,"Venezuela, Rep. Bolivariana de",2011,0.407
+VNM,Vietnam,2011,0.145
+WLF,Wallis and Futuna Islands,2011,0.718
+PSE,West Bank and Gaza,2011,0.47
+ESH,Western Sahara,2011,1.593
+WLD,World,2011,0.925
+YEM,"Yemen, Rep. of",2011,
+ZMB,Zambia,2011,0.942
+ZWE,Zimbabwe,2011,0.609
+AFG,"Afghanistan, Islamic Rep. of",2012,0.283
+ALB,Albania,2012,1.577
+DZA,Algeria,2012,1.184
+ASM,American Samoa,2012,0.732
+AND,"Andorra, Principality of",2012,1.179
+AGO,Angola,2012,0.528
+AIA,Anguilla,2012,0.492
+ATG,Antigua and Barbuda,2012,0.484
+ARG,Argentina,2012,0.713
+ARM,"Armenia, Rep. of",2012,1.212
+ABW,"Aruba, Kingdom of the Netherlands",2012,0.414
+AUS,Australia,2012,0.24
+AUT,Austria,2012,1.81
+AZE,"Azerbaijan, Rep. of",2012,1.425
+BHS,"Bahamas, The",2012,0.496
+BHR,"Bahrain, Kingdom of",2012,1.299
+BGD,Bangladesh,2012,0.485
+BRB,Barbados,2012,0.48
+BLR,"Belarus, Rep. of",2012,1.546
+BEL,Belgium,2012,1.131
+BLZ,Belize,2012,0.574
+BEN,Benin,2012,0.64
+BTN,Bhutan,2012,0.381
+BOL,Bolivia,2012,1.152
+BIH,Bosnia and Herzegovina,2012,1.809
+BWA,Botswana,2012,0.816
+BRA,Brazil,2012,1.052
+VGB,British Virgin Islands,2012,0.5
+BRN,Brunei Darussalam,2012,0.686
+BGR,Bulgaria,2012,1.692
+BFA,Burkina Faso,2012,0.545
+BDI,Burundi,2012,
+CPV,Cabo Verde,2012,0.513
+KHM,Cambodia,2012,0.873
+CMR,Cameroon,2012,0.549
+CAN,Canada,2012,2.155
+CYM,Cayman Islands,2012,0.422
+CAF,Central African Rep.,2012,0.635
+TCD,Chad,2012,0.629
+CHL,Chile,2012,0.571
+HKG,"China, P.R.: Hong Kong",2012,0.592
+MAC,"China, P.R.: Macao",2012,0.592
+CHN,"China, P.R.: Mainland",2012,0.646
+COL,Colombia,2012,0.494
+COM,"Comoros, Union of the",2012,0.581
+COD,"Congo, Dem. Rep. of the",2012,0.616
+COG,"Congo, Rep. of",2012,0.606
+COK,Cook Islands,2012,0.301
+CRI,Costa Rica,2012,0.264
+HRV,"Croatia, Rep. of",2012,1.872
+CUB,Cuba,2012,0.455
+CYP,Cyprus,2012,1.008
+CZE,Czech Rep.,2012,1.608
+DNK,Denmark,2012,1.15
+DJI,Djibouti,2012,
+DMA,Dominica,2012,0.526
+DOM,Dominican Rep.,2012,0.713
+ECU,Ecuador,2012,0.554
+EGY,"Egypt, Arab Rep. of",2012,0.952
+SLV,El Salvador,2012,0.769
+GNQ,"Equatorial Guinea, Rep. of",2012,0.514
+ERI,"Eritrea, The State of",2012,1.437
+EST,"Estonia, Rep. of",2012,1.449
+SWZ,"Eswatini, Kingdom of",2012,0.341
+ETH,"Ethiopia, The Federal Dem. Rep. of",2012,1.059
+FLK,Falkland Islands (Malvinas),2012,
+FRO,Faroe Islands,2012,0.359
+FJI,"Fiji, Rep. of",2012,0.458
+FIN,Finland,2012,1.559
+FRA,France,2012,1.178
+PYF,French Polynesia,2012,0.579
+GAB,Gabon,2012,0.511
+GMB,"Gambia, The",2012,1.095
+GEO,Georgia,2012,1.167
+DEU,Germany,2012,1.35
+GHA,Ghana,2012,0.657
+GIB,Gibraltar,2012,0.992
+GRC,Greece,2012,1.23
+GRL,Greenland,2012,1.612
+GRD,Grenada,2012,0.489
+GLP,Guadeloupe,2012,0.504
+GTM,Guatemala,2012,0.512
+GUF,"Guiana, French",2012,1.162
+GIN,Guinea,2012,0.722
+GNB,Guinea-Bissau,2012,1.179
+GUY,Guyana,2012,0.902
+HTI,Haiti,2012,0.742
+VAT,Holy See,2012,1.61
+HND,Honduras,2012,0.752
+HUN,Hungary,2012,1.755
+ISL,Iceland,2012,0.763
+IND,India,2012,0.451
+IDN,Indonesia,2012,0.443
+IRN,"Iran, Islamic Rep. of",2012,1.09
+IRQ,Iraq,2012,1.145
+IRL,Ireland,2012,0.727
+IMN,Isle of Man,2012,0.611
+ISR,Israel,2012,0.926
+ITA,Italy,2012,1.54
+JAM,Jamaica,2012,0.603
+JPN,Japan,2012,0.369
+JOR,Jordan,2012,0.922
+KAZ,"Kazakhstan, Rep. of",2012,1.15
+KEN,Kenya,2012,0.945
+KIR,Kiribati,2012,0.734
+PRK,"Korea, Dem. People's Rep. of",2012,0.495
+KOR,"Korea, Rep. of",2012,0.45
+KWT,Kuwait,2012,1.538
+KGZ,Kyrgyz Rep.,2012,0.276
+LAO,Lao People's Dem. Rep.,2012,0.92
+LVA,Latvia,2012,1.378
+LBN,Lebanon,2012,0.977
+LSO,"Lesotho, Kingdom of",2012,0.559
+LBR,Liberia,2012,0.894
+LBY,Libya,2012,0.677
+LIE,Liechtenstein,2012,1.635
+LTU,Lithuania,2012,1.357
+LUX,Luxembourg,2012,1.26
+MDG,"Madagascar, Rep. of",2012,0.841
+MWI,Malawi,2012,0.865
+MYS,Malaysia,2012,0.773
+MDV,Maldives,2012,0.526
+MLI,Mali,2012,0.438
+MLT,Malta,2012,1.289
+MHL,"Marshall Islands, Rep. of the",2012,0.55
+MTQ,Martinique,2012,0.538
+MRT,"Mauritania, Islamic Rep. of",2012,0.829
+MUS,Mauritius,2012,0.954
+MYT,Mayotte,2012,0.782
+MEX,Mexico,2012,0.864
+FSM,"Micronesia, Federated States of",2012,0.415
+MDA,"Moldova, Rep. of",2012,2.039
+MCO,Monaco,2012,1.351
+MNG,Mongolia,2012,0.275
+MNE,Montenegro,2012,1.695
+MSR,Montserrat,2012,0.484
+MAR,Morocco,2012,1.445
+MOZ,"Mozambique, Rep. of",2012,0.647
+MMR,Myanmar,2012,1.044
+NAM,Namibia,2012,-0.115
+NRU,"Nauru, Rep. of",2012,
+NPL,Nepal,2012,0.526
+NLD,"Netherlands, The",2012,1.141
+NCL,New Caledonia,2012,0.484
+NZL,New Zealand,2012,0.088
+NIC,Nicaragua,2012,0.628
+NER,Niger,2012,0.845
+NGA,Nigeria,2012,0.577
+NIU,Niue,2012,
+NFK,Norfolk Island,2012,0.431
+MKD,"North Macedonia, Republic of ",2012,1.503
+NOR,Norway,2012,1.075
+OMN,Oman,2012,0.991
+PAK,Pakistan,2012,0.276
+PLW,"Palau, Rep. of",2012,
+PAN,Panama,2012,0.386
+PNG,Papua New Guinea,2012,0.313
+PRY,Paraguay,2012,0.889
+PER,Peru,2012,0.853
+PHL,Philippines,2012,0.828
+PCN,Pitcairn Islands,2012,
+POL,"Poland, Rep. of",2012,1.379
+PRT,Portugal,2012,0.791
+PRI,Puerto Rico,2012,0.685
+QAT,Qatar,2012,1.435
+ROU,Romania,2012,1.83
+RUS,Russian Federation,2012,1.941
+RWA,Rwanda,2012,
+SHN,Saint Helena,2012,1.279
+SPM,Saint Pierre and Miquelon,2012,2.017
+WSM,Samoa,2012,0.647
+SMR,"San Marino, Rep. of",2012,1.788
+STP,"São Tomé and Príncipe, Dem. Rep. of",2012,0.621
+SAU,Saudi Arabia,2012,1.162
+SEN,Senegal,2012,0.875
+SRB,"Serbia, Rep. of",2012,1.719
+SYC,Seychelles,2012,1.12
+SLE,Sierra Leone,2012,0.83
+SGP,Singapore,2012,1.177
+SVK,Slovak Rep.,2012,1.587
+SVN,"Slovenia, Rep. of",2012,1.987
+SLB,Solomon Islands,2012,0.038
+SOM,Somalia,2012,1.139
+ZAF,South Africa,2012,0.657
+SSD,"South Sudan, Rep. of",2012,1.318
+ESP,Spain,2012,1.067
+LKA,Sri Lanka,2012,0.881
+KNA,St. Kitts and Nevis,2012,0.484
+LCA,St. Lucia,2012,0.516
+VCT,St. Vincent and the Grenadines,2012,0.49
+SDN,Sudan,2012,1.144
+SUR,Suriname,2012,1.271
+SWE,Sweden,2012,1.334
+CHE,Switzerland,2012,1.509
+SYR,Syrian Arab Rep.,2012,1.01
+TWN,Taiwan Province of China,2012,0.261
+TJK,"Tajikistan, Rep. of",2012,-0.048
+TZA,"Tanzania, United Rep. of",2012,0.945
+THA,Thailand,2012,0.934
+TLS,"Timor-Leste, Dem. Rep. of",2012,
+TGO,Togo,2012,0.628
+TKL,Tokelau,2012,
+TON,Tonga,2012,0.681
+TTO,Trinidad and Tobago,2012,0.508
+TUN,Tunisia,2012,1.626
+TUR,Turkey,2012,0.94
+TKM,Turkmenistan,2012,0.804
+TCA,Turks and Caicos Islands,2012,
+TUV,Tuvalu,2012,0.514
+UGA,Uganda,2012,0.914
+UKR,Ukraine,2012,1.956
+ARE,United Arab Emirates,2012,1.179
+GBR,United Kingdom,2012,0.571
+USA,United States,2012,1.451
+VIR,United States Virgin Islands,2012,0.535
+URY,Uruguay,2012,0.933
+UZB,"Uzbekistan, Rep. of",2012,0.668
+VUT,Vanuatu,2012,0.394
+VEN,"Venezuela, Rep. Bolivariana de",2012,0.331
+VNM,Vietnam,2012,0.77
+WLF,Wallis and Futuna Islands,2012,0.634
+PSE,West Bank and Gaza,2012,0.927
+ESH,Western Sahara,2012,1.4
+WLD,World,2012,1.081
+YEM,"Yemen, Rep. of",2012,
+ZMB,Zambia,2012,1.024
+ZWE,Zimbabwe,2012,0.72
+AFG,"Afghanistan, Islamic Rep. of",2013,1.325
+ALB,Albania,2013,1.431
+DZA,Algeria,2013,1.211
+ASM,American Samoa,2013,1.016
+AND,"Andorra, Principality of",2013,0.748
+AGO,Angola,2013,0.97
+AIA,Anguilla,2013,0.587
+ATG,Antigua and Barbuda,2013,0.556
+ARG,Argentina,2013,0.37
+ARM,"Armenia, Rep. of",2013,1.367
+ABW,"Aruba, Kingdom of the Netherlands",2013,0.951
+AUS,Australia,2013,1.436
+AUT,Austria,2013,1.122
+AZE,"Azerbaijan, Rep. of",2013,1.514
+BHS,"Bahamas, The",2013,0.721
+BHR,"Bahrain, Kingdom of",2013,1.418
+BGD,Bangladesh,2013,0.377
+BRB,Barbados,2013,0.76
+BLR,"Belarus, Rep. of",2013,1.193
+BEL,Belgium,2013,0.465
+BLZ,Belize,2013,0.714
+BEN,Benin,2013,0.91
+BTN,Bhutan,2013,0.691
+BOL,Bolivia,2013,0.919
+BIH,Bosnia and Herzegovina,2013,1.371
+BWA,Botswana,2013,0.923
+BRA,Brazil,2013,0.963
+VGB,British Virgin Islands,2013,0.618
+BRN,Brunei Darussalam,2013,0.885
+BGR,Bulgaria,2013,1.491
+BFA,Burkina Faso,2013,0.903
+BDI,Burundi,2013,
+CPV,Cabo Verde,2013,0.943
+KHM,Cambodia,2013,1.014
+CMR,Cameroon,2013,0.785
+CAN,Canada,2013,1.187
+CYM,Cayman Islands,2013,0.579
+CAF,Central African Rep.,2013,0.889
+TCD,Chad,2013,1.063
+CHL,Chile,2013,0.346
+HKG,"China, P.R.: Hong Kong",2013,0.901
+MAC,"China, P.R.: Macao",2013,0.901
+CHN,"China, P.R.: Mainland",2013,1.105
+COL,Colombia,2013,0.652
+COM,"Comoros, Union of the",2013,0.526
+COD,"Congo, Dem. Rep. of the",2013,0.912
+COG,"Congo, Rep. of",2013,0.782
+COK,Cook Islands,2013,0.508
+CRI,Costa Rica,2013,0.712
+HRV,"Croatia, Rep. of",2013,1.294
+CUB,Cuba,2013,0.701
+CYP,Cyprus,2013,1.279
+CZE,Czech Rep.,2013,0.806
+DNK,Denmark,2013,0.408
+DJI,Djibouti,2013,1.293
+DMA,Dominica,2013,0.519
+DOM,Dominican Rep.,2013,0.973
+ECU,Ecuador,2013,0.335
+EGY,"Egypt, Arab Rep. of",2013,1.069
+SLV,El Salvador,2013,0.754
+GNQ,"Equatorial Guinea, Rep. of",2013,0.724
+ERI,"Eritrea, The State of",2013,1.172
+EST,"Estonia, Rep. of",2013,1.155
+SWZ,"Eswatini, Kingdom of",2013,0.273
+ETH,"Ethiopia, The Federal Dem. Rep. of",2013,1.208
+FLK,Falkland Islands (Malvinas),2013,
+FRO,Faroe Islands,2013,0.594
+FJI,"Fiji, Rep. of",2013,0.848
+FIN,Finland,2013,1.439
+FRA,France,2013,0.671
+PYF,French Polynesia,2013,0.392
+GAB,Gabon,2013,0.81
+GMB,"Gambia, The",2013,1.202
+GEO,Georgia,2013,1.339
+DEU,Germany,2013,0.584
+GHA,Ghana,2013,0.89
+GIB,Gibraltar,2013,0.913
+GRC,Greece,2013,1.329
+GRL,Greenland,2013,1.363
+GRD,Grenada,2013,0.595
+GLP,Guadeloupe,2013,0.558
+GTM,Guatemala,2013,0.684
+GUF,"Guiana, French",2013,1.404
+GIN,Guinea,2013,1.305
+GNB,Guinea-Bissau,2013,1.458
+GUY,Guyana,2013,0.953
+HTI,Haiti,2013,0.971
+VAT,Holy See,2013,0.976
+HND,Honduras,2013,1.022
+HUN,Hungary,2013,1.185
+ISL,Iceland,2013,0.776
+IND,India,2013,0.397
+IDN,Indonesia,2013,0.782
+IRN,"Iran, Islamic Rep. of",2013,1.638
+IRQ,Iraq,2013,1.139
+IRL,Ireland,2013,0.611
+IMN,Isle of Man,2013,0.453
+ISR,Israel,2013,1.014
+ITA,Italy,2013,1.009
+JAM,Jamaica,2013,0.87
+JPN,Japan,2013,0.596
+JOR,Jordan,2013,0.893
+KAZ,"Kazakhstan, Rep. of",2013,1.618
+KEN,Kenya,2013,0.87
+KIR,Kiribati,2013,0.934
+PRK,"Korea, Dem. People's Rep. of",2013,0.375
+KOR,"Korea, Rep. of",2013,0.566
+KWT,Kuwait,2013,1.433
+KGZ,Kyrgyz Rep.,2013,1.367
+LAO,Lao People's Dem. Rep.,2013,1.085
+LVA,Latvia,2013,1.052
+LBN,Lebanon,2013,1.183
+LSO,"Lesotho, Kingdom of",2013,0.557
+LBR,Liberia,2013,1.008
+LBY,Libya,2013,1.122
+LIE,Liechtenstein,2013,0.952
+LTU,Lithuania,2013,0.96
+LUX,Luxembourg,2013,0.57
+MDG,"Madagascar, Rep. of",2013,0.696
+MWI,Malawi,2013,0.788
+MYS,Malaysia,2013,0.957
+MDV,Maldives,2013,0.592
+MLI,Mali,2013,0.99
+MLT,Malta,2013,1.222
+MHL,"Marshall Islands, Rep. of the",2013,0.544
+MTQ,Martinique,2013,0.539
+MRT,"Mauritania, Islamic Rep. of",2013,1.459
+MUS,Mauritius,2013,1.102
+MYT,Mayotte,2013,0.678
+MEX,Mexico,2013,0.698
+FSM,"Micronesia, Federated States of",2013,0.425
+MDA,"Moldova, Rep. of",2013,1.307
+MCO,Monaco,2013,0.678
+MNG,Mongolia,2013,1.061
+MNE,Montenegro,2013,1.487
+MSR,Montserrat,2013,0.556
+MAR,Morocco,2013,1.362
+MOZ,"Mozambique, Rep. of",2013,0.42
+MMR,Myanmar,2013,1.109
+NAM,Namibia,2013,0.728
+NRU,"Nauru, Rep. of",2013,
+NPL,Nepal,2013,0.341
+NLD,"Netherlands, The",2013,0.421
+NCL,New Caledonia,2013,0.597
+NZL,New Zealand,2013,0.94
+NIC,Nicaragua,2013,1.07
+NER,Niger,2013,1.064
+NGA,Nigeria,2013,0.964
+NIU,Niue,2013,
+NFK,Norfolk Island,2013,0.483
+MKD,"North Macedonia, Republic of ",2013,1.478
+NOR,Norway,2013,0.804
+OMN,Oman,2013,0.724
+PAK,Pakistan,2013,0.845
+PLW,"Palau, Rep. of",2013,0.843
+PAN,Panama,2013,0.693
+PNG,Papua New Guinea,2013,0.798
+PRY,Paraguay,2013,0.412
+PER,Peru,2013,0.649
+PHL,Philippines,2013,0.904
+PCN,Pitcairn Islands,2013,
+POL,"Poland, Rep. of",2013,0.65
+PRT,Portugal,2013,0.944
+PRI,Puerto Rico,2013,0.651
+QAT,Qatar,2013,1.285
+ROU,Romania,2013,1.384
+RUS,Russian Federation,2013,1.183
+RWA,Rwanda,2013,
+SHN,Saint Helena,2013,1.252
+SPM,Saint Pierre and Miquelon,2013,1.317
+WSM,Samoa,2013,0.931
+SMR,"San Marino, Rep. of",2013,1.093
+STP,"São Tomé and Príncipe, Dem. Rep. of",2013,0.681
+SAU,Saudi Arabia,2013,1.151
+SEN,Senegal,2013,1.216
+SRB,"Serbia, Rep. of",2013,1.443
+SYC,Seychelles,2013,0.987
+SLE,Sierra Leone,2013,1.473
+SGP,Singapore,2013,1.194
+SVK,Slovak Rep.,2013,0.966
+SVN,"Slovenia, Rep. of",2013,1.286
+SLB,Solomon Islands,2013,0.582
+SOM,Somalia,2013,1.238
+ZAF,South Africa,2013,0.763
+SSD,"South Sudan, Rep. of",2013,1.375
+ESP,Spain,2013,0.918
+LKA,Sri Lanka,2013,0.872
+KNA,St. Kitts and Nevis,2013,0.556
+LCA,St. Lucia,2013,0.595
+VCT,St. Vincent and the Grenadines,2013,0.592
+SDN,Sudan,2013,1.252
+SUR,Suriname,2013,1.61
+SWE,Sweden,2013,0.874
+CHE,Switzerland,2013,0.779
+SYR,Syrian Arab Rep.,2013,1.344
+TWN,Taiwan Province of China,2013,0.565
+TJK,"Tajikistan, Rep. of",2013,1.244
+TZA,"Tanzania, United Rep. of",2013,1.012
+THA,Thailand,2013,1.123
+TLS,"Timor-Leste, Dem. Rep. of",2013,0.468
+TGO,Togo,2013,0.821
+TKL,Tokelau,2013,
+TON,Tonga,2013,0.819
+TTO,Trinidad and Tobago,2013,0.65
+TUN,Tunisia,2013,1.449
+TUR,Turkey,2013,1.34
+TKM,Turkmenistan,2013,1.657
+TCA,Turks and Caicos Islands,2013,
+TUV,Tuvalu,2013,0.585
+UGA,Uganda,2013,0.92
+UKR,Ukraine,2013,1.519
+ARE,United Arab Emirates,2013,0.863
+GBR,United Kingdom,2013,0.367
+USA,United States,2013,0.618
+VIR,United States Virgin Islands,2013,0.618
+URY,Uruguay,2013,0.229
+UZB,"Uzbekistan, Rep. of",2013,1.514
+VUT,Vanuatu,2013,0.702
+VEN,"Venezuela, Rep. Bolivariana de",2013,0.736
+VNM,Vietnam,2013,0.927
+WLF,Wallis and Futuna Islands,2013,0.712
+PSE,West Bank and Gaza,2013,1.013
+ESH,Western Sahara,2013,1.523
+WLD,World,2013,1.023
+YEM,"Yemen, Rep. of",2013,
+ZMB,Zambia,2013,1.069
+ZWE,Zimbabwe,2013,0.394
+AFG,"Afghanistan, Islamic Rep. of",2014,0.536
+ALB,Albania,2014,1.357
+DZA,Algeria,2014,1.715
+ASM,American Samoa,2014,0.887
+AND,"Andorra, Principality of",2014,1.868
+AGO,Angola,2014,0.776
+AIA,Anguilla,2014,0.611
+ATG,Antigua and Barbuda,2014,0.487
+ARG,Argentina,2014,0.901
+ARM,"Armenia, Rep. of",2014,1.244
+ABW,"Aruba, Kingdom of the Netherlands",2014,0.865
+AUS,Australia,2014,1.141
+AUT,Austria,2014,2.43
+AZE,"Azerbaijan, Rep. of",2014,1.176
+BHS,"Bahamas, The",2014,1.053
+BHR,"Bahrain, Kingdom of",2014,1.814
+BGD,Bangladesh,2014,0.563
+BRB,Barbados,2014,0.405
+BLR,"Belarus, Rep. of",2014,2.165
+BEL,Belgium,2014,2.409
+BLZ,Belize,2014,0.715
+BEN,Benin,2014,0.975
+BTN,Bhutan,2014,0.758
+BOL,Bolivia,2014,1.321
+BIH,Bosnia and Herzegovina,2014,1.902
+BWA,Botswana,2014,0.328
+BRA,Brazil,2014,1.169
+VGB,British Virgin Islands,2014,0.736
+BRN,Brunei Darussalam,2014,0.869
+BGR,Bulgaria,2014,1.236
+BFA,Burkina Faso,2014,0.931
+BDI,Burundi,2014,
+CPV,Cabo Verde,2014,0.696
+KHM,Cambodia,2014,0.56
+CMR,Cameroon,2014,0.858
+CAN,Canada,2014,0.297
+CYM,Cayman Islands,2014,0.786
+CAF,Central African Rep.,2014,0.704
+TCD,Chad,2014,0.879
+CHL,Chile,2014,0.408
+HKG,"China, P.R.: Hong Kong",2014,0.98
+MAC,"China, P.R.: Macao",2014,0.98
+CHN,"China, P.R.: Mainland",2014,1.109
+COL,Colombia,2014,0.624
+COM,"Comoros, Union of the",2014,0.621
+COD,"Congo, Dem. Rep. of the",2014,0.86
+COG,"Congo, Rep. of",2014,0.694
+COK,Cook Islands,2014,
+CRI,Costa Rica,2014,0.612
+HRV,"Croatia, Rep. of",2014,2.076
+CUB,Cuba,2014,0.887
+CYP,Cyprus,2014,1.103
+CZE,Czech Rep.,2014,2.518
+DNK,Denmark,2014,2.688
+DJI,Djibouti,2014,1.153
+DMA,Dominica,2014,0.475
+DOM,Dominican Rep.,2014,0.984
+ECU,Ecuador,2014,0.962
+EGY,"Egypt, Arab Rep. of",2014,1.263
+SLV,El Salvador,2014,0.718
+GNQ,"Equatorial Guinea, Rep. of",2014,0.892
+ERI,"Eritrea, The State of",2014,0.889
+EST,"Estonia, Rep. of",2014,2.407
+SWZ,"Eswatini, Kingdom of",2014,0.387
+ETH,"Ethiopia, The Federal Dem. Rep. of",2014,1.149
+FLK,Falkland Islands (Malvinas),2014,
+FRO,Faroe Islands,2014,1.763
+FJI,"Fiji, Rep. of",2014,0.696
+FIN,Finland,2014,2.609
+FRA,France,2014,1.999
+PYF,French Polynesia,2014,0.449
+GAB,Gabon,2014,0.791
+GMB,"Gambia, The",2014,1.465
+GEO,Georgia,2014,1.229
+DEU,Germany,2014,2.516
+GHA,Ghana,2014,0.919
+GIB,Gibraltar,2014,1.507
+GRC,Greece,2014,1.073
+GRL,Greenland,2014,1.419
+GRD,Grenada,2014,0.51
+GLP,Guadeloupe,2014,0.544
+GTM,Guatemala,2014,0.602
+GUF,"Guiana, French",2014,1.451
+GIN,Guinea,2014,1.181
+GNB,Guinea-Bissau,2014,1.689
+GUY,Guyana,2014,1.297
+HTI,Haiti,2014,1.193
+VAT,Holy See,2014,1.459
+HND,Honduras,2014,0.778
+HUN,Hungary,2014,2.248
+ISL,Iceland,2014,1.706
+IND,India,2014,0.492
+IDN,Indonesia,2014,0.768
+IRN,"Iran, Islamic Rep. of",2014,1.063
+IRQ,Iraq,2014,1.075
+IRL,Ireland,2014,1.362
+IMN,Isle of Man,2014,1.507
+ISR,Israel,2014,0.767
+ITA,Italy,2014,1.642
+JAM,Jamaica,2014,1.091
+JPN,Japan,2014,0.53
+JOR,Jordan,2014,0.69
+KAZ,"Kazakhstan, Rep. of",2014,0.673
+KEN,Kenya,2014,0.956
+KIR,Kiribati,2014,1.073
+PRK,"Korea, Dem. People's Rep. of",2014,1.55
+KOR,"Korea, Rep. of",2014,0.897
+KWT,Kuwait,2014,1.505
+KGZ,Kyrgyz Rep.,2014,0.505
+LAO,Lao People's Dem. Rep.,2014,0.66
+LVA,Latvia,2014,2.294
+LBN,Lebanon,2014,1.01
+LSO,"Lesotho, Kingdom of",2014,0.635
+LBR,Liberia,2014,0.963
+LBY,Libya,2014,1.202
+LIE,Liechtenstein,2014,2.254
+LTU,Lithuania,2014,2.23
+LUX,Luxembourg,2014,2.462
+MDG,"Madagascar, Rep. of",2014,0.821
+MWI,Malawi,2014,1.055
+MYS,Malaysia,2014,0.976
+MDV,Maldives,2014,0.672
+MLI,Mali,2014,0.852
+MLT,Malta,2014,1.419
+MHL,"Marshall Islands, Rep. of the",2014,0.607
+MTQ,Martinique,2014,0.474
+MRT,"Mauritania, Islamic Rep. of",2014,1.357
+MUS,Mauritius,2014,1.051
+MYT,Mayotte,2014,0.872
+MEX,Mexico,2014,0.797
+FSM,"Micronesia, Federated States of",2014,0.378
+MDA,"Moldova, Rep. of",2014,1.399
+MCO,Monaco,2014,1.768
+MNG,Mongolia,2014,1.913
+MNE,Montenegro,2014,1.605
+MSR,Montserrat,2014,0.487
+MAR,Morocco,2014,1.751
+MOZ,"Mozambique, Rep. of",2014,0.671
+MMR,Myanmar,2014,1.009
+NAM,Namibia,2014,0.412
+NRU,"Nauru, Rep. of",2014,
+NPL,Nepal,2014,0.453
+NLD,"Netherlands, The",2014,2.555
+NCL,New Caledonia,2014,0.605
+NZL,New Zealand,2014,0.509
+NIC,Nicaragua,2014,0.803
+NER,Niger,2014,1.248
+NGA,Nigeria,2014,1.048
+NIU,Niue,2014,
+NFK,Norfolk Island,2014,0.325
+MKD,"North Macedonia, Republic of ",2014,1.378
+NOR,Norway,2014,2.43
+OMN,Oman,2014,0.774
+PAK,Pakistan,2014,0.453
+PLW,"Palau, Rep. of",2014,0.899
+PAN,Panama,2014,0.636
+PNG,Papua New Guinea,2014,0.488
+PRY,Paraguay,2014,1.186
+PER,Peru,2014,0.863
+PHL,Philippines,2014,0.783
+PCN,Pitcairn Islands,2014,
+POL,"Poland, Rep. of",2014,2.349
+PRT,Portugal,2014,1.351
+PRI,Puerto Rico,2014,0.767
+QAT,Qatar,2014,1.664
+ROU,Romania,2014,1.576
+RUS,Russian Federation,2014,1.772
+RWA,Rwanda,2014,
+SHN,Saint Helena,2014,1.346
+SPM,Saint Pierre and Miquelon,2014,0.401
+WSM,Samoa,2014,0.791
+SMR,"San Marino, Rep. of",2014,1.692
+STP,"São Tomé and Príncipe, Dem. Rep. of",2014,0.868
+SAU,Saudi Arabia,2014,1.218
+SEN,Senegal,2014,1.179
+SRB,"Serbia, Rep. of",2014,1.648
+SYC,Seychelles,2014,1.161
+SLE,Sierra Leone,2014,1.577
+SGP,Singapore,2014,1.194
+SVK,Slovak Rep.,2014,2.35
+SVN,"Slovenia, Rep. of",2014,2.493
+SLB,Solomon Islands,2014,0.642
+SOM,Somalia,2014,1.275
+ZAF,South Africa,2014,0.906
+SSD,"South Sudan, Rep. of",2014,0.981
+ESP,Spain,2014,1.616
+LKA,Sri Lanka,2014,0.954
+KNA,St. Kitts and Nevis,2014,0.487
+LCA,St. Lucia,2014,0.479
+VCT,St. Vincent and the Grenadines,2014,0.51
+SDN,Sudan,2014,1.039
+SUR,Suriname,2014,1.666
+SWE,Sweden,2014,2.717
+CHE,Switzerland,2014,2.15
+SYR,Syrian Arab Rep.,2014,1.215
+TWN,Taiwan Province of China,2014,0.678
+TJK,"Tajikistan, Rep. of",2014,0.489
+TZA,"Tanzania, United Rep. of",2014,1.028
+THA,Thailand,2014,0.709
+TLS,"Timor-Leste, Dem. Rep. of",2014,0.552
+TGO,Togo,2014,0.935
+TKL,Tokelau,2014,
+TON,Tonga,2014,0.742
+TTO,Trinidad and Tobago,2014,0.608
+TUN,Tunisia,2014,1.838
+TUR,Turkey,2014,1.321
+TKM,Turkmenistan,2014,0.727
+TCA,Turks and Caicos Islands,2014,
+TUV,Tuvalu,2014,0.548
+UGA,Uganda,2014,0.911
+UKR,Ukraine,2014,1.713
+ARE,United Arab Emirates,2014,1.008
+GBR,United Kingdom,2014,1.717
+USA,United States,2014,0.504
+VIR,United States Virgin Islands,2014,0.74
+URY,Uruguay,2014,1.249
+UZB,"Uzbekistan, Rep. of",2014,0.165
+VUT,Vanuatu,2014,0.59
+VEN,"Venezuela, Rep. Bolivariana de",2014,0.755
+VNM,Vietnam,2014,0.539
+WLF,Wallis and Futuna Islands,2014,0.687
+PSE,West Bank and Gaza,2014,0.754
+ESH,Western Sahara,2014,1.47
+WLD,World,2014,1.059
+YEM,"Yemen, Rep. of",2014,
+ZMB,Zambia,2014,0.935
+ZWE,Zimbabwe,2014,0.507
+AFG,"Afghanistan, Islamic Rep. of",2015,1.166
+ALB,Albania,2015,1.703
+DZA,Algeria,2015,1.151
+ASM,American Samoa,2015,0.726
+AND,"Andorra, Principality of",2015,1.564
+AGO,Angola,2015,1.319
+AIA,Anguilla,2015,0.87
+ATG,Antigua and Barbuda,2015,0.811
+ARG,Argentina,2015,0.892
+ARM,"Armenia, Rep. of",2015,1.897
+ABW,"Aruba, Kingdom of the Netherlands",2015,1.051
+AUS,Australia,2015,1.038
+AUT,Austria,2015,2.184
+AZE,"Azerbaijan, Rep. of",2015,1.597
+BHS,"Bahamas, The",2015,1.397
+BHR,"Bahrain, Kingdom of",2015,2.355
+BGD,Bangladesh,2015,0.796
+BRB,Barbados,2015,0.86
+BLR,"Belarus, Rep. of",2015,2.244
+BEL,Belgium,2015,1.367
+BLZ,Belize,2015,1.235
+BEN,Benin,2015,1.192
+BTN,Bhutan,2015,0.986
+BOL,Bolivia,2015,1.772
+BIH,Bosnia and Herzegovina,2015,1.89
+BWA,Botswana,2015,2.024
+BRA,Brazil,2015,1.6
+VGB,British Virgin Islands,2015,0.929
+BRN,Brunei Darussalam,2015,1.043
+BGR,Bulgaria,2015,1.495
+BFA,Burkina Faso,2015,1.178
+BDI,Burundi,2015,
+CPV,Cabo Verde,2015,0.683
+KHM,Cambodia,2015,1.037
+CMR,Cameroon,2015,1.139
+CAN,Canada,2015,1.225
+CYM,Cayman Islands,2015,1.027
+CAF,Central African Rep.,2015,1.011
+TCD,Chad,2015,1.328
+CHL,Chile,2015,0.734
+HKG,"China, P.R.: Hong Kong",2015,1.455
+MAC,"China, P.R.: Macao",2015,1.455
+CHN,"China, P.R.: Mainland",2015,1.343
+COL,Colombia,2015,1.093
+COM,"Comoros, Union of the",2015,0.837
+COD,"Congo, Dem. Rep. of the",2015,0.966
+COG,"Congo, Rep. of",2015,1.02
+COK,Cook Islands,2015,
+CRI,Costa Rica,2015,0.972
+HRV,"Croatia, Rep. of",2015,1.973
+CUB,Cuba,2015,1.142
+CYP,Cyprus,2015,1.254
+CZE,Czech Rep.,2015,2.132
+DNK,Denmark,2015,1.524
+DJI,Djibouti,2015,1.638
+DMA,Dominica,2015,0.712
+DOM,Dominican Rep.,2015,1.192
+ECU,Ecuador,2015,1.403
+EGY,"Egypt, Arab Rep. of",2015,1.219
+SLV,El Salvador,2015,1.337
+GNQ,"Equatorial Guinea, Rep. of",2015,0.849
+ERI,"Eritrea, The State of",2015,1.777
+EST,"Estonia, Rep. of",2015,2.355
+SWZ,"Eswatini, Kingdom of",2015,0.781
+ETH,"Ethiopia, The Federal Dem. Rep. of",2015,1.395
+FLK,Falkland Islands (Malvinas),2015,
+FRO,Faroe Islands,2015,0.81
+FJI,"Fiji, Rep. of",2015,0.616
+FIN,Finland,2015,2.629
+FRA,France,2015,1.558
+PYF,French Polynesia,2015,0.51
+GAB,Gabon,2015,0.893
+GMB,"Gambia, The",2015,1.516
+GEO,Georgia,2015,1.727
+DEU,Germany,2015,1.673
+GHA,Ghana,2015,1.224
+GIB,Gibraltar,2015,1.442
+GRC,Greece,2015,0.911
+GRL,Greenland,2015,0.184
+GRD,Grenada,2015,0.704
+GLP,Guadeloupe,2015,0.803
+GTM,Guatemala,2015,1.184
+GUF,"Guiana, French",2015,1.654
+GIN,Guinea,2015,1.432
+GNB,Guinea-Bissau,2015,1.722
+GUY,Guyana,2015,1.589
+HTI,Haiti,2015,1.256
+VAT,Holy See,2015,1.614
+HND,Honduras,2015,1.223
+HUN,Hungary,2015,2.103
+ISL,Iceland,2015,0.462
+IND,India,2015,0.653
+IDN,Indonesia,2015,0.789
+IRN,"Iran, Islamic Rep. of",2015,1.835
+IRQ,Iraq,2015,1.808
+IRL,Ireland,2015,0.437
+IMN,Isle of Man,2015,0.402
+ISR,Israel,2015,1.237
+ITA,Italy,2015,1.74
+JAM,Jamaica,2015,1.15
+JPN,Japan,2015,0.815
+JOR,Jordan,2015,1.345
+KAZ,"Kazakhstan, Rep. of",2015,1.61
+KEN,Kenya,2015,1.16
+KIR,Kiribati,2015,1.028
+PRK,"Korea, Dem. People's Rep. of",2015,1.246
+KOR,"Korea, Rep. of",2015,0.847
+KWT,Kuwait,2015,2.083
+KGZ,Kyrgyz Rep.,2015,1.479
+LAO,Lao People's Dem. Rep.,2015,1.314
+LVA,Latvia,2015,2.143
+LBN,Lebanon,2015,1.413
+LSO,"Lesotho, Kingdom of",2015,1.135
+LBR,Liberia,2015,1.33
+LBY,Libya,2015,0.692
+LIE,Liechtenstein,2015,2.073
+LTU,Lithuania,2015,2.096
+LUX,Luxembourg,2015,1.516
+MDG,"Madagascar, Rep. of",2015,1.171
+MWI,Malawi,2015,0.991
+MYS,Malaysia,2015,1.13
+MDV,Maldives,2015,0.806
+MLI,Mali,2015,1.094
+MLT,Malta,2015,1.429
+MHL,"Marshall Islands, Rep. of the",2015,0.5
+MTQ,Martinique,2015,0.71
+MRT,"Mauritania, Islamic Rep. of",2015,1.357
+MUS,Mauritius,2015,1.382
+MYT,Mayotte,2015,1.098
+MEX,Mexico,2015,1.048
+FSM,"Micronesia, Federated States of",2015,0.36
+MDA,"Moldova, Rep. of",2015,2.021
+MCO,Monaco,2015,1.863
+MNG,Mongolia,2015,2.172
+MNE,Montenegro,2015,1.785
+MSR,Montserrat,2015,0.811
+MAR,Morocco,2015,1.256
+MOZ,"Mozambique, Rep. of",2015,0.967
+MMR,Myanmar,2015,1.308
+NAM,Namibia,2015,1.089
+NRU,"Nauru, Rep. of",2015,
+NPL,Nepal,2015,0.67
+NLD,"Netherlands, The",2015,1.282
+NCL,New Caledonia,2015,0.818
+NZL,New Zealand,2015,0.542
+NIC,Nicaragua,2015,1.083
+NER,Niger,2015,1.055
+NGA,Nigeria,2015,1.228
+NIU,Niue,2015,
+NFK,Norfolk Island,2015,0.862
+MKD,"North Macedonia, Republic of ",2015,1.548
+NOR,Norway,2015,1.808
+OMN,Oman,2015,1.446
+PAK,Pakistan,2015,0.606
+PLW,"Palau, Rep. of",2015,1.148
+PAN,Panama,2015,0.923
+PNG,Papua New Guinea,2015,0.411
+PRY,Paraguay,2015,1.522
+PER,Peru,2015,1.245
+PHL,Philippines,2015,1.056
+PCN,Pitcairn Islands,2015,
+POL,"Poland, Rep. of",2015,1.999
+PRT,Portugal,2015,1.398
+PRI,Puerto Rico,2015,1.022
+QAT,Qatar,2015,2.092
+ROU,Romania,2015,1.854
+RUS,Russian Federation,2015,2.259
+RWA,Rwanda,2015,
+SHN,Saint Helena,2015,1.935
+SPM,Saint Pierre and Miquelon,2015,0.116
+WSM,Samoa,2015,0.63
+SMR,"San Marino, Rep. of",2015,1.928
+STP,"São Tomé and Príncipe, Dem. Rep. of",2015,0.814
+SAU,Saudi Arabia,2015,1.856
+SEN,Senegal,2015,1.298
+SRB,"Serbia, Rep. of",2015,1.782
+SYC,Seychelles,2015,1.479
+SLE,Sierra Leone,2015,1.615
+SGP,Singapore,2015,1.459
+SVK,Slovak Rep.,2015,2.135
+SVN,"Slovenia, Rep. of",2015,2.192
+SLB,Solomon Islands,2015,0.422
+SOM,Somalia,2015,1.629
+ZAF,South Africa,2015,1.415
+SSD,"South Sudan, Rep. of",2015,1.198
+ESP,Spain,2015,1.528
+LKA,Sri Lanka,2015,0.948
+KNA,St. Kitts and Nevis,2015,0.811
+LCA,St. Lucia,2015,0.725
+VCT,St. Vincent and the Grenadines,2015,0.705
+SDN,Sudan,2015,1.582
+SUR,Suriname,2015,1.736
+SWE,Sweden,2015,2.088
+CHE,Switzerland,2015,1.956
+SYR,Syrian Arab Rep.,2015,1.36
+TWN,Taiwan Province of China,2015,0.703
+TJK,"Tajikistan, Rep. of",2015,1.246
+TZA,"Tanzania, United Rep. of",2015,1.278
+THA,Thailand,2015,1.209
+TLS,"Timor-Leste, Dem. Rep. of",2015,0.627
+TGO,Togo,2015,1.197
+TKL,Tokelau,2015,
+TON,Tonga,2015,0.789
+TTO,Trinidad and Tobago,2015,0.75
+TUN,Tunisia,2015,1.168
+TUR,Turkey,2015,0.811
+TKM,Turkmenistan,2015,1.415
+TCA,Turks and Caicos Islands,2015,
+TUV,Tuvalu,2015,0.7
+UGA,Uganda,2015,0.977
+UKR,Ukraine,2015,2.085
+ARE,United Arab Emirates,2015,1.627
+GBR,United Kingdom,2015,0.61
+USA,United States,2015,1.534
+VIR,United States Virgin Islands,2015,0.944
+URY,Uruguay,2015,1.133
+UZB,"Uzbekistan, Rep. of",2015,1.386
+VUT,Vanuatu,2015,0.576
+VEN,"Venezuela, Rep. Bolivariana de",2015,1.022
+VNM,Vietnam,2015,1.216
+WLF,Wallis and Futuna Islands,2015,0.7
+PSE,West Bank and Gaza,2015,1.226
+ESH,Western Sahara,2015,1.513
+WLD,World,2015,1.424
+YEM,"Yemen, Rep. of",2015,
+ZMB,Zambia,2015,1.863
+ZWE,Zimbabwe,2015,1.226
+AFG,"Afghanistan, Islamic Rep. of",2016,1.581
+ALB,Albania,2016,1.624
+DZA,Algeria,2016,1.776
+ASM,American Samoa,2016,1.256
+AND,"Andorra, Principality of",2016,1.845
+AGO,Angola,2016,1.733
+AIA,Anguilla,2016,0.963
+ATG,Antigua and Barbuda,2016,0.889
+ARG,Argentina,2016,0.417
+ARM,"Armenia, Rep. of",2016,1.317
+ABW,"Aruba, Kingdom of the Netherlands",2016,
+AUS,Australia,2016,1.126
+AUT,Austria,2016,2.115
+AZE,"Azerbaijan, Rep. of",2016,1.385
+BHS,"Bahamas, The",2016,1.349
+BHR,"Bahrain, Kingdom of",2016,1.63
+BGD,Bangladesh,2016,1.395
+BRB,Barbados,2016,1.153
+BLR,"Belarus, Rep. of",2016,2.194
+BEL,Belgium,2016,1.867
+BLZ,Belize,2016,1.367
+BEN,Benin,2016,1.139
+BTN,Bhutan,2016,1.455
+BOL,Bolivia,2016,1.015
+BIH,Bosnia and Herzegovina,2016,1.749
+BWA,Botswana,2016,1.821
+BRA,Brazil,2016,1.49
+VGB,British Virgin Islands,2016,1.037
+BRN,Brunei Darussalam,2016,1.519
+BGR,Bulgaria,2016,1.955
+BFA,Burkina Faso,2016,1.136
+BDI,Burundi,2016,
+CPV,Cabo Verde,2016,1.334
+KHM,Cambodia,2016,1.349
+CMR,Cameroon,2016,1.206
+CAN,Canada,2016,2.412
+CYM,Cayman Islands,2016,0.964
+CAF,Central African Rep.,2016,1.241
+TCD,Chad,2016,0.921
+CHL,Chile,2016,0.831
+HKG,"China, P.R.: Hong Kong",2016,1.055
+MAC,"China, P.R.: Macao",2016,1.055
+CHN,"China, P.R.: Mainland",2016,1.379
+COL,Colombia,2016,0.941
+COM,"Comoros, Union of the",2016,0.812
+COD,"Congo, Dem. Rep. of the",2016,1.454
+COG,"Congo, Rep. of",2016,1.481
+COK,Cook Islands,2016,
+CRI,Costa Rica,2016,0.937
+HRV,"Croatia, Rep. of",2016,1.883
+CUB,Cuba,2016,1.203
+CYP,Cyprus,2016,1.628
+CZE,Czech Rep.,2016,2.089
+DNK,Denmark,2016,1.856
+DJI,Djibouti,2016,1.401
+DMA,Dominica,2016,0.864
+DOM,Dominican Rep.,2016,1.11
+ECU,Ecuador,2016,1.39
+EGY,"Egypt, Arab Rep. of",2016,1.38
+SLV,El Salvador,2016,1.297
+GNQ,"Equatorial Guinea, Rep. of",2016,1.458
+ERI,"Eritrea, The State of",2016,1.054
+EST,"Estonia, Rep. of",2016,1.89
+SWZ,"Eswatini, Kingdom of",2016,0.867
+ETH,"Ethiopia, The Federal Dem. Rep. of",2016,1.494
+FLK,Falkland Islands (Malvinas),2016,
+FRO,Faroe Islands,2016,0.8
+FJI,"Fiji, Rep. of",2016,1.086
+FIN,Finland,2016,2.167
+FRA,France,2016,1.738
+PYF,French Polynesia,2016,0.946
+GAB,Gabon,2016,1.417
+GMB,"Gambia, The",2016,1.917
+GEO,Georgia,2016,1.318
+DEU,Germany,2016,1.985
+GHA,Ghana,2016,1.328
+GIB,Gibraltar,2016,1.799
+GRC,Greece,2016,1.576
+GRL,Greenland,2016,2.346
+GRD,Grenada,2016,0.802
+GLP,Guadeloupe,2016,0.916
+GTM,Guatemala,2016,1.386
+GUF,"Guiana, French",2016,2.074
+GIN,Guinea,2016,1.442
+GNB,Guinea-Bissau,2016,2.038
+GUY,Guyana,2016,1.64
+HTI,Haiti,2016,1.189
+VAT,Holy See,2016,1.688
+HND,Honduras,2016,1.449
+HUN,Hungary,2016,1.929
+ISL,Iceland,2016,1.453
+IND,India,2016,1.048
+IDN,Indonesia,2016,1.455
+IRN,"Iran, Islamic Rep. of",2016,1.64
+IRQ,Iraq,2016,1.513
+IRL,Ireland,2016,1.047
+IMN,Isle of Man,2016,1.11
+ISR,Israel,2016,1.527
+ITA,Italy,2016,1.739
+JAM,Jamaica,2016,1.291
+JPN,Japan,2016,1.304
+JOR,Jordan,2016,1.573
+KAZ,"Kazakhstan, Rep. of",2016,2.246
+KEN,Kenya,2016,1.259
+KIR,Kiribati,2016,1.296
+PRK,"Korea, Dem. People's Rep. of",2016,1.467
+KOR,"Korea, Rep. of",2016,1.539
+KWT,Kuwait,2016,1.586
+KGZ,Kyrgyz Rep.,2016,1.886
+LAO,Lao People's Dem. Rep.,2016,1.324
+LVA,Latvia,2016,1.904
+LBN,Lebanon,2016,1.695
+LSO,"Lesotho, Kingdom of",2016,1.792
+LBR,Liberia,2016,1.523
+LBY,Libya,2016,1.504
+LIE,Liechtenstein,2016,2.057
+LTU,Lithuania,2016,1.94
+LUX,Luxembourg,2016,1.864
+MDG,"Madagascar, Rep. of",2016,1.12
+MWI,Malawi,2016,1.31
+MYS,Malaysia,2016,1.577
+MDV,Maldives,2016,0.846
+MLI,Mali,2016,1.161
+MLT,Malta,2016,1.682
+MHL,"Marshall Islands, Rep. of the",2016,0.804
+MTQ,Martinique,2016,0.87
+MRT,"Mauritania, Islamic Rep. of",2016,1.591
+MUS,Mauritius,2016,1.362
+MYT,Mayotte,2016,1.003
+MEX,Mexico,2016,1.236
+FSM,"Micronesia, Federated States of",2016,0.747
+MDA,"Moldova, Rep. of",2016,2.111
+MCO,Monaco,2016,1.734
+MNG,Mongolia,2016,1.434
+MNE,Montenegro,2016,1.56
+MSR,Montserrat,2016,0.889
+MAR,Morocco,2016,1.948
+MOZ,"Mozambique, Rep. of",2016,1.189
+MMR,Myanmar,2016,1.539
+NAM,Namibia,2016,1.487
+NRU,"Nauru, Rep. of",2016,
+NPL,Nepal,2016,1.192
+NLD,"Netherlands, The",2016,1.924
+NCL,New Caledonia,2016,1.512
+NZL,New Zealand,2016,1.182
+NIC,Nicaragua,2016,1.267
+NER,Niger,2016,1.204
+NGA,Nigeria,2016,1.214
+NIU,Niue,2016,
+NFK,Norfolk Island,2016,1.38
+MKD,"North Macedonia, Republic of ",2016,1.722
+NOR,Norway,2016,1.73
+OMN,Oman,2016,1.137
+PAK,Pakistan,2016,1.226
+PLW,"Palau, Rep. of",2016,1.206
+PAN,Panama,2016,0.831
+PNG,Papua New Guinea,2016,1.373
+PRY,Paraguay,2016,0.233
+PER,Peru,2016,1.383
+PHL,Philippines,2016,1.495
+PCN,Pitcairn Islands,2016,
+POL,"Poland, Rep. of",2016,2.038
+PRT,Portugal,2016,1.681
+PRI,Puerto Rico,2016,1.11
+QAT,Qatar,2016,1.592
+ROU,Romania,2016,1.938
+RUS,Russian Federation,2016,2.471
+RWA,Rwanda,2016,
+SHN,Saint Helena,2016,1.671
+SPM,Saint Pierre and Miquelon,2016,0.853
+WSM,Samoa,2016,1.16
+SMR,"San Marino, Rep. of",2016,1.843
+STP,"São Tomé and Príncipe, Dem. Rep. of",2016,1.526
+SAU,Saudi Arabia,2016,1.508
+SEN,Senegal,2016,1.658
+SRB,"Serbia, Rep. of",2016,1.74
+SYC,Seychelles,2016,1.425
+SLE,Sierra Leone,2016,1.531
+SGP,Singapore,2016,1.889
+SVK,Slovak Rep.,2016,1.962
+SVN,"Slovenia, Rep. of",2016,2.111
+SLB,Solomon Islands,2016,0.664
+SOM,Somalia,2016,1.438
+ZAF,South Africa,2016,1.669
+SSD,"South Sudan, Rep. of",2016,1.312
+ESP,Spain,2016,1.713
+LKA,Sri Lanka,2016,1.328
+KNA,St. Kitts and Nevis,2016,0.889
+LCA,St. Lucia,2016,0.884
+VCT,St. Vincent and the Grenadines,2016,0.804
+SDN,Sudan,2016,1.281
+SUR,Suriname,2016,2.217
+SWE,Sweden,2016,1.855
+CHE,Switzerland,2016,1.84
+SYR,Syrian Arab Rep.,2016,1.857
+TWN,Taiwan Province of China,2016,0.99
+TJK,"Tajikistan, Rep. of",2016,1.768
+TZA,"Tanzania, United Rep. of",2016,1.127
+THA,Thailand,2016,1.461
+TLS,"Timor-Leste, Dem. Rep. of",2016,1.556
+TGO,Togo,2016,1.257
+TKL,Tokelau,2016,
+TON,Tonga,2016,1.313
+TTO,Trinidad and Tobago,2016,0.841
+TUN,Tunisia,2016,1.863
+TUR,Turkey,2016,1.575
+TKM,Turkmenistan,2016,2.003
+TCA,Turks and Caicos Islands,2016,
+TUV,Tuvalu,2016,0.825
+UGA,Uganda,2016,1.064
+UKR,Ukraine,2016,2.128
+ARE,United Arab Emirates,2016,1.148
+GBR,United Kingdom,2016,1.165
+USA,United States,2016,2.229
+VIR,United States Virgin Islands,2016,1.048
+URY,Uruguay,2016,0.417
+UZB,"Uzbekistan, Rep. of",2016,2.262
+VUT,Vanuatu,2016,1.123
+VEN,"Venezuela, Rep. Bolivariana de",2016,0.988
+VNM,Vietnam,2016,1.164
+WLF,Wallis and Futuna Islands,2016,1.279
+PSE,West Bank and Gaza,2016,1.528
+ESH,Western Sahara,2016,1.8
+WLD,World,2016,1.668
+YEM,"Yemen, Rep. of",2016,
+ZMB,Zambia,2016,1.3
+ZWE,Zimbabwe,2016,1.47
+AFG,"Afghanistan, Islamic Rep. of",2017,1.626
+ALB,Albania,2017,1.286
+DZA,Algeria,2017,1.537
+ASM,American Samoa,2017,1.151
+AND,"Andorra, Principality of",2017,1.784
+AGO,Angola,2017,0.952
+AIA,Anguilla,2017,0.702
+ATG,Antigua and Barbuda,2017,0.665
+ARG,Argentina,2017,1.01
+ARM,"Armenia, Rep. of",2017,0.884
+ABW,"Aruba, Kingdom of the Netherlands",2017,1.22
+AUS,Australia,2017,1.111
+AUT,Austria,2017,1.765
+AZE,"Azerbaijan, Rep. of",2017,1.236
+BHS,"Bahamas, The",2017,1.506
+BHR,"Bahrain, Kingdom of",2017,2.091
+BGD,Bangladesh,2017,1.242
+BRB,Barbados,2017,0.792
+BLR,"Belarus, Rep. of",2017,1.588
+BEL,Belgium,2017,1.707
+BLZ,Belize,2017,1.273
+BEN,Benin,2017,1.26
+BTN,Bhutan,2017,1.443
+BOL,Bolivia,2017,1.251
+BIH,Bosnia and Herzegovina,2017,1.498
+BWA,Botswana,2017,0.328
+BRA,Brazil,2017,1.348
+VGB,British Virgin Islands,2017,0.738
+BRN,Brunei Darussalam,2017,1.067
+BGR,Bulgaria,2017,1.013
+BFA,Burkina Faso,2017,1.283
+BDI,Burundi,2017,
+CPV,Cabo Verde,2017,1.626
+KHM,Cambodia,2017,0.998
+CMR,Cameroon,2017,1.172
+CAN,Canada,2017,1.503
+CYM,Cayman Islands,2017,0.937
+CAF,Central African Rep.,2017,1.225
+TCD,Chad,2017,1.025
+CHL,Chile,2017,0.671
+HKG,"China, P.R.: Hong Kong",2017,1.629
+MAC,"China, P.R.: Macao",2017,1.629
+CHN,"China, P.R.: Mainland",2017,1.637
+COL,Colombia,2017,0.625
+COM,"Comoros, Union of the",2017,1.062
+COD,"Congo, Dem. Rep. of the",2017,1.19
+COG,"Congo, Rep. of",2017,1.155
+COK,Cook Islands,2017,1.186
+CRI,Costa Rica,2017,0.731
+HRV,"Croatia, Rep. of",2017,1.601
+CUB,Cuba,2017,1.339
+CYP,Cyprus,2017,0.916
+CZE,Czech Rep.,2017,1.609
+DNK,Denmark,2017,1.624
+DJI,Djibouti,2017,1.676
+DMA,Dominica,2017,0.621
+DOM,Dominican Rep.,2017,0.851
+ECU,Ecuador,2017,0.963
+EGY,"Egypt, Arab Rep. of",2017,0.626
+SLV,El Salvador,2017,0.75
+GNQ,"Equatorial Guinea, Rep. of",2017,1.338
+ERI,"Eritrea, The State of",2017,1.409
+EST,"Estonia, Rep. of",2017,1.475
+SWZ,"Eswatini, Kingdom of",2017,0.383
+ETH,"Ethiopia, The Federal Dem. Rep. of",2017,1.464
+FLK,Falkland Islands (Malvinas),2017,
+FRO,Faroe Islands,2017,1.486
+FJI,"Fiji, Rep. of",2017,1.273
+FIN,Finland,2017,1.504
+FRA,France,2017,1.743
+PYF,French Polynesia,2017,0.679
+GAB,Gabon,2017,1.392
+GMB,"Gambia, The",2017,2.033
+GEO,Georgia,2017,0.788
+DEU,Germany,2017,1.651
+GHA,Ghana,2017,1.405
+GIB,Gibraltar,2017,2.089
+GRC,Greece,2017,0.657
+GRL,Greenland,2017,1.184
+GRD,Grenada,2017,0.748
+GLP,Guadeloupe,2017,0.666
+GTM,Guatemala,2017,1.029
+GUF,"Guiana, French",2017,1.798
+GIN,Guinea,2017,1.807
+GNB,Guinea-Bissau,2017,2.171
+GUY,Guyana,2017,1.307
+HTI,Haiti,2017,0.985
+VAT,Holy See,2017,1.383
+HND,Honduras,2017,1.095
+HUN,Hungary,2017,1.383
+ISL,Iceland,2017,1.736
+IND,India,2017,0.949
+IDN,Indonesia,2017,0.968
+IRN,"Iran, Islamic Rep. of",2017,1.746
+IRQ,Iraq,2017,1.452
+IRL,Ireland,2017,1.281
+IMN,Isle of Man,2017,1.374
+ISR,Israel,2017,0.647
+ITA,Italy,2017,1.618
+JAM,Jamaica,2017,1.074
+JPN,Japan,2017,0.774
+JOR,Jordan,2017,0.871
+KAZ,"Kazakhstan, Rep. of",2017,1.76
+KEN,Kenya,2017,1.512
+KIR,Kiribati,2017,1.107
+PRK,"Korea, Dem. People's Rep. of",2017,1.654
+KOR,"Korea, Rep. of",2017,1.362
+KWT,Kuwait,2017,1.925
+KGZ,Kyrgyz Rep.,2017,1.444
+LAO,Lao People's Dem. Rep.,2017,1.071
+LVA,Latvia,2017,1.467
+LBN,Lebanon,2017,1.107
+LSO,"Lesotho, Kingdom of",2017,0.826
+LBR,Liberia,2017,1.538
+LBY,Libya,2017,0.471
+LIE,Liechtenstein,2017,1.829
+LTU,Lithuania,2017,1.535
+LUX,Luxembourg,2017,1.639
+MDG,"Madagascar, Rep. of",2017,1.442
+MWI,Malawi,2017,1.22
+MYS,Malaysia,2017,1.109
+MDV,Maldives,2017,0.707
+MLI,Mali,2017,1.406
+MLT,Malta,2017,1.142
+MHL,"Marshall Islands, Rep. of the",2017,0.611
+MTQ,Martinique,2017,0.625
+MRT,"Mauritania, Islamic Rep. of",2017,1.911
+MUS,Mauritius,2017,1.562
+MYT,Mayotte,2017,1.239
+MEX,Mexico,2017,1.474
+FSM,"Micronesia, Federated States of",2017,0.764
+MDA,"Moldova, Rep. of",2017,1.435
+MCO,Monaco,2017,1.921
+MNG,Mongolia,2017,2.515
+MNE,Montenegro,2017,1.364
+MSR,Montserrat,2017,0.665
+MAR,Morocco,2017,2.232
+MOZ,"Mozambique, Rep. of",2017,0.915
+MMR,Myanmar,2017,1.434
+NAM,Namibia,2017,0.844
+NRU,"Nauru, Rep. of",2017,
+NPL,Nepal,2017,1.123
+NLD,"Netherlands, The",2017,1.723
+NCL,New Caledonia,2017,1.302
+NZL,New Zealand,2017,0.606
+NIC,Nicaragua,2017,0.975
+NER,Niger,2017,1.026
+NGA,Nigeria,2017,1.19
+NIU,Niue,2017,
+NFK,Norfolk Island,2017,1.047
+MKD,"North Macedonia, Republic of ",2017,1.156
+NOR,Norway,2017,1.559
+OMN,Oman,2017,1.592
+PAK,Pakistan,2017,1.322
+PLW,"Palau, Rep. of",2017,1.069
+PAN,Panama,2017,0.69
+PNG,Papua New Guinea,2017,0.997
+PRY,Paraguay,2017,1.155
+PER,Peru,2017,0.928
+PHL,Philippines,2017,1.199
+PCN,Pitcairn Islands,2017,
+POL,"Poland, Rep. of",2017,1.461
+PRT,Portugal,2017,2.125
+PRI,Puerto Rico,2017,0.834
+QAT,Qatar,2017,1.947
+ROU,Romania,2017,1.219
+RUS,Russian Federation,2017,2.142
+RWA,Rwanda,2017,
+SHN,Saint Helena,2017,1.394
+SPM,Saint Pierre and Miquelon,2017,0.356
+WSM,Samoa,2017,1.056
+SMR,"San Marino, Rep. of",2017,1.749
+STP,"São Tomé and Príncipe, Dem. Rep. of",2017,1.224
+SAU,Saudi Arabia,2017,1.753
+SEN,Senegal,2017,1.856
+SRB,"Serbia, Rep. of",2017,1.324
+SYC,Seychelles,2017,1.516
+SLE,Sierra Leone,2017,2.227
+SGP,Singapore,2017,1.385
+SVK,Slovak Rep.,2017,1.29
+SVN,"Slovenia, Rep. of",2017,1.789
+SLB,Solomon Islands,2017,0.456
+SOM,Somalia,2017,1.8
+ZAF,South Africa,2017,1.151
+SSD,"South Sudan, Rep. of",2017,1.37
+ESP,Spain,2017,2.033
+LKA,Sri Lanka,2017,1.051
+KNA,St. Kitts and Nevis,2017,0.665
+LCA,St. Lucia,2017,0.693
+VCT,St. Vincent and the Grenadines,2017,0.739
+SDN,Sudan,2017,1.311
+SUR,Suriname,2017,1.874
+SWE,Sweden,2017,1.598
+CHE,Switzerland,2017,1.818
+SYR,Syrian Arab Rep.,2017,1.224
+TWN,Taiwan Province of China,2017,1.324
+TJK,"Tajikistan, Rep. of",2017,1.336
+TZA,"Tanzania, United Rep. of",2017,1.577
+THA,Thailand,2017,1.011
+TLS,"Timor-Leste, Dem. Rep. of",2017,0.858
+TGO,Togo,2017,1.351
+TKL,Tokelau,2017,
+TON,Tonga,2017,1.106
+TTO,Trinidad and Tobago,2017,1.002
+TUN,Tunisia,2017,1.333
+TUR,Turkey,2017,0.768
+TKM,Turkmenistan,2017,1.685
+TCA,Turks and Caicos Islands,2017,
+TUV,Tuvalu,2017,0.915
+UGA,Uganda,2017,1.449
+UKR,Ukraine,2017,1.436
+ARE,United Arab Emirates,2017,1.654
+GBR,United Kingdom,2017,1.43
+USA,United States,2017,1.437
+VIR,United States Virgin Islands,2017,0.755
+URY,Uruguay,2017,1.667
+UZB,"Uzbekistan, Rep. of",2017,1.751
+VUT,Vanuatu,2017,1.02
+VEN,"Venezuela, Rep. Bolivariana de",2017,0.625
+VNM,Vietnam,2017,1.118
+WLF,Wallis and Futuna Islands,2017,1.081
+PSE,West Bank and Gaza,2017,0.639
+ESH,Western Sahara,2017,2.234
+WLD,World,2017,1.438
+YEM,"Yemen, Rep. of",2017,
+ZMB,Zambia,2017,0.629
+ZWE,Zimbabwe,2017,0.443
+AFG,"Afghanistan, Islamic Rep. of",2018,1.682
+ALB,Albania,2018,2.189
+DZA,Algeria,2018,1.246
+ASM,American Samoa,2018,0.905
+AND,"Andorra, Principality of",2018,1.76
+AGO,Angola,2018,1.26
+AIA,Anguilla,2018,0.532
+ATG,Antigua and Barbuda,2018,0.506
+ARG,Argentina,2018,0.783
+ARM,"Armenia, Rep. of",2018,2.75
+ABW,"Aruba, Kingdom of the Netherlands",2018,0.637
+AUS,Australia,2018,1.104
+AUT,Austria,2018,2.563
+AZE,"Azerbaijan, Rep. of",2018,2.181
+BHS,"Bahamas, The",2018,1.144
+BHR,"Bahrain, Kingdom of",2018,2.25
+BGD,Bangladesh,2018,1.039
+BRB,Barbados,2018,0.509
+BLR,"Belarus, Rep. of",2018,2.339
+BEL,Belgium,2018,2.177
+BLZ,Belize,2018,0.742
+BEN,Benin,2018,1.129
+BTN,Bhutan,2018,1.389
+BOL,Bolivia,2018,0.816
+BIH,Bosnia and Herzegovina,2018,2.356
+BWA,Botswana,2018,1.004
+BRA,Brazil,2018,1.17
+VGB,British Virgin Islands,2018,0.559
+BRN,Brunei Darussalam,2018,1.076
+BGR,Bulgaria,2018,2.251
+BFA,Burkina Faso,2018,1.225
+BDI,Burundi,2018,
+CPV,Cabo Verde,2018,0.539
+KHM,Cambodia,2018,0.724
+CMR,Cameroon,2018,1.054
+CAN,Canada,2018,0.523
+CYM,Cayman Islands,2018,0.545
+CAF,Central African Rep.,2018,1.206
+TCD,Chad,2018,1.515
+CHL,Chile,2018,0.333
+HKG,"China, P.R.: Hong Kong",2018,1.479
+MAC,"China, P.R.: Macao",2018,1.479
+CHN,"China, P.R.: Mainland",2018,1.423
+COL,Colombia,2018,0.972
+COM,"Comoros, Union of the",2018,0.816
+COD,"Congo, Dem. Rep. of the",2018,1.34
+COG,"Congo, Rep. of",2018,1.181
+COK,Cook Islands,2018,0.748
+CRI,Costa Rica,2018,1.18
+HRV,"Croatia, Rep. of",2018,2.363
+CUB,Cuba,2018,1.157
+CYP,Cyprus,2018,2.236
+CZE,Czech Rep.,2018,2.665
+DNK,Denmark,2018,2.113
+DJI,Djibouti,2018,1.024
+DMA,Dominica,2018,0.421
+DOM,Dominican Rep.,2018,0.97
+ECU,Ecuador,2018,0.966
+EGY,"Egypt, Arab Rep. of",2018,2.053
+SLV,El Salvador,2018,0.803
+GNQ,"Equatorial Guinea, Rep. of",2018,0.685
+ERI,"Eritrea, The State of",2018,0.981
+EST,"Estonia, Rep. of",2018,2.386
+SWZ,"Eswatini, Kingdom of",2018,0.842
+ETH,"Ethiopia, The Federal Dem. Rep. of",2018,0.944
+FLK,Falkland Islands (Malvinas),2018,
+FRO,Faroe Islands,2018,0.826
+FJI,"Fiji, Rep. of",2018,1.058
+FIN,Finland,2018,2.17
+FRA,France,2018,2.006
+PYF,French Polynesia,2018,0.404
+GAB,Gabon,2018,0.896
+GMB,"Gambia, The",2018,1.317
+GEO,Georgia,2018,2.476
+DEU,Germany,2018,2.395
+GHA,Ghana,2018,1.173
+GIB,Gibraltar,2018,0.799
+GRC,Greece,2018,1.948
+GRL,Greenland,2018,0.912
+GRD,Grenada,2018,0.333
+GLP,Guadeloupe,2018,0.486
+GTM,Guatemala,2018,0.865
+GUF,"Guiana, French",2018,1.538
+GIN,Guinea,2018,1.53
+GNB,Guinea-Bissau,2018,1.618
+GUY,Guyana,2018,1.411
+HTI,Haiti,2018,1.106
+VAT,Holy See,2018,1.935
+HND,Honduras,2018,0.819
+HUN,Hungary,2018,2.579
+ISL,Iceland,2018,0.859
+IND,India,2018,0.855
+IDN,Indonesia,2018,0.881
+IRN,"Iran, Islamic Rep. of",2018,2.036
+IRQ,Iraq,2018,2.303
+IRL,Ireland,2018,0.801
+IMN,Isle of Man,2018,0.886
+ISR,Israel,2018,1.881
+ITA,Italy,2018,1.873
+JAM,Jamaica,2018,1.543
+JPN,Japan,2018,0.899
+JOR,Jordan,2018,1.899
+KAZ,"Kazakhstan, Rep. of",2018,0.645
+KEN,Kenya,2018,0.635
+KIR,Kiribati,2018,1.014
+PRK,"Korea, Dem. People's Rep. of",2018,0.909
+KOR,"Korea, Rep. of",2018,0.873
+KWT,Kuwait,2018,2.315
+KGZ,Kyrgyz Rep.,2018,1.226
+LAO,Lao People's Dem. Rep.,2018,0.814
+LVA,Latvia,2018,2.327
+LBN,Lebanon,2018,2.202
+LSO,"Lesotho, Kingdom of",2018,0.717
+LBR,Liberia,2018,1.367
+LBY,Libya,2018,1.695
+LIE,Liechtenstein,2018,2.333
+LTU,Lithuania,2018,2.423
+LUX,Luxembourg,2018,2.46
+MDG,"Madagascar, Rep. of",2018,1.115
+MWI,Malawi,2018,1.039
+MYS,Malaysia,2018,1.172
+MDV,Maldives,2018,0.65
+MLI,Mali,2018,1.179
+MLT,Malta,2018,1.344
+MHL,"Marshall Islands, Rep. of the",2018,0.397
+MTQ,Martinique,2018,0.407
+MRT,"Mauritania, Islamic Rep. of",2018,1.008
+MUS,Mauritius,2018,1.299
+MYT,Mayotte,2018,1.028
+MEX,Mexico,2018,1.105
+FSM,"Micronesia, Federated States of",2018,0.616
+MDA,"Moldova, Rep. of",2018,2.093
+MCO,Monaco,2018,1.886
+MNG,Mongolia,2018,2.235
+MNE,Montenegro,2018,2.323
+MSR,Montserrat,2018,0.506
+MAR,Morocco,2018,0.638
+MOZ,"Mozambique, Rep. of",2018,0.836
+MMR,Myanmar,2018,1.181
+NAM,Namibia,2018,1.231
+NRU,"Nauru, Rep. of",2018,
+NPL,Nepal,2018,0.654
+NLD,"Netherlands, The",2018,2.127
+NCL,New Caledonia,2018,0.937
+NZL,New Zealand,2018,1.157
+NIC,Nicaragua,2018,1.096
+NER,Niger,2018,1.196
+NGA,Nigeria,2018,1.069
+NIU,Niue,2018,
+NFK,Norfolk Island,2018,1.03
+MKD,"North Macedonia, Republic of ",2018,2.171
+NOR,Norway,2018,1.491
+OMN,Oman,2018,1.267
+PAK,Pakistan,2018,1.418
+PLW,"Palau, Rep. of",2018,1.135
+PAN,Panama,2018,1.076
+PNG,Papua New Guinea,2018,0.659
+PRY,Paraguay,2018,0.549
+PER,Peru,2018,0.7
+PHL,Philippines,2018,1.22
+PCN,Pitcairn Islands,2018,
+POL,"Poland, Rep. of",2018,2.418
+PRT,Portugal,2018,0.883
+PRI,Puerto Rico,2018,0.66
+QAT,Qatar,2018,2.102
+ROU,Romania,2018,2.331
+RUS,Russian Federation,2018,2.058
+RWA,Rwanda,2018,
+SHN,Saint Helena,2018,1.633
+SPM,Saint Pierre and Miquelon,2018,0.694
+WSM,Samoa,2018,0.81
+SMR,"San Marino, Rep. of",2018,2.042
+STP,"São Tomé and Príncipe, Dem. Rep. of",2018,0.925
+SAU,Saudi Arabia,2018,1.864
+SEN,Senegal,2018,1.084
+SRB,"Serbia, Rep. of",2018,2.37
+SYC,Seychelles,2018,1.248
+SLE,Sierra Leone,2018,1.714
+SGP,Singapore,2018,1.375
+SVK,Slovak Rep.,2018,2.578
+SVN,"Slovenia, Rep. of",2018,2.486
+SLB,Solomon Islands,2018,0.481
+SOM,Somalia,2018,0.836
+ZAF,South Africa,2018,1.083
+SSD,"South Sudan, Rep. of",2018,1.228
+ESP,Spain,2018,1.141
+LKA,Sri Lanka,2018,0.782
+KNA,St. Kitts and Nevis,2018,0.506
+LCA,St. Lucia,2018,0.387
+VCT,St. Vincent and the Grenadines,2018,0.333
+SDN,Sudan,2018,1.331
+SUR,Suriname,2018,1.685
+SWE,Sweden,2018,1.853
+CHE,Switzerland,2018,2.334
+SYR,Syrian Arab Rep.,2018,2.462
+TWN,Taiwan Province of China,2018,1.074
+TJK,"Tajikistan, Rep. of",2018,1.662
+TZA,"Tanzania, United Rep. of",2018,1.099
+THA,Thailand,2018,0.822
+TLS,"Timor-Leste, Dem. Rep. of",2018,
+TGO,Togo,2018,1.179
+TKL,Tokelau,2018,
+TON,Tonga,2018,1.048
+TTO,Trinidad and Tobago,2018,0.349
+TUN,Tunisia,2018,1.455
+TUR,Turkey,2018,2.629
+TKM,Turkmenistan,2018,1.537
+TCA,Turks and Caicos Islands,2018,
+TUV,Tuvalu,2018,0.877
+UGA,Uganda,2018,0.779
+UKR,Ukraine,2018,2.252
+ARE,United Arab Emirates,2018,1.593
+GBR,United Kingdom,2018,1.013
+USA,United States,2018,1.278
+VIR,United States Virgin Islands,2018,0.571
+URY,Uruguay,2018,1.327
+UZB,"Uzbekistan, Rep. of",2018,0.998
+VUT,Vanuatu,2018,0.364
+VEN,"Venezuela, Rep. Bolivariana de",2018,0.73
+VNM,Vietnam,2018,0.822
+WLF,Wallis and Futuna Islands,2018,0.896
+PSE,West Bank and Gaza,2018,1.875
+ESH,Western Sahara,2018,0.917
+WLD,World,2018,1.301
+YEM,"Yemen, Rep. of",2018,
+ZMB,Zambia,2018,0.888
+ZWE,Zimbabwe,2018,0.747
+AFG,"Afghanistan, Islamic Rep. of",2019,1.125
+ALB,Albania,2019,1.858
+DZA,Algeria,2019,1.127
+ASM,American Samoa,2019,1.255
+AND,"Andorra, Principality of",2019,1.8
+AGO,Angola,2019,1.752
+AIA,Anguilla,2019,0.766
+ATG,Antigua and Barbuda,2019,0.763
+ARG,Argentina,2019,0.664
+ARM,"Armenia, Rep. of",2019,1.806
+ABW,"Aruba, Kingdom of the Netherlands",2019,0.97
+AUS,Australia,2019,1.405
+AUT,Austria,2019,2.408
+AZE,"Azerbaijan, Rep. of",2019,1.967
+BHS,"Bahamas, The",2019,1.581
+BHR,"Bahrain, Kingdom of",2019,2.125
+BGD,Bangladesh,2019,1.264
+BRB,Barbados,2019,0.974
+BLR,"Belarus, Rep. of",2019,2.697
+BEL,Belgium,2019,2.054
+BLZ,Belize,2019,1.443
+BEN,Benin,2019,1.232
+BTN,Bhutan,2019,1.282
+BOL,Bolivia,2019,1.248
+BIH,Bosnia and Herzegovina,2019,2.119
+BWA,Botswana,2019,1.833
+BRA,Brazil,2019,1.532
+VGB,British Virgin Islands,2019,0.768
+BRN,Brunei Darussalam,2019,1.283
+BGR,Bulgaria,2019,2.208
+BFA,Burkina Faso,2019,1.153
+BDI,Burundi,2019,
+CPV,Cabo Verde,2019,1.134
+KHM,Cambodia,2019,1.544
+CMR,Cameroon,2019,1.527
+CAN,Canada,2019,1.342
+CYM,Cayman Islands,2019,0.917
+CAF,Central African Rep.,2019,1.28
+TCD,Chad,2019,1.375
+CHL,Chile,2019,0.459
+HKG,"China, P.R.: Hong Kong",2019,2.089
+MAC,"China, P.R.: Macao",2019,2.089
+CHN,"China, P.R.: Mainland",2019,1.474
+COL,Colombia,2019,1.228
+COM,"Comoros, Union of the",2019,1.408
+COD,"Congo, Dem. Rep. of the",2019,1.325
+COG,"Congo, Rep. of",2019,1.313
+COK,Cook Islands,2019,0.73
+CRI,Costa Rica,2019,1.394
+HRV,"Croatia, Rep. of",2019,2.214
+CUB,Cuba,2019,1.601
+CYP,Cyprus,2019,1.643
+CZE,Czech Rep.,2019,2.556
+DNK,Denmark,2019,2.186
+DJI,Djibouti,2019,1.255
+DMA,Dominica,2019,0.579
+DOM,Dominican Rep.,2019,1.115
+ECU,Ecuador,2019,1.174
+EGY,"Egypt, Arab Rep. of",2019,1.058
+SLV,El Salvador,2019,0.996
+GNQ,"Equatorial Guinea, Rep. of",2019,1.522
+ERI,"Eritrea, The State of",2019,0.796
+EST,"Estonia, Rep. of",2019,2.178
+SWZ,"Eswatini, Kingdom of",2019,1.341
+ETH,"Ethiopia, The Federal Dem. Rep. of",2019,1.362
+FLK,Falkland Islands (Malvinas),2019,
+FRO,Faroe Islands,2019,0.871
+FJI,"Fiji, Rep. of",2019,0.969
+FIN,Finland,2019,1.471
+FRA,France,2019,1.956
+PYF,French Polynesia,2019,0.627
+GAB,Gabon,2019,1.554
+GMB,"Gambia, The",2019,1.63
+GEO,Georgia,2019,1.68
+DEU,Germany,2019,2.335
+GHA,Ghana,2019,1.389
+GIB,Gibraltar,2019,1.351
+GRC,Greece,2019,1.503
+GRL,Greenland,2019,2.211
+GRD,Grenada,2019,0.566
+GLP,Guadeloupe,2019,0.694
+GTM,Guatemala,2019,1.408
+GUF,"Guiana, French",2019,1.855
+GIN,Guinea,2019,1.797
+GNB,Guinea-Bissau,2019,1.939
+GUY,Guyana,2019,1.301
+HTI,Haiti,2019,1.356
+VAT,Holy See,2019,1.654
+HND,Honduras,2019,1.252
+HUN,Hungary,2019,2.411
+ISL,Iceland,2019,1.366
+IND,India,2019,0.772
+IDN,Indonesia,2019,1.056
+IRN,"Iran, Islamic Rep. of",2019,1.616
+IRQ,Iraq,2019,1.639
+IRL,Ireland,2019,1.222
+IMN,Isle of Man,2019,1.184
+ISR,Israel,2019,1.071
+ITA,Italy,2019,1.709
+JAM,Jamaica,2019,1.46
+JPN,Japan,2019,1.247
+JOR,Jordan,2019,1.222
+KAZ,"Kazakhstan, Rep. of",2019,1.493
+KEN,Kenya,2019,1.611
+KIR,Kiribati,2019,1.015
+PRK,"Korea, Dem. People's Rep. of",2019,1.915
+KOR,"Korea, Rep. of",2019,1.438
+KWT,Kuwait,2019,1.834
+KGZ,Kyrgyz Rep.,2019,1.649
+LAO,Lao People's Dem. Rep.,2019,2.053
+LVA,Latvia,2019,2.426
+LBN,Lebanon,2019,1.467
+LSO,"Lesotho, Kingdom of",2019,1.557
+LBR,Liberia,2019,1.552
+LBY,Libya,2019,0.968
+LIE,Liechtenstein,2019,2.148
+LTU,Lithuania,2019,2.638
+LUX,Luxembourg,2019,2.151
+MDG,"Madagascar, Rep. of",2019,1.696
+MWI,Malawi,2019,1.225
+MYS,Malaysia,2019,1.428
+MDV,Maldives,2019,0.918
+MLI,Mali,2019,1.242
+MLT,Malta,2019,0.949
+MHL,"Marshall Islands, Rep. of the",2019,0.605
+MTQ,Martinique,2019,0.576
+MRT,"Mauritania, Islamic Rep. of",2019,1.426
+MUS,Mauritius,2019,1.762
+MYT,Mayotte,2019,1.588
+MEX,Mexico,2019,1.246
+FSM,"Micronesia, Federated States of",2019,0.658
+MDA,"Moldova, Rep. of",2019,2.401
+MCO,Monaco,2019,1.858
+MNG,Mongolia,2019,1.856
+MNE,Montenegro,2019,1.943
+MSR,Montserrat,2019,0.763
+MAR,Morocco,2019,1.579
+MOZ,"Mozambique, Rep. of",2019,1.185
+MMR,Myanmar,2019,1.879
+NAM,Namibia,2019,1.939
+NRU,"Nauru, Rep. of",2019,
+NPL,Nepal,2019,0.67
+NLD,"Netherlands, The",2019,2.136
+NCL,New Caledonia,2019,0.875
+NZL,New Zealand,2019,1.107
+NIC,Nicaragua,2019,1.362
+NER,Niger,2019,1.104
+NGA,Nigeria,2019,1.26
+NIU,Niue,2019,
+NFK,Norfolk Island,2019,0.997
+MKD,"North Macedonia, Republic of ",2019,1.927
+NOR,Norway,2019,1.208
+OMN,Oman,2019,0.975
+PAK,Pakistan,2019,0.608
+PLW,"Palau, Rep. of",2019,
+PAN,Panama,2019,1.277
+PNG,Papua New Guinea,2019,0.656
+PRY,Paraguay,2019,1.363
+PER,Peru,2019,0.996
+PHL,Philippines,2019,1.325
+PCN,Pitcairn Islands,2019,
+POL,"Poland, Rep. of",2019,2.64
+PRT,Portugal,2019,1.258
+PRI,Puerto Rico,2019,0.82
+QAT,Qatar,2019,1.903
+ROU,Romania,2019,2.308
+RUS,Russian Federation,2019,2.192
+RWA,Rwanda,2019,
+SHN,Saint Helena,2019,1.669
+SPM,Saint Pierre and Miquelon,2019,0.037
+WSM,Samoa,2019,1.16
+SMR,"San Marino, Rep. of",2019,1.86
+STP,"São Tomé and Príncipe, Dem. Rep. of",2019,1.313
+SAU,Saudi Arabia,2019,1.778
+SEN,Senegal,2019,1.53
+SRB,"Serbia, Rep. of",2019,2.149
+SYC,Seychelles,2019,1.708
+SLE,Sierra Leone,2019,2.084
+SGP,Singapore,2019,2.042
+SVK,Slovak Rep.,2019,2.463
+SVN,"Slovenia, Rep. of",2019,2.427
+SLB,Solomon Islands,2019,0.427
+SOM,Somalia,2019,1.747
+ZAF,South Africa,2019,1.826
+SSD,"South Sudan, Rep. of",2019,1.031
+ESP,Spain,2019,1.507
+LKA,Sri Lanka,2019,1.232
+KNA,St. Kitts and Nevis,2019,0.763
+LCA,St. Lucia,2019,0.618
+VCT,St. Vincent and the Grenadines,2019,0.554
+SDN,Sudan,2019,0.99
+SUR,Suriname,2019,1.966
+SWE,Sweden,2019,1.576
+CHE,Switzerland,2019,2.095
+SYR,Syrian Arab Rep.,2019,1.652
+TWN,Taiwan Province of China,2019,1.269
+TJK,"Tajikistan, Rep. of",2019,1.341
+TZA,"Tanzania, United Rep. of",2019,1.468
+THA,Thailand,2019,1.749
+TLS,"Timor-Leste, Dem. Rep. of",2019,0.664
+TGO,Togo,2019,1.335
+TKL,Tokelau,2019,
+TON,Tonga,2019,1.63
+TTO,Trinidad and Tobago,2019,0.867
+TUN,Tunisia,2019,1.286
+TUR,Turkey,2019,1.695
+TKM,Turkmenistan,2019,1.872
+TCA,Turks and Caicos Islands,2019,
+TUV,Tuvalu,2019,0.98
+UGA,Uganda,2019,1.292
+UKR,Ukraine,2019,2.38
+ARE,United Arab Emirates,2019,1.266
+GBR,United Kingdom,2019,1.248
+USA,United States,2019,1.04
+VIR,United States Virgin Islands,2019,0.775
+URY,Uruguay,2019,0.913
+UZB,"Uzbekistan, Rep. of",2019,1.893
+VUT,Vanuatu,2019,0.691
+VEN,"Venezuela, Rep. Bolivariana de",2019,1.054
+VNM,Vietnam,2019,1.776
+WLF,Wallis and Futuna Islands,2019,1.284
+PSE,West Bank and Gaza,2019,1.052
+ESH,Western Sahara,2019,1.497
+WLD,World,2019,1.463
+YEM,"Yemen, Rep. of",2019,
+ZMB,Zambia,2019,1.31
+ZWE,Zimbabwe,2019,1.359
