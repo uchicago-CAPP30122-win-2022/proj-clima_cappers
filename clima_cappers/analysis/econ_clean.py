@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
-filename = "C:/Users/dhruv/Desktop/CS Project/weo2021.csv"
+filename = "../data/weo2021.csv"
 
 df = pd.read_csv(filename)
 
-
+#shortlisting indicators from the dataset
 subject_descriptor_list= ["Gross domestic product, constant prices",
                           "Gross domestic product per capita, constant prices",
                           "Volume of imports of goods and services",
@@ -20,6 +20,7 @@ units_list= ["Percent change",
 df_new= df.loc[(df['Subject Descriptor'].isin(subject_descriptor_list) &
         df['Units'].isin(units_list))]
 
+#dropping redundant indicators
 df_new= df_new.drop(["WEO Country Code",
                      "WEO Subject Code",
                      "Country/Series-specific Notes",
@@ -39,15 +40,14 @@ years_needed=[]
 for year in range (1995,2021):
     years_needed.append(str(year))
     
-    
+
+#converting wide dataset into long   
 subject_descriptor_list= ["Gross domestic product, constant prices"]
 df_one= df_new.loc[(df_new['Subject Descriptor'].isin(subject_descriptor_list))]
-#%%
 df_one_long= pd.melt(df_one, id_vars=['Country', "ISO"], 
                          value_vars= years_needed,
                          var_name= "Year",
                          value_name= "GDP_constant_change")
-#%%
 subject_descriptor_list_new= [
                           "Gross domestic product per capita, constant prices",
                           "Volume of imports of goods and services",
@@ -67,7 +67,6 @@ for count, value in enumerate(subject_descriptor_list_new):
                          value_name= name)
     df_long=df_long[[name]]
     df_one_long= pd.concat([df_one_long, df_long], axis=1, sort= False)
-#%%
 convert_dict = {"GDP_constant_change": float,
                 "GDP_capita": float,
                 "vol_imports_change": float,
@@ -84,6 +83,8 @@ df_one_long = df_one_long.astype(convert_dict)
 filename = "C:/Users/dhruv/Desktop/CS Project/import_export.csv"
 df_import_export= pd.read_csv(filename)
 
+#merging with import, export and energy use dataset
 result = pd.merge(df_one_long, df_import_export, how= "left", on=["ISO", "Year"])
 
-result.to_csv('C:/Users/dhruv/Desktop/CS Project/econ_parameters_out.csv', index= False, header= False)  
+result.to_csv('C:/Users/dhruv/Desktop/CS Project/econ_parameters_out.csv', 
+                                                index= False, header= False)  

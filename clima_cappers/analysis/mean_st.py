@@ -1,5 +1,5 @@
 import pandas as pd
-filename = "C:/Users/dhruv/Desktop/CS Project/Mean_Global_Surface_Temperature.csv"
+filename = "../data/Mean_Global_Surface_Temperature.csv"
 
 df = pd.read_csv(filename)
 df_new= df.drop(["ObjectId",
