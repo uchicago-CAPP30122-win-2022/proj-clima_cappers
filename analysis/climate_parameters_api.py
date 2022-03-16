@@ -4,11 +4,11 @@ import sqlite3
 
 
 # connecting to the sqlite3 db
-connection = sqlite3.connect("indicators.sqlite3")
+connection = sqlite3.connect("proj-clima_cappers/data/indicators.sqlite3")
 c = connection.cursor()
 
 #mean srface temperature data
-mst = pd.read_csv("mean_st_output.csv")
+mst = pd.read_csv("proj-clima_cappers/data/mean_st_output.csv")
 mst.drop(["Country"], axis = 1, inplace = True)
 mst.rename(columns={"ISO3": "Country_code"}, inplace = True)
 
@@ -78,20 +78,17 @@ class DataCollector:
             data= data.merge(mst, on=["Country_code", "Year"])
             data_tuples = data.apply(tuple, axis=1).tolist()
             print("writing data for", name, code,  "into the db")
-            # try:
-            #     c.executemany(sql_insert, data_tuples)
-            # except:
-            #     print("Data already exists. Moving on to the next iteration.")
-            #     continue
-            c.executemany(sql_insert, data_tuples)
+            try:
+                c.executemany(sql_insert, data_tuples)
+            except:
+                print("Data already exists. Moving on to the next iteration.")
+                continue
+            # c.executemany(sql_insert, data_tuples)
             connection.commit()
             
         connection.close()
 
 
-if __name__ == "__main__":
+def run():
     obj = DataCollector()
     obj.get_data()
-
-
-
