@@ -27,26 +27,28 @@ connection = sqlite3.connect("data/indicators.sqlite3", check_same_thread=False)
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 econ_indicators_lst = [("GDP constant (change)", "gdp_constant_change"),
-("GDP per capita", "gdp_capita"), ("Volume of imports (change)", "vol_imports_change"),
-("Volume of exports (change)", "vol_exports_change"), ("Population", "population"),
-("GDP (current)", "gdp_current"), ("Energy usage", "energy_usage"), ("Imports", "imports_gns"),
-("Expprts", "exports_gns"),]
+("GDP per capita (PPP 2017 Intl $)", "gdp_capita"), ("Volume of imports (change)", 
+"vol_imports_change"), ("Volume of exports (change)", "vol_exports_change"), 
+("Population", "population"), ("GDP current PPP intl $", "gdp_current"), 
+("Energy usage (kg of oil equivalent per capita)", 
+"energy_usage"), ("Imports (constant 2015 US$)", "imports_gns"),
+("Expprts(constant 2015 US$)", "exports_gns"),]
 
-climate_indicators_lst = [("C02 emissions per capita", "co2_emissions_capita"),
-("C02 emissions(kt)", "co2_emissions_kt"), ("Forest area", "forest_area"),
-("Electricity production (hydro)", "electricity_pro_hydro"), 
-("Electricity production (Natural gas)", "electricity_pro_natural_gas"),
-("Electricity production (Nuclear)", "electricity_pro_nuclear"),
-("Electricity production (Oil)", "electricity_pro_oil"),
-("Electricity production (Coal)", "electricity_pro_coal"),
-("Electricity production (Fossil fuels)", "electricity_pro_fossils"),
-("Electricity production (Renewables)", "electricity_pro_renewable"),
-("PM 2.5", "pm_25"),
-("SF6 emissions", "sf6_emissions"),
-("Greenhouse gases(total)", "ghg_total"),
+climate_indicators_lst = [("C02 emissions per capita (metric tons)", "co2_emissions_capita"),
+("C02 emissions(kt)", "co2_emissions_kt"), ("Forest area (% of land area)", "forest_area"),
+("Electricity production-hydro (% of total)", "electricity_pro_hydro"), 
+("Electricity production-Natural gas (% of total)", "electricity_pro_natural_gas"),
+("Electricity production-Nuclear (% of total)", "electricity_pro_nuclear"),
+("Electricity production- Oil (% of total)", "electricity_pro_oil"),
+("Electricity production- Coal (% of total)", "electricity_pro_coal"),
+("Electricity production- Fossil fuels (% of total)", "electricity_pro_fossils"),
+("Electricity production- Renewables (% of total)", "electricity_pro_renewable"),
+("PM 2.5(mg per cubic meter)", "pm_25"),
+("SF6 emissions (thousand metric tons of CO2 equivalent)", "sf6_emissions"),
+("Greenhouse gases-total (kt of CO2 equivalent)", "ghg_total"),
 ("Greenhouse gases(growth)", "ghg_growth"),
-("Greenhouse gases(capita)", "ghg_capita"),
-("Mean surface temperature", "mean_surface_temp")]
+("Greenhouse gases(tons/capita)", "ghg_capita"),
+("Mean surface temperature (change)", "mean_surface_temp")]
 
 # creating date_dict for year slider
 date_dict = {}
@@ -157,23 +159,23 @@ app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic 
                             html.Div(className="six columns", 
                             children = [
                             dcc.Dropdown(id="econ-param-agg", value='gdp_current',
-                                            options=[{'label': "GDP, current price, PPP (in billions)",
+                                            options=[{'label': "GDP current PPP intl $",
                                                          'value': 'gdp_current'},
-                                                    {'label': "GDP per capita", 'value': 'gdp_capita'},
-                                                    {'label': "Volume of Exports", 'value': 'exports_gns'},
-                                                    {'label': "Volume of Imports", 'value': 'imports_gns'}]),
+                                                    {'label': "GDP per capita (PPP 2017 Intl $)", 'value': 'gdp_capita'},
+                                                    {'label': "Exports (constant 2015 US$)", 'value': 'exports_gns'},
+                                                    {'label': "Imports (constant 2015 US$)", 'value': 'imports_gns'}]),
                             dcc.Graph(id="econ-map-agg", style={'width': '80vh', 'height': '80vh'})
                             ]),
                             html.Div(className="six columns", 
                             children = [
                             dcc.Dropdown(id="climate-param-agg", value='co2_emissions_kt',
                                             options=[{'label': "C02 emissions(kt)", 'value': 'co2_emissions_kt'},
-                                                    {'label': "C02 emissions per capita", 
+                                                    {'label': "C02 emissions per capita (metric tons)", 
                                                             'value': 'co2_emissions_capita'},
-                                                    {'label': "PM 2.5", 'value': 'pm_25'},
-                                                    {'label': "Greenhouse emission per capita",
+                                                    {'label': "PM 2.5(mg per cubic meter)", 'value': 'pm_25'},
+                                                    {'label': "Greenhouse gases(tons/capita)",
                                                              'value': 'ghg_capita'},
-                                                    {'label': "Mean Surface Temperature",
+                                                    {'label': "Mean surface temperature (change)",
                                                              'value': 'mean_surface_temp'}]),
                             dcc.Graph(id="climate-map-agg", style={'width': '80vh', 'height': '80vh',
                                     "margin-left": "auto", "margin-right": "auto"})
@@ -257,7 +259,18 @@ app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic 
                         html.Div([html.Span('''In this section, we are regressing log of 
                         Co2 emissions on log gdp and log gdp sqaured. The user can select
                         forest areas as an additional independent variable along with
-                        the region they want to see the regressions on.''')],
+                        the region they want to see the regressions on. For future iterations 
+                        of the project, the model would greatly benefit by incoproating more
+                        socio-economic variables like human development index for each country and
+                        an indicator on the quality of governance and level of corruption. It would be 
+                        interesting to see the inter-play of these socio-economic indicators on the 
+                        level of emissions. Additionally, a test to account for the structural 
+                        break like the years around major climate conventions would offer meaningful
+                        insights on the changes in the level of emissions and if these climatic 
+                        conventions have had any impact on the level of emissions. This layer also 
+                        has an animated scatter plot that showcases the interaction between the 
+                        variables in the benchmark model - log GDP per capita and log CO2 
+                        emissions per capita over the given range of years.''')],
                                 style={"text-align": "left", "padding-top": 10}
                                ),
                         html.Hr(className='gap'),
