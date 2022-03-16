@@ -10,6 +10,14 @@ connection = sqlite3.connect("./data/indicators.sqlite3", check_same_thread=Fals
 
 def extract_countries(region):
     '''
+    Extract region specific dataset from the database and convert it to a 
+    dataframe. Also addd the required transformations of the required varables.
+
+    Input:
+        region (str): name of the region
+
+    Returns:
+        df (DataFrame): data for the selected region     
     '''
     params = [region]
     query = ''' SELECT e.country, e.iso_code, e.year,
@@ -28,6 +36,16 @@ def extract_countries(region):
 
 def regression_df(controls, region):
     '''
+    Runs the time fixed effects regression on the panel dataset for a particular
+    region. The default model is the benchmark model with log co2 emissions as
+    the dependent variable and log gdp capita as the independent variable.
+
+    Input:
+        controls (list): list of explanatory variables
+        regions (str): name of the region
+
+    Returns:
+        regression_result: PanelOLS results class object
     '''
     params = [region]
     # if isinstance(controls, list):
@@ -45,34 +63,29 @@ def regression_df(controls, region):
                  ON e.iso_code = r.iso_code
                  WHERE r.region = ? '''
     
-    data2 = pd.read_sql_query(query, connection, params=params)
-    data2.replace('', np.nan, inplace=True)
+    merged_dataset = pd.read_sql_query(query, connection, params=params)
+    merged_dataset.replace('', np.nan, inplace=True)
 
-    # data2 = combined_data.copy()
-    data2["log_co2_capita"] = np.log(data2["co2_emissions_capita"])
-    data2["log_gdp_capita"] = np.log(pd.to_numeric(data2["gdp_capita"]))
-    data2["log_gdp_capita_sq"] = (np.log(pd.to_numeric(data2["gdp_capita"])))**2
-    data2["net_exports"] = data2["exports_gns"] - data2["imports_gns"]
-
-
-    #drop indicators with more than 35% missing values
-    data_remove_na = missing_data_prop(data2)
+    #drop indicators with more than 35% missing values- additional check
+    data_remove_na = missing_data_prop(merged_dataset)
 
     #drop countries with more than 35% missing values
     drop_countries = []
-    for country in data2["iso_code"].unique():
+    for country in merged_dataset["iso_code"].unique():
         df = data_remove_na[data_remove_na["iso_code"] == country]
         df_clean = missing_data_prop(df)
         if df.shape[1] != df_clean.shape[1]:
             drop_countries.append(country)
+    combined_data = merged_dataset[merged_dataset.iso_code.isin(drop_countries) == False]
 
-    data2 = data2[data2.iso_code.isin(drop_countries) == False]
-    # data2["log_net_exports"] = np.log(data2["net_exports"])
+    data2 = combined_data.copy()
+    data2["log_co2_capita"] = np.log(data2["co2_emissions_capita"])
+    data2["log_gdp_capita"] = np.log(pd.to_numeric(data2["gdp_capita"]))
+    data2["log_gdp_capita_sq"] = (np.log(pd.to_numeric(data2["gdp_capita"])))**2
+    data2["net_exports"] = data2["exports_gns"] - data2["imports_gns"]
+    data2.replace([np.inf, -np.inf], np.nan, inplace= True)
 
-    data2[np.isinfinite(data2) == True] = np.nan
-
-    res = data2.groupby(["iso_code", "country"], 
-                         as_index = False).apply(impute_missing_values)
+    res = data2.groupby(["iso_code", "country"], as_index = False).apply(impute_missing_values)
     res.reset_index(drop=True, inplace=True)
     data2.reset_index(drop=True, inplace=True)
     frames = [data2.iloc[:,:3], res]
@@ -121,8 +134,14 @@ def impute_missing_values(df):
     imputer = KNNImputer(n_neighbors=2)
     X = df.iloc[:,3:]
     out = imputer.fit_transform(X)
-    out1 = pd.DataFrame(out, columns = df.columns[3:])
-    return out1
+    try:
+        out1 = pd.DataFrame(out, columns = df.columns[3:])
+        return out1
+    #incase a country has all NAs for a particular indicator    
+    except:
+        return pd.DataFrame( columns = df.columns[3:])
+    
+    
 
 def fixed_effects_model(dataset, explanatory_variable = None):
     '''
@@ -132,8 +151,11 @@ def fixed_effects_model(dataset, explanatory_variable = None):
     regression by providing additional expanatory variables. 
 
     Input:
-        dataset ()
+        dataset (DataFrame): input dataset
+        explanatory_variable (list): list of additional explanatory variables
 
+    Returns:
+        fe_res: fixed effects regression results
     '''
     vars = ["log_gdp_capita", "log_gdp_capita_sq"]
     vars.extend(explanatory_variable)
@@ -142,6 +164,6 @@ def fixed_effects_model(dataset, explanatory_variable = None):
     dataset = dataset.set_index('year', append=True)
     exog = sm.tools.tools.add_constant(dataset.filter(exog_vars, axis = 1))
     endog = dataset["log_co2_capita"]
-    mod_fe = PanelOLS(endog, exog, time_effects=True)
+    mod_fe = PanelOLS(endog, exog, time_effects=True, check_rank=False)
     fe_res = mod_fe.fit()
     return fe_res
