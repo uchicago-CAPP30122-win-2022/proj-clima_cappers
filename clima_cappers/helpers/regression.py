@@ -54,6 +54,7 @@ def regression_df(controls, region):
     data2["log_gdp_capita_sq"] = (np.log(pd.to_numeric(data2["gdp_capita"])))**2
     data2["net_exports"] = data2["exports_gns"] - data2["imports_gns"]
 
+
     #drop indicators with more than 35% missing values
     data_remove_na = missing_data_prop(data2)
 
@@ -67,6 +68,8 @@ def regression_df(controls, region):
 
     data2 = data2[data2.iso_code.isin(drop_countries) == False]
     # data2["log_net_exports"] = np.log(data2["net_exports"])
+
+    data2[np.isinfinite(data2) == True] = np.nan
 
     res = data2.groupby(["iso_code", "country"], 
                          as_index = False).apply(impute_missing_values)
