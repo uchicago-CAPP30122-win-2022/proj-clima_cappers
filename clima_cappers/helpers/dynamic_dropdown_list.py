@@ -24,12 +24,12 @@ def country_lst():
     return country_lst
 
 def regions_lst():
-    query = ''' SELECT DISTINCT sub_region FROM region_mapping '''
+    query = ''' SELECT DISTINCT region FROM region_mapping '''
     df = pd.read_sql_query(query, connection)
     regions_lst = []
     for _, row in df.iterrows():
         regions_dict = {}
-        regions_dict['label'] = row['sub_region']
-        regions_dict['value'] = row['sub_region']
+        regions_dict['label'] = row['region']
+        regions_dict['value'] = row['region']
         regions_lst.append(regions_dict)
     return regions_lst

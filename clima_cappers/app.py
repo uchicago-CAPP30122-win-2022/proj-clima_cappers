@@ -212,15 +212,14 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                             html.Div(className='row', children=[
                                 html.Div(children=[
                                     html.Div(className='four columns', children=[
-                                         dcc.Dropdown(id="regions-list", value='Western Asia',
+                                         dcc.Dropdown(id="regions-list", value='Asia',
                                             options=regions_lst(),
                                             style={"width": "100%"})
                                     ]),
                                     html.Div(className='eight columns', children=[
                                          dcc.Dropdown(id="control-vars-list", value='',
-                                            options=[{'label': "Imports", 'value': 'imports_gns'},
-                                                    {'label': "Exports", 'value': 'exports_gns'},
-                                                    {'label': "Population", 'value': 'e.population'}],
+                                            options=[{'label': "Net exports", 'value': 'net_exports'},
+                                                    {'label': "Forest area", 'value': 'forest_area'}],
                                             multi=True,
                                             style={"width": "100%"})
                                     ])
@@ -239,7 +238,7 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                             {'name': 'indicators', 'id': 'indicators'},
                                             {'name': 'coefficients', 'id': 'coefficients'},
                                             {'name': 'std_error', 'id': 'std_error'},
-                                            {'name': 'p-value', 'id': 'p-value'}],
+                                            {'name': 'p-value', 'id': 'pvalue'}],
                                     style_header={'text-align': 'center'},
                                     style_data={'text-align': 'center'}
                                 )
@@ -416,10 +415,10 @@ def plot_bubble_chart(year):
 def plot_scatter_bubble_chart(region):
     df = extract_countries(region)
 
-    fig = px.scatter(df, x="log_ghg_total", y="log_gdp_current",
+    fig = px.scatter(df, x="log_gdp_current", y="log_co2",
             animation_frame="year", animation_group="country",
 	         size="population", hover_name="country", size_max=60,
-            range_y=[1,13])
+            )
     
     return fig
 
@@ -439,13 +438,13 @@ def display_reg_table(controls, region):
     reg_df.rename(columns = {'index': 'indicators', 'parameter': 'coefficients'}, inplace=True)
     reg_df['coefficients'] = reg_df['coefficients'].round(decimals = 5)
     reg_df['std_error'] = reg_df['std_error'].round(decimals = 3)
-    reg_df['pvalue'] = reg_df['pvalue'].round(decimals = 7)
+    reg_df['pvalue'] = reg_df['pvalue'].round(decimals = 4)
     print(reg_df)
     
     return reg_df.to_dict('records')
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8052)
+    app.run_server(debug=True, port=8054)
 
 
