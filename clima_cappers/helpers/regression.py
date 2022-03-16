@@ -66,7 +66,7 @@ def regression_df(controls, region):
     data2["log_gdp_capita"] = np.log(pd.to_numeric(data2["gdp_capita"]))
     data2["log_gdp_capita_sq"] = (np.log(pd.to_numeric(data2["gdp_capita"])))**2
     data2["net_exports"] = data2["exports_gns"] - data2["imports_gns"]
-    data2["log_net_exports"] = np.log(data2["net_exports"])
+    # data2["log_net_exports"] = np.log(data2["net_exports"])
 
     res = data2.groupby(["iso_code", "country"], 
                          as_index = False).apply(impute_missing_values)
