@@ -36,7 +36,7 @@ def regression_df(controls, region):
     #     format_lst = controls
     query = ''' SELECT e.country, e.iso_code, e.year,
                  e.gdp_capita, e.imports_gns, e.exports_gns, 
-                 c.co2_emissions_kt, c.co2_emissions_capita   
+                 c.co2_emissions_kt, c.co2_emissions_capita,   
                  c.forest_area
                  FROM econ_indicators e
                  JOIN climate_indicators c
@@ -94,10 +94,10 @@ def missing_data_prop(df):
     Removes columns in a dataframe with more than 35% missing values.
 
     Input:
-        df(pandas DataFrame): Input dataframe
+        df(DataFrame): Input dataframe
 
     Returns:
-        df(pandas DataFrame): 
+        df(DataFrame): Updated dataframe
     '''
     perc = 35.0
     min_count =  int(((100-perc)/100)*df.shape[0] + 1)
@@ -107,6 +107,13 @@ def missing_data_prop(df):
 
 def impute_missing_values(df):
     '''
+    Impute missing values for the indicators using KNNImputer. 
+
+    Input:
+        df(DataFrame): Input dataframe
+
+    Return:
+        df(DataFrame): Updated dataframe with all imputed indicators
     '''
     imputer = KNNImputer(n_neighbors=2)
     X = df.iloc[:,3:]
@@ -116,6 +123,13 @@ def impute_missing_values(df):
 
 def fixed_effects_model(dataset, explanatory_variable = None):
     '''
+    Run a time fixed effects regression on the given dataset. The benchmark 
+    regression model includes log_CO2_emissions as the dependent variable and 
+    log_GDP_capita as the independent variable. The user can also run the 
+    regression by providing additional expanatory variables. 
+
+
+
     '''
     vars = ["log_gdp_capita", "log_gdp_capita_sq"]
     vars.extend(explanatory_variable)
