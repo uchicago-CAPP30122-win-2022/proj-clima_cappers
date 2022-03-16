@@ -4,11 +4,11 @@ import sqlite3
 
 
 # connecting to the sqlite3 db
-connection = sqlite3.connect("proj-clima_cappers/data/indicators.sqlite3")
+connection = sqlite3.connect("data/indicators.sqlite3")
 c = connection.cursor()
 
 #mean srface temperature data
-mst = pd.read_csv("proj-clima_cappers/data/mean_st_output.csv")
+mst = pd.read_csv("data/mean_st_output.csv")
 mst.drop(["Country"], axis = 1, inplace = True)
 mst.rename(columns={"ISO3": "Country_code"}, inplace = True)
 
@@ -89,6 +89,6 @@ class DataCollector:
         connection.close()
 
 
-def run():
+if __name__ == '__main__':
     obj = DataCollector()
     obj.get_data()

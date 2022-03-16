@@ -1,3 +1,7 @@
+import pandas as pd
+import sqlite3
+
+connection = sqlite3.connect("./data/indicators.sqlite3", check_same_thread=False)
 
 def indicators_lst(lst):
     ind_lst= []

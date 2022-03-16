@@ -1,3 +1,9 @@
+import pandas as pd
+import numpy as np
+import sqlite3
+
+connection = sqlite3.connect("./data/indicators.sqlite3", check_same_thread=False)
+
 
 def extract_map_data(indicator, table, year):
     query = ''' SELECT country, iso_code, {} FROM {} WHERE year = {} '''. \
