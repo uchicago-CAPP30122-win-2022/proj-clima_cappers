@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-filename = "C:/Users/dhruv/Desktop/CS Project/energy_import_export.csv"
+filename = "../data/energy_import_export.csv"
 
 
 df = pd.read_csv(filename)
