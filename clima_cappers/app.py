@@ -57,13 +57,16 @@ for date in range(1995, 2021):
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'Climate vs Economy'
-app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
+app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic Growth indicators over time")],
                                 style={'textAlign': "center", "padding-bottom": "120"}
                                ),
                         html.Hr(className='gap'),
-                        html.Div([html.Span('''Through the following analysis, we seek to
-                        gauge the correlations between climate and economic indicators for
-                        195 countries across 26 years.''')],
+                        html.Div([html.Span('''In this project, we are mapping trends in economic
+                        and climate change indicators over the years for every country. Change in 
+                        economic parameters and climate change indicators are very closely 
+                        related. The aim of this project is to allow users to use our application 
+                        as a tool to probe into any climate or economic related research questions 
+                        that they might have.''')],
                                 style={"padding-bottom": "120"}
                                ),
                         html.Hr(className='gap'),
@@ -73,7 +76,19 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                         html.Div([html.Span('''The maps below juxtapose countries' performance
                             on climate vs economic indicators for a particular year chosen on
                             the slider.''')],
-                                style={"text-align": "center", "padding-top": 10}
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''How to use-''')],
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''(a) select an indicator from climate parameters''')],
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''(b) select an indicator from economic parameters''')],
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''(c) select year from the year slider''')],
+                                style={"text-align": "left", "padding-top": 10}
                                ),
                         html.Hr(className='gap'),
                         html.Div([dcc.Slider(1995, 2021,
@@ -118,10 +133,19 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                         html.Div([html.H3("Comparing indicators - Aggregated by years")],
                                 style={'textAlign': "center", "padding-bottom": "50"}
                                ),
-                        html.Div([html.Span('''The maps below juxtapose countries' performance
-                            on climate vs economic indicators for a range of years chosen on
-                            the slider.''')],
-                                style={"text-align": "center", "padding-top": 10}
+                        html.Div([html.Span('''In the maps below, we allow the user to
+                        select a range of years anfd aggregate the selected indicators
+                        for those years. How to use-''')],
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''(a) select an indicator from climate parameters''')],
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''(b) select an indicator from economic parameters''')],
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''(c) select year from the year slider''')],
+                                style={"text-align": "left", "padding-top": 10}
                                ),
                         html.Hr(className='gap'),
                         html.Div([dcc.RangeSlider(1995, 2020,
@@ -189,7 +213,32 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                ),
                         html.Div([html.Span('''The map below estimates the consolidated performance of
                             a country on both climate and economic indicators.''')],
-                                style={"text-align": "center", "padding-top": 10}
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''How to use- Select range of years by using the 
+                            range slider''')],
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''
+                            In this map, we take the difference of average growth rate between GDP 
+                            and Co2 emissions. So for the years selected, we calculate Compounded 
+                            Annual Growth Rate (CAGR) for both the indicators and take their 
+                            difference. The bigger the size of the bubble, the bigger the 
+                            difference between CAGR for the two indicators.''')],
+                                style={"text-align": "left", "padding-top": 10}
+                               ),
+                        html.Div([html.Span('''
+                            As we move across time, we can see that the difference between these 
+                            CAGR for these two indicators is negative for more countries. Thus, 
+                            with time, an increasing number of countries are growing more in 
+                            their Co2 emissions as compared to their GDP. This change is more 
+                            pronounced in Africa and East Asia. Europe, on the other hand has 
+                            positive gdp growth- emission growth difference throughout time. 
+                            This means that developing and under developed countries, in their 
+                            development phase, produce significantly large emissions. 
+                            Developed countries on the other hand grow at a stable rate and do 
+                            not emit a lot of emissions.''')],
+                                style={"text-align": "left", "padding-top": 10}
                                ),
                         html.Hr(className='gap'),
                         html.Div([dcc.RangeSlider(1995, 2020,
@@ -203,8 +252,11 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                         html.Div([html.H3("Regressions")],
                                 style={'textAlign': "center", "padding-bottom": "50"}
                                ),
-                        html.Div([html.Span('''<Fill in summary>''')],
-                                style={"text-align": "center", "padding-top": 10}
+                        html.Div([html.Span('''In this section, we are regressing log of 
+                        Co2 emissions on log gdp and log gdp sqaured. The user can select
+                        forest areas as an additional independent variable along with
+                        the region they want to see the regressions on.''')],
+                                style={"text-align": "left", "padding-top": 10}
                                ),
                         html.Hr(className='gap'),
                         html.Div(className="row",
@@ -445,6 +497,6 @@ def display_reg_table(controls, region):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8054)
+    app.run_server(debug=True, port=8056)
 
 
