@@ -45,27 +45,27 @@ def regression_df(controls, region):
                  ON e.iso_code = r.iso_code
                  WHERE r.region = ? '''
     
-    merged_dataset = pd.read_sql_query(query, connection, params=params)
-    merged_dataset.replace('', np.nan, inplace=True)
+    data2 = pd.read_sql_query(query, connection, params=params)
+    data2.replace('', np.nan, inplace=True)
+
+    # data2 = combined_data.copy()
+    data2["log_co2_capita"] = np.log(data2["co2_emissions_capita"])
+    data2["log_gdp_capita"] = np.log(pd.to_numeric(data2["gdp_capita"]))
+    data2["log_gdp_capita_sq"] = (np.log(pd.to_numeric(data2["gdp_capita"])))**2
+    data2["net_exports"] = data2["exports_gns"] - data2["imports_gns"]
 
     #drop indicators with more than 35% missing values
-    data_remove_na = missing_data_prop(merged_dataset)
+    data_remove_na = missing_data_prop(data2)
 
     #drop countries with more than 35% missing values
     drop_countries = []
-    for country in merged_dataset["iso_code"].unique():
+    for country in data2["iso_code"].unique():
         df = data_remove_na[data_remove_na["iso_code"] == country]
         df_clean = missing_data_prop(df)
         if df.shape[1] != df_clean.shape[1]:
             drop_countries.append(country)
 
-    combined_data = merged_dataset[merged_dataset.iso_code.isin(drop_countries) == False]
-
-    data2 = combined_data.copy()
-    data2["log_co2_capita"] = np.log(data2["co2_emissions_capita"])
-    data2["log_gdp_capita"] = np.log(pd.to_numeric(data2["gdp_capita"]))
-    data2["log_gdp_capita_sq"] = (np.log(pd.to_numeric(data2["gdp_capita"])))**2
-    data2["net_exports"] = data2["exports_gns"] - data2["imports_gns"]
+    data2 = data2[data2.iso_code.isin(drop_countries) == False]
     # data2["log_net_exports"] = np.log(data2["net_exports"])
 
     res = data2.groupby(["iso_code", "country"], 
@@ -128,7 +128,8 @@ def fixed_effects_model(dataset, explanatory_variable = None):
     log_GDP_capita as the independent variable. The user can also run the 
     regression by providing additional expanatory variables. 
 
-
+    Input:
+        dataset ()
 
     '''
     vars = ["log_gdp_capita", "log_gdp_capita_sq"]
