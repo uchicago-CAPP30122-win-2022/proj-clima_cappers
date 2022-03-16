@@ -1,3 +1,8 @@
+import pandas as pd
+import sqlite3
+import numpy as np
+
+connection = sqlite3.connect("clima_cappers/data/indicators.sqlite3", check_same_thread=False)
 
 def extract_countries(region):
     params = [region]

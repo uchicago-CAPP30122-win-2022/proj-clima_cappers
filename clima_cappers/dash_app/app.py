@@ -14,15 +14,16 @@ import seaborn as sns
 import statsmodels.api as sm
 from linearmodels import PanelOLS
 from sklearn.impute import KNNImputer
+import sys
 
-from helpers.dynamic_dropdown_list import indicators_lst, country_lst, regions_lst
-from helpers.layer_1 import extract_map_data, extract_bar_data, trend_df
-from helpers.layer_2 import *
-from helpers.layer_3 import *
-from helpers.regression import *
+from dash_app.helpers.dynamic_dropdown_list import indicators_lst, country_lst, regions_lst
+from dash_app.helpers.layer_1 import extract_map_data, extract_bar_data, trend_df
+from dash_app.helpers.layer_2 import *
+from dash_app.helpers.layer_3 import *
+from dash_app.helpers.regression import *
 
 
-connection = sqlite3.connect("proj-clima_cappers/indicators.sqlite3", check_same_thread=False)
+connection = sqlite3.connect("clima_cappers/data/indicators.sqlite3", check_same_thread=False)
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 

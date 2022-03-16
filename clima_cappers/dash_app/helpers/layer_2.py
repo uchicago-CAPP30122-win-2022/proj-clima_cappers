@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import sqlite3
+
+connection = sqlite3.connect("clima_cappers/data/indicators.sqlite3", check_same_thread=False)
 
 def extract_agg_data(indicator, table, year_input):
     print("year input type is", type(year_input))
