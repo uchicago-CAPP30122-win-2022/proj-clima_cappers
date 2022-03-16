@@ -227,12 +227,21 @@ app.layout = html.Div([html.Div([html.H1("Climate Change and the Economy")],
                                 ])
                             ]),
                             html.Hr(className='gap'),
+                            html.Div([html.H5("Correlations")],
+                                style={'textAlign': "left", "padding-bottom": "50"}
+                               ),
                             dcc.Graph(id="scatter-bubble", style={'width': '120vh', 'height': '70vh'}),
+                            html.Div([html.H5("Regression summary")],
+                                style={'textAlign': "left", "padding-bottom": "50"}
+                               ),
                             dash_table.DataTable(id='reg-table',
                                     columns=[
-                                            {'name': 'parameter', 'id': 'parameter'},
+                                            {'name': 'indicators', 'id': 'indicators'},
+                                            {'name': 'coefficients', 'id': 'coefficients'},
                                             {'name': 'std_error', 'id': 'std_error'},
-                                            {'name': 'p-value', 'id': 'pvalue'}]
+                                            {'name': 'p-value', 'id': 'p-value'}],
+                                    style_header={'text-align': 'center'},
+                                    style_data={'text-align': 'center'}
                                 )
                         ]),
                         html.Hr(className='gap')
@@ -426,11 +435,17 @@ def display_reg_table(controls, region):
     std_errors = pd.DataFrame(reg_results.std_errors)
     pvalues = pd.DataFrame(reg_results.pvalues)
     reg_df = pd.concat([params, std_errors, pvalues], axis=1, join="inner")
+    reg_df.reset_index(inplace=True)
+    reg_df.rename(columns = {'index': 'indicators', 'parameter': 'coefficients'}, inplace=True)
+    reg_df['coefficients'] = reg_df['coefficients'].round(decimals = 5)
+    reg_df['std_error'] = reg_df['std_error'].round(decimals = 3)
+    reg_df['pvalue'] = reg_df['pvalue'].round(decimals = 7)
+    print(reg_df)
     
     return reg_df.to_dict('records')
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8055)
+    app.run_server(debug=True, port=8052)
 
 
