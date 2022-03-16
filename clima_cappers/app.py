@@ -14,7 +14,6 @@ import seaborn as sns
 import statsmodels.api as sm
 from linearmodels import PanelOLS
 from sklearn.impute import KNNImputer
-import sys
 
 from helpers.dynamic_dropdown_list import indicators_lst, country_lst, regions_lst
 from helpers.layer_1 import extract_map_data, extract_bar_data, trend_df
@@ -57,7 +56,8 @@ for date in range(1995, 2021):
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'Climate vs Economy'
-app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic Growth indicators over time")],
+app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic Growth"
+                                            " indicators over time")],
                                 style={'textAlign': "center", "padding-bottom": "120"}
                                ),
                         html.Hr(className='gap'),
@@ -65,7 +65,7 @@ app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic 
                         and climate change indicators over the years for every country. Change in 
                         economic parameters and climate change indicators are very closely 
                         related. The aim of this project is to allow users to use our application 
-                        as a tool to probe into any climate or economic related research questions 
+                        as a tool to probe into any climate or economic related research questions
                         that they might have.''')],
                                 style={"padding-bottom": "120"}
                                ),
@@ -103,8 +103,6 @@ app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic 
                             children = [
                             dcc.Dropdown(id="econ-param", value='gdp_constant_change',
                                             options=indicators_lst(econ_indicators_lst)
-                                            # style={"display": "block", "margin-left": "auto", "margin-right": "auto",
-                                            #         "width": "70%"}
                                             ),
                             dcc.Graph(id="econ-map", style={'width': '80vh', 'height': '80vh'})
                             ]),
@@ -159,7 +157,8 @@ app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic 
                             html.Div(className="six columns", 
                             children = [
                             dcc.Dropdown(id="econ-param-agg", value='gdp_current',
-                                            options=[{'label': "GDP, current price, PPP (in billions)", 'value': 'gdp_current'},
+                                            options=[{'label': "GDP, current price, PPP (in billions)",
+                                                         'value': 'gdp_current'},
                                                     {'label': "GDP per capita", 'value': 'gdp_capita'},
                                                     {'label': "Volume of Exports", 'value': 'exports_gns'},
                                                     {'label': "Volume of Imports", 'value': 'imports_gns'}]),
@@ -169,10 +168,13 @@ app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic 
                             children = [
                             dcc.Dropdown(id="climate-param-agg", value='co2_emissions_kt',
                                             options=[{'label': "C02 emissions(kt)", 'value': 'co2_emissions_kt'},
-                                                    {'label': "C02 emissions per capita", 'value': 'co2_emissions_capita'},
+                                                    {'label': "C02 emissions per capita", 
+                                                            'value': 'co2_emissions_capita'},
                                                     {'label': "PM 2.5", 'value': 'pm_25'},
-                                                    {'label': "Greenhouse emission per capita", 'value': 'ghg_capita'},
-                                                    {'label': "Mean Surface Temperature", 'value': 'mean_surface_temp'}]),
+                                                    {'label': "Greenhouse emission per capita",
+                                                             'value': 'ghg_capita'},
+                                                    {'label': "Mean Surface Temperature",
+                                                             'value': 'mean_surface_temp'}]),
                             dcc.Graph(id="climate-map-agg", style={'width': '80vh', 'height': '80vh',
                                     "margin-left": "auto", "margin-right": "auto"})
                             ])
@@ -270,8 +272,7 @@ app.layout = html.Div([html.Div([html.H1("Analysing Climate Change and Economic 
                                     ]),
                                     html.Div(className='eight columns', children=[
                                          dcc.Dropdown(id="control-vars-list", value='',
-                                            options=[{'label': "Net exports", 'value': 'net_exports'},
-                                                    {'label': "Forest area", 'value': 'forest_area'}],
+                                            options=[{'label': "Forest area", 'value': 'forest_area'}],
                                             multi=True,
                                             style={"width": "100%"})
                                     ])
@@ -313,12 +314,14 @@ def update_econ_map(indicator, year):
                           marker_line_color='white',
                           autocolorscale=False,
                           reversescale=True,
-                          colorscale="RdBu",marker={'line': {'color': 'rgb(180,180,180)','width': 0.5}},
+                          colorscale="RdBu",marker={'line':
+                           {'color': 'rgb(180,180,180)','width': 0.5}},
                           colorbar={"thickness": 10,"len": 0.68,"x": 0.98,"y": 0.50})   
     return {"data": [trace],
-            "layout": go.Layout(height=700, geo={'showframe': True,'showcoastlines': False,
-                                                                      'projection': {'type': "mercator"}},
-                                                                      margin=dict(l=00, r=200, b=0, t=0))}
+            "layout": go.Layout(height=700, 
+            geo={'showframe': True,'showcoastlines': False, 
+                'projection': {'type': "mercator"}},
+                margin=dict(l=00, r=200, b=0, t=0))}
 
 @app.callback(
     dash.dependencies.Output("climate-map", "figure"),
@@ -336,12 +339,14 @@ def update_climate_map(indicator, year):
                           marker_line_color='white',
                           autocolorscale=False,
                           reversescale=True,
-                          colorscale="RdBu",marker={'line': {'color': 'rgb(180,180,180)','width': 0.5}},
+                          colorscale="RdBu",marker={'line':
+                           {'color': 'rgb(180,180,180)','width': 0.5}},
                           colorbar={"thickness": 10,"len": 0.80,"x": 0.98,"y": 0.50})   
     return {"data": [trace],
-            "layout": go.Layout(height=700,geo={'showframe': True,'showcoastlines': False,
-                                                                      'projection': {'type': "mercator"}},
-                                                                      margin=dict(l=0, r=0, b=60, t=60))}
+            "layout": go.Layout(height=700,
+                        geo={'showframe': True, 'showcoastlines': False,
+                            'projection': {'type': "mercator"}},
+                        margin=dict(l=0, r=0, b=60, t=60))}
 
 
 @app.callback(
@@ -359,12 +364,14 @@ def update_econ_agg_map(indicator, year):
                           marker_line_color='white',
                           autocolorscale=False,
                           reversescale=True,
-                          colorscale="RdBu",marker={'line': {'color': 'rgb(180,180,180)','width': 0.5}},
+                          colorscale="RdBu",marker={'line':
+                           {'color': 'rgb(180,180,180)','width': 0.5}},
                           colorbar={"thickness": 10,"len": 0.68,"x": 0.98,"y": 0.50})   
     return {"data": [trace],
-            "layout": go.Layout(height=700, geo={'showframe': True,'showcoastlines': False,
-                                                                      'projection': {'type': "mercator"}},
-                                                                      margin=dict(l=00, r=200, b=0, t=0))}
+            "layout": go.Layout(height=700, 
+                                geo={'showframe': True,'showcoastlines': False,
+                                        'projection': {'type': "mercator"}},
+                                margin=dict(l=00, r=200, b=0, t=0))}
 
 
 @app.callback(
@@ -382,12 +389,14 @@ def update_climate_agg_map(indicator, year):
                           marker_line_color='white',
                           autocolorscale=False,
                           reversescale=True,
-                          colorscale="RdBu",marker={'line': {'color': 'rgb(180,180,180)','width': 0.5}},
+                          colorscale="RdBu",marker={'line': 
+                                    {'color': 'rgb(180,180,180)','width': 0.5}},
                           colorbar={"thickness": 10,"len": 0.68,"x": 0.98,"y": 0.50})   
     return {"data": [trace],
-            "layout": go.Layout(height=700, geo={'showframe': True,'showcoastlines': False,
-                                                                      'projection': {'type': "mercator"}},
-                                                                      margin=dict(l=00, r=200, b=0, t=0))}
+            "layout": go.Layout(height=700, 
+                                geo={'showframe': True,'showcoastlines': False,
+                                        'projection': {'type': "mercator"}},
+                                margin=dict(l=00, r=200, b=0, t=0))}
 
 
 @app.callback(
@@ -403,7 +412,6 @@ def econ_bar_chart(indicator, year):
         x='country',
         y=indicator,
         title= "Top 5 countries ({})".format(indicator),
-        #color="INDEX_NAME",
         opacity=0.9,
         barmode='group')
 
@@ -423,7 +431,6 @@ def climate_bar_chart(indicator, year):
         x='country',
         y=indicator,
         title= "Top 5 countries ({})".format(indicator),
-        #color="INDEX_NAME",
         opacity=0.9,
         barmode='group')
 
@@ -491,12 +498,11 @@ def display_reg_table(controls, region):
     reg_df['coefficients'] = reg_df['coefficients'].round(decimals = 5)
     reg_df['std_error'] = reg_df['std_error'].round(decimals = 3)
     reg_df['pvalue'] = reg_df['pvalue'].round(decimals = 4)
-    print(reg_df)
     
     return reg_df.to_dict('records')
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8056)
+    app.run_server(debug=True, port=8051)
 
 
