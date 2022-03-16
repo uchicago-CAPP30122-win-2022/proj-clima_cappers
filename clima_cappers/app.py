@@ -16,14 +16,14 @@ from linearmodels import PanelOLS
 from sklearn.impute import KNNImputer
 import sys
 
-from dash_app.helpers.dynamic_dropdown_list import indicators_lst, country_lst, regions_lst
-from dash_app.helpers.layer_1 import extract_map_data, extract_bar_data, trend_df
-from dash_app.helpers.layer_2 import *
-from dash_app.helpers.layer_3 import *
-from dash_app.helpers.regression import *
+from helpers.dynamic_dropdown_list import indicators_lst, country_lst, regions_lst
+from helpers.layer_1 import extract_map_data, extract_bar_data, trend_df
+from helpers.layer_2 import *
+from helpers.layer_3 import *
+from helpers.regression import *
 
 
-connection = sqlite3.connect("clima_cappers/data/indicators.sqlite3", check_same_thread=False)
+connection = sqlite3.connect("data/indicators.sqlite3", check_same_thread=False)
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -266,6 +266,7 @@ def update_econ_map(indicator, year):
      dash.dependencies.Input("year-slider", "value")]
 )
 def update_climate_map(indicator, year):
+    print("updating the climate map")
     df = extract_map_data(indicator, "climate_indicators", str(year))
     df["hover_text"] = df["country"] + ": " + df[indicator].apply(str)
 
@@ -429,7 +430,7 @@ def display_reg_table(controls, region):
     return reg_df.to_dict('records')
 
 
-def run():
-    app.run_server(debug=True, port=8051)
+if __name__ == '__main__':
+    app.run_server(debug=True, port=8055)
 
 

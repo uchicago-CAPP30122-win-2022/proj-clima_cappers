@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import sqlite3
 
-connection = sqlite3.connect("clima_cappers/data/indicators.sqlite3", check_same_thread=False)
+connection = sqlite3.connect("./data/indicators.sqlite3", check_same_thread=False)
 
 def extract_bubble_data(year_input):
     
